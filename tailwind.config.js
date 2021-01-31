@@ -12,11 +12,6 @@ module.exports = {
     },
     colors: {
       white: colors.white,
-      gray: {
-        100: "#f7fafc",
-        900: "#1a202c",
-        DEFAULT: "#1a202c",
-      },
       blue: colors.lightBlue,
       red: colors.rose,
       pink: colors.fuchsia,
@@ -75,6 +70,7 @@ module.exports = {
     },
     maxWidth: {
       '1/4': '20%',
+      '1/3': '32%',
       '1/2': '50%',
       '3/4': '75%',
     },
