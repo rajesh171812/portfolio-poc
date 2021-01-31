@@ -12,9 +12,13 @@ module.exports = {
     },
     colors: {
       white: colors.white,
-      blue: colors.lightBlue,
+      blue: colors.blue,
       red: colors.rose,
       pink: colors.fuchsia,
+      blueHeading: '#1A63D0'
+    },
+    background: {
+      blue: '#1A63D9'
     },
     spacing: {
       px: "1px",

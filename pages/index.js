@@ -1,56 +1,24 @@
 import Head from "next/head";
 import React from "react";
-
-function Card(props) {
-  return (
-    <div className="min-h-full p-4 shadow-lg">
-      <img className="rounded my-0 mx-auto" src={props.img} alt={props.imgAlt} />
-      <div className="mt-2">
-        <div>
-          <div className="text-2xl text-gray-200 text-center text-bold font-sans">
-            {props.eyebrow}
-          </div>
-          <div className="text-center font-serif">{props.title}</div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function SimpleCard(props) {
-  return (
-    <div className="min-h-full p-4 shadow-lg">
-      <img className="rounded my-0 mx-auto" src={props.img} alt={props.imgAlt} />
-      <div className="my-2">
-        <div>
-          <div className="text-center font-serif">{props.title}</div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function GrayHeading(props) {
-  return (
-    <div className="my-4 text-2xl font-bold font-sans text-gray-900">
-      {props.headingTitle}
-    </div>
-  );
-}
-
-function RegularParagraph(props) {
-  return <div className="">{props.content}</div>;
-}
-function BlueBanner(props) {
-  return (
-    <div className="my-6 p-8 col-auto bg-blue-500 text-center font-sans">
-      <div className="text-7xl text-white">{props.title}</div>
-      <div className="text-xl text-white">{props.subtitle}</div>
-    </div>
-  );
-}
-
+import BlueBanner from "../components/blueBanner";
+import Card from "../components/card";
+import SimpleCard from "../components/simpleCard";
+import GrayHeading from "../components/grayHeading";
+import BlueHeading from "../components/blueHeading";
+import RegularParagraph from "../components/regularParagraph";
 export default function Home() {
+  function slideFromLeft() {
+    let activeSlide = document.querySelector(".slide-in-left");
+    activeSlide.classList.remove("opacity-0");
+    activeSlide.classList.remove("-translate-x-10");
+    activeSlide.classList.add("scale-100");
+  }
+  function slideFromRight() {
+    let activeSlide = document.querySelector(".slide-in-right");
+    activeSlide.classList.remove("opacity-0");
+    activeSlide.classList.remove("translate-x-10");
+    activeSlide.classList.add("scale-100");
+  }
   return (
     <div>
       <Head>
@@ -216,9 +184,9 @@ and sales person in their daily activity."
             <div className="flex flex-row flex-wrap justify-between my-5">
               <div className="max-w-1/3 m-2">
                 <SimpleCard
-                    img="icon-copy.png"
-                    imgAlt="Smiley"
-                    title="There is no clarity on the “Days
+                  img="icon-copy.png"
+                  imgAlt="Smiley"
+                  title="There is no clarity on the “Days
                     Schedule” as it has been
                     updated by our managers. By
                     the time I reach the office, I
@@ -230,9 +198,9 @@ and sales person in their daily activity."
               </div>
               <div className="max-w-1/3">
                 <SimpleCard
-                    img="icon-copy.png"
-                    imgAlt="Smiley"
-                    title="It’s not that easy to use
+                  img="icon-copy.png"
+                  imgAlt="Smiley"
+                  title="It’s not that easy to use
                   multiple interfaces for tracking
                   sales reports, appointments,
                   Target update reports,
@@ -244,9 +212,9 @@ and sales person in their daily activity."
               </div>
               <div className="max-w-1/3">
                 <SimpleCard
-                    img="icon-copy.png"
-                    imgAlt="Smiley"
-                    title="Unable to track the current
+                  img="icon-copy.png"
+                  imgAlt="Smiley"
+                  title="Unable to track the current
                 status and predict the end of
                 the year sales of the sales
                 team. And understanding
@@ -268,7 +236,72 @@ and sales person in their daily activity."
         <div className="grid grid-cols-6 gap-4 font-serif">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
+            <BlueHeading headingTitle="Accessing information in a single tap." />
+            <div className="grid grid-cols-8 gap-5">
+              <div className="col-span-3">
+                <RegularParagraph
+                  content="With a single tap, the user will be able to
+                  access the summary view of the
+                  required information. On further clicking,
+                  the user will be taken to the detailed
+                  information. "
+                />
+              </div>
+              <div className="col-span-1"></div>
+              <div className="col-span-4">
+                <img
+                  src="http://unsplash.it/400/450"
+                  className="slide-in-right opacity-0 transform transition-all translate-x-10"
+                />
+                <div
+                  onClick={slideFromRight}
+                  className="fixed bottom-0 right-0 bg-white w-16 h-16 flex items-center justify-center text-black cursor-pointer"
+                >
+                  &#x276F;
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-1"></div>
+        </div>
 
+        <div className="grid grid-cols-6 gap-4 font-serif">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <BlueHeading headingTitle="Appointment organizer." />
+            <div className="grid grid-cols-8 gap-5">
+              <div className="col-span-4">
+                <img
+                  src="http://unsplash.it/400/500"
+                  className="slide-in-left opacity-0 transform transition-all -translate-x-10"
+                />
+                <div
+                  onClick={slideFromLeft}
+                  className="fixed bottom-0 right-0 bg-white w-16 h-16 mr-16 border-r border-gray-400 flex items-center justify-center text-black cursor-pointer"
+                >
+                  &#x276E;
+                </div>
+              </div>
+              <div className="col-span-1"></div>
+              <div className="col-span-3">
+                <RegularParagraph
+                  content="A simple timeline view of the days for a given month
+                    which prioritises the upcoming/past appointments/
+                    meeting events, coupled with a collapsible calendar
+                    dropdown with a “heat map” view to show which
+                    days are busy and which are free, in a quick glance."
+                />
+                <div className="my-5">
+                  <RegularParagraph
+                      content="Creation of sales meetings/appointments with
+                    feature to maintain mail-based communication to
+                    fetch meeting data from it and create event with a
+                    single tap "
+                  />
+                </div>
+
+              </div>
+            </div>
           </div>
           <div className="col-span-1"></div>
         </div>
