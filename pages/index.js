@@ -57,11 +57,11 @@ export default function Home() {
       const cardBottom = card.offsetTop + cardHeight;
       const isHalfShown = slideInAt > card.offsetTop;
       const isNotScrolledPast = window.scrollY < cardBottom;
-      const durationValue = "duration-" + 100 * index;
+      const durationValue = "duration-" + 100 * Math.floor(Math.random() * 7);
       if (isHalfShown && isNotScrolledPast) {
         card.classList.add("transition-all");
-        card.classList.add("ease-in-out");
-        card.classList.add("delay-200");
+        card.classList.add("ease-in");
+        card.classList.add("delay-500");
         card.classList.add(durationValue);
         card.classList.remove("translate-y-10");
         card.classList.remove("opacity-0");
