@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
 import BlueBanner from "../components/blueBanner";
 import Card from "../components/card";
 import SimpleCard from "../components/simpleCard";
@@ -7,18 +7,80 @@ import GrayHeading from "../components/grayHeading";
 import BlueHeading from "../components/blueHeading";
 import RegularParagraph from "../components/regularParagraph";
 export default function Home() {
-  function slideFromLeft() {
-    let activeSlide = document.querySelector(".slide-in-left");
-    activeSlide.classList.remove("opacity-0");
-    activeSlide.classList.remove("-translate-x-10");
-    activeSlide.classList.add("scale-100");
+  // function debounce(func, wait = 20, immediate = true) {
+  //   console.log("in debounce");
+  //   let timeout;
+  //   return function() {
+  //     const context = this,
+  //         args = arguments;
+  //     const later = function () {
+  //       timeout = null;
+  //       if (!immediate) func.apply(context, args);
+  //     };
+  //     const callNow = immediate && !timeout;
+  //     clearTimeout(timeout);
+  //     timeout = setTimeout(later, wait);
+  //     if (callNow) func.apply(context, args);
+  //   };
+  // }
+
+  function checkSlide() {
+    const sliderImages = document.querySelectorAll(".slide-in");
+    sliderImages.forEach((sliderImage) => {
+      // halfway through the image
+      const slideInAt =
+        window.scrollY + window.innerHeight - sliderImage.height / 2;
+      // bottom of the image
+      const imageBottom = sliderImage.offsetTop + sliderImage.height;
+      const isHalfShown = slideInAt > sliderImage.offsetTop;
+      const isNotScrolledPast = window.scrollY < imageBottom;
+      if (isHalfShown && isNotScrolledPast) {
+        sliderImage.classList.remove("opacity-0");
+        sliderImage.classList.add("delay-100");
+        sliderImage.classList.contains("left")
+          ? sliderImage.classList.remove("-translate-x-10")
+          : sliderImage.classList.remove("translate-x-10");
+      } else {
+        sliderImage.classList.contains("left")
+          ? sliderImage.classList.add("-translate-x-10")
+          : sliderImage.classList.add("translate-x-10");
+        sliderImage.classList.add("opacity-0");
+      }
+    });
+
+    const cards = document.querySelectorAll(".card-appear");
+    cards.forEach((card, index) => {
+      const cardHeight = card.classList.contains("simple-card") ? 300 : 200;
+      // halfway through the card
+      const slideInAt = window.scrollY + window.innerHeight - cardHeight / 2;
+      // bottom of the card
+      const cardBottom = card.offsetTop + cardHeight;
+      const isHalfShown = slideInAt > card.offsetTop;
+      const isNotScrolledPast = window.scrollY < cardBottom;
+      const durationValue = "duration-" + 100 * index;
+      if (isHalfShown && isNotScrolledPast) {
+        card.classList.add("transition-all");
+        card.classList.add("ease-in-out");
+        card.classList.add("delay-200");
+        card.classList.add(durationValue);
+        card.classList.remove("translate-y-10");
+        card.classList.remove("opacity-0");
+      } else {
+        card.classList.add("opacity-0");
+        card.classList.add("translate-y-10");
+      }
+    });
   }
-  function slideFromRight() {
-    let activeSlide = document.querySelector(".slide-in-right");
-    activeSlide.classList.remove("opacity-0");
-    activeSlide.classList.remove("translate-x-10");
-    activeSlide.classList.add("scale-100");
-  }
+
+  const handleScroll = () => {
+    checkSlide();
+    // debounce(checkSlide)
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
   return (
     <div>
       <Head>
@@ -38,7 +100,7 @@ export default function Home() {
         <div
           className="my-6 grid grid-cols-6 gap-4 bg-fixed font-sans"
           style={{
-            backgroundImage: `url(/ipadbg.png)`,
+            backgroundImage: `url(http://unsplash.it/1300/250)`,
             backgroundPosition: "-500px -200px",
             backgroundSize: "cover",
           }}
@@ -112,40 +174,36 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-row flex-wrap justify-between my-5">
-              <div className="max-w-1/4 m-2">
+              <div className="max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="Research"
                   eyebrow="Research"
                   title="Gain user insight and understand challenges. Look for ideas."
-                  pricing="..."
                 />
               </div>
-              <div className="max-w-1/4">
+              <div className="max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="Ideation"
                   eyebrow="Ideation"
                   title="Gain ideas and sketch design and user flows."
-                  pricing="..."
                 />
               </div>
-              <div className="max-w-1/4">
+              <div className="max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="Design"
                   eyebrow="Design"
                   title="Craft the brand, the message and interface."
-                  pricing="..."
                 />
               </div>
-              <div className="max-w-1/4">
+              <div className="max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="User Testing"
                   eyebrow="User Testing"
                   title="Get User feedback and iterate."
-                  pricing="..."
                 />
               </div>
             </div>
@@ -182,7 +240,7 @@ and sales person in their daily activity."
               </div>
             </div>
             <div className="flex flex-row flex-wrap justify-between my-5">
-              <div className="max-w-1/3 m-2">
+              <div className="max-w-1/3 card-appear simple-card">
                 <SimpleCard
                   img="icon-copy.png"
                   imgAlt="Smiley"
@@ -196,7 +254,7 @@ and sales person in their daily activity."
                     the office."
                 />
               </div>
-              <div className="max-w-1/3">
+              <div className="max-w-1/3 card-appear simple-card">
                 <SimpleCard
                   img="icon-copy.png"
                   imgAlt="Smiley"
@@ -210,7 +268,7 @@ and sales person in their daily activity."
                   these at one place. "
                 />
               </div>
-              <div className="max-w-1/3">
+              <div className="max-w-1/3 card-appear simple-card">
                 <SimpleCard
                   img="icon-copy.png"
                   imgAlt="Smiley"
@@ -251,14 +309,8 @@ and sales person in their daily activity."
               <div className="col-span-4">
                 <img
                   src="http://unsplash.it/400/450"
-                  className="slide-in-right opacity-0 transform transition-all translate-x-10"
+                  className="slide-in right opacity-0 transform transition-all translate-x-10"
                 />
-                <div
-                  onClick={slideFromRight}
-                  className="fixed bottom-0 right-0 bg-white w-16 h-16 flex items-center justify-center text-black cursor-pointer"
-                >
-                  &#x276F;
-                </div>
               </div>
             </div>
           </div>
@@ -273,14 +325,8 @@ and sales person in their daily activity."
               <div className="col-span-4">
                 <img
                   src="http://unsplash.it/400/500"
-                  className="slide-in-left opacity-0 transform transition-all -translate-x-10"
+                  className="slide-in left opacity-0 transform transition-all -translate-x-10"
                 />
-                <div
-                  onClick={slideFromLeft}
-                  className="fixed bottom-0 right-0 bg-white w-16 h-16 mr-16 border-r border-gray-400 flex items-center justify-center text-black cursor-pointer"
-                >
-                  &#x276E;
-                </div>
               </div>
               <div className="col-span-1"></div>
               <div className="col-span-3">
@@ -293,13 +339,12 @@ and sales person in their daily activity."
                 />
                 <div className="my-5">
                   <RegularParagraph
-                      content="Creation of sales meetings/appointments with
+                    content="Creation of sales meetings/appointments with
                     feature to maintain mail-based communication to
                     fetch meeting data from it and create event with a
                     single tap "
                   />
                 </div>
-
               </div>
             </div>
           </div>
