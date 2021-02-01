@@ -7,6 +7,7 @@ import GrayHeading from "../components/grayHeading";
 import BlueHeading from "../components/blueHeading";
 import RegularParagraph from "../components/regularParagraph";
 import Link from "next/link";
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 export default function Home() {
   // function debounce(func, wait = 20, immediate = true) {
   //   console.log("in debounce");
@@ -347,6 +348,28 @@ and sales person in their daily activity."
                     single tap "
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+
+        <div className="grid grid-cols-6 gap-4 font-serif">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <BlueHeading headingTitle="Before/After" />
+            <div className="grid grid-cols-1 lg:grid-cols-8 gap-5">
+              <div className="col-span-1 lg:col-span-3">
+                <RegularParagraph
+                    content="Scroll to see the before/after changes"
+                />
+              </div>
+              <div className="col-span-1"></div>
+              <div className="col-span-1 lg:col-span-4">
+                <ReactCompareSlider
+                    itemOne={<ReactCompareSliderImage src="http://unsplash.it/400/450" alt="Image one" />}
+                    itemTwo={<ReactCompareSliderImage src="http://unsplash.it/400/500" alt="Image two" />}
+                />
               </div>
             </div>
           </div>
