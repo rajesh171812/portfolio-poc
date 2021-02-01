@@ -76,6 +76,7 @@ export default function Home() {
     checkSlide();
     // debounce(checkSlide)
   };
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -173,8 +174,8 @@ export default function Home() {
                 application
               </div>
             </div>
-            <div className="flex flex-row flex-wrap justify-between my-5">
-              <div className="max-w-1/4 card-appear transform translate-y-10">
+            <div className="flex flex-col lg:flex-row flex-wrap justify-between my-5">
+              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="Research"
@@ -182,7 +183,7 @@ export default function Home() {
                   title="Gain user insight and understand challenges. Look for ideas."
                 />
               </div>
-              <div className="max-w-1/4 card-appear transform translate-y-10">
+              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="Ideation"
@@ -190,7 +191,7 @@ export default function Home() {
                   title="Gain ideas and sketch design and user flows."
                 />
               </div>
-              <div className="max-w-1/4 card-appear transform translate-y-10">
+              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="Design"
@@ -198,7 +199,7 @@ export default function Home() {
                   title="Craft the brand, the message and interface."
                 />
               </div>
-              <div className="max-w-1/4 card-appear transform translate-y-10">
+              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
                 <Card
                   img="icon-copy.png"
                   imgAlt="User Testing"
@@ -239,8 +240,8 @@ and sales person in their daily activity."
                 to detect formerly unaddressed user groups
               </div>
             </div>
-            <div className="flex flex-row flex-wrap justify-between my-5">
-              <div className="max-w-1/3 card-appear simple-card">
+            <div className="flex flex-col lg:flex-row flex-wrap justify-between my-5">
+              <div className="lg:max-w-1/3 card-appear simple-card">
                 <SimpleCard
                   img="icon-copy.png"
                   imgAlt="Smiley"
@@ -254,7 +255,7 @@ and sales person in their daily activity."
                     the office."
                 />
               </div>
-              <div className="max-w-1/3 card-appear simple-card">
+              <div className="lg:max-w-1/3 card-appear simple-card">
                 <SimpleCard
                   img="icon-copy.png"
                   imgAlt="Smiley"
@@ -268,7 +269,7 @@ and sales person in their daily activity."
                   these at one place. "
                 />
               </div>
-              <div className="max-w-1/3 card-appear simple-card">
+              <div className="lg:max-w-1/3 card-appear simple-card">
                 <SimpleCard
                   img="icon-copy.png"
                   imgAlt="Smiley"
@@ -295,8 +296,8 @@ and sales person in their daily activity."
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
             <BlueHeading headingTitle="Accessing information in a single tap." />
-            <div className="grid grid-cols-8 gap-5">
-              <div className="col-span-3">
+            <div className="grid grid-cols-1 lg:grid-cols-8 gap-5">
+              <div className="col-span-1 lg:col-span-3">
                 <RegularParagraph
                   content="With a single tap, the user will be able to
                   access the summary view of the
@@ -306,7 +307,7 @@ and sales person in their daily activity."
                 />
               </div>
               <div className="col-span-1"></div>
-              <div className="col-span-4">
+              <div className="col-span-1 lg:col-span-4">
                 <img
                   src="http://unsplash.it/400/450"
                   className="slide-in right opacity-0 transform transition-all translate-x-10"
@@ -321,15 +322,15 @@ and sales person in their daily activity."
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
             <BlueHeading headingTitle="Appointment organizer." />
-            <div className="grid grid-cols-8 gap-5">
-              <div className="col-span-4">
+            <div className="grid grid-cols-1 lg:grid-cols-8 gap-5">
+              <div className="col-span-1 lg:col-span-4">
                 <img
                   src="http://unsplash.it/400/500"
                   className="slide-in left opacity-0 transform transition-all -translate-x-10"
                 />
               </div>
               <div className="col-span-1"></div>
-              <div className="col-span-3">
+              <div className="col-span-1 lg:col-span-3">
                 <RegularParagraph
                   content="A simple timeline view of the days for a given month
                     which prioritises the upcoming/past appointments/
