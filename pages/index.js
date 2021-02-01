@@ -6,6 +6,7 @@ import SimpleCard from "../components/simpleCard";
 import GrayHeading from "../components/grayHeading";
 import BlueHeading from "../components/blueHeading";
 import RegularParagraph from "../components/regularParagraph";
+import Link from "next/link";
 export default function Home() {
   // function debounce(func, wait = 20, immediate = true) {
   //   console.log("in debounce");
@@ -350,6 +351,11 @@ and sales person in their daily activity."
             </div>
           </div>
           <div className="col-span-1"></div>
+        </div>
+        <div>
+          <Link href="/searchProject">
+              <div className="my-5 text-center text-sans cursor-pointer">Search Project ></div>
+          </Link>
         </div>
       </div>
       <footer>
