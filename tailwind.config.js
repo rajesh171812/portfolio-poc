@@ -12,6 +12,7 @@ module.exports = {
       xl: "1440px",
     },
     colors: {
+      black: colors.black,
       white: colors.white,
       blue: colors.blue,
       red: colors.rose,
@@ -19,7 +20,8 @@ module.exports = {
       blueHeading: '#1A63D0'
     },
     background: {
-      blue: '#1A63D9'
+      blue: '#1A63D9',
+      black: '#000000'
     },
     spacing: {
       px: "1px",
