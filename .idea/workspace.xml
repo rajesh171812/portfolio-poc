@@ -7,6 +7,7 @@
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       <workItem from="1611977671955" duration="667000" />
       <workItem from="1611978427445" duration="41326000" />
       <workItem from="1612222083702" duration="4970000" />
-      <workItem from="1612314730044" duration="3816000" />
+      <workItem from="1612314730044" duration="4151000" />
     </task>
     <servers />
   </component>
@@ -67,17 +68,18 @@
     </state>
     <state x="461" y="155" key="SettingsEditor/0.23.1920.982@0.23.1920.982" timestamp="1612063711693" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1611978682127" />
-    <state x="553" y="270" width="1367" height="497" key="find.popup" timestamp="1612315810272">
+    <state x="553" y="270" width="1367" height="497" key="find.popup" timestamp="1612318871266">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state x="661" y="268" width="598" height="490" key="find.popup/0.23.1920.980@0.23.1920.980" timestamp="1612020305391" />
     <state x="554" y="270" width="1366" height="495" key="find.popup/0.23.1920.989@0.23.1920.989" timestamp="1612242454393" />
-    <state x="553" y="270" width="1367" height="497" key="find.popup/0.23.1920.991@0.23.1920.991" timestamp="1612315810272" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1612243335131">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="553" y="270" width="1367" height="497" key="find.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318871266" />
+    <state x="625" y="241" width="670" height="678" key="search.everywhere.popup" timestamp="1612318896701">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state x="625" y="238" width="670" height="668" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1612024126338" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1920.989@0.23.1920.989" timestamp="1612243335131" />
+    <state x="625" y="241" width="670" height="678" key="search.everywhere.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318896701" />
     <state x="690" y="420" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612156396380">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
