@@ -8,9 +8,7 @@ export default function Work(props) {
         <img
           src="/ipadbg.png"
           alt="Yours truly Rajesh!"
-          width={150}
-          height={150}
-          className="rounded-full"
+          className="h-56 w-56 rounded-full"
         />
       </div>
       <div className="my-5 text-center text-6xl">Rajesh Revoor</div>
