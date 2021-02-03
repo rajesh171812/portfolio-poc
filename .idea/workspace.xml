@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/scrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/scrollToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
@@ -58,7 +57,7 @@
       <workItem from="1611977671955" duration="667000" />
       <workItem from="1611978427445" duration="41326000" />
       <workItem from="1612222083702" duration="4970000" />
-      <workItem from="1612314730044" duration="12590000" />
+      <workItem from="1612314730044" duration="13352000" />
     </task>
     <servers />
   </component>

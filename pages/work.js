@@ -26,35 +26,25 @@ export default function Work(props) {
       <div className="grid grid-cols-6 gap-4 my-10 font-serif">
         <div className="col-span-1"></div>
         <div className="col-span-4 flex justify-center">
-          <div className="flex-grow mx-3 bg-red-400 cursor-pointer">
+          <div className="flex-grow mx-3 h-96 bg-red-400 cursor-pointer">
             <Link href="/searchProject">
               <div>
-                <Image
-                  src="/ipadbg.png"
-                  alt="Yours truly Rajesh!"
-                  width={450}
-                  height={450}
-                  className="flex justify-center"
-                />
-                <div className="my-5 text-center text-sans text-white cursor-pointer">
-                  Search Project >
-                </div>
+                  <img
+                    src="/ipadbg.png"
+                    alt="Yours truly Rajesh!"
+                    className="object-cover h-96"
+                  />
               </div>
             </Link>
           </div>
-          <div className="flex-grow mx-3 bg-blue-800 cursor-pointer">
+          <div className="flex-grow mx-3 h-96 bg-blue-800 cursor-pointer">
             <Link href="/ipitch">
               <div>
-                <Image
+                <img
                   src="/ipadbg.png"
                   alt="Yours truly Rajesh!"
-                  width={450}
-                  height={450}
-                  className=""
+                  className="object-cover h-96"
                 />
-                <div className="my-5 text-center text-sans text-white cursor-pointer">
-                  Ipitch >
-                </div>
               </div>
             </Link>
           </div>
@@ -66,16 +56,11 @@ export default function Work(props) {
         <div className="col-span-4 mx-3 bg-pink-400 cursor-pointer">
           <Link className="" href="/searchProject">
             <div>
-              <Image
+              <img
                 src="/ipadbg.png"
                 alt="Yours truly Rajesh!"
-                width={850}
-                height={450}
-                className="flex justify-center"
+                className="object-cover h-96 w-full"
               />
-              <div className="my-5 text-center text-sans text-white cursor-pointer">
-                Upcoming Project>
-              </div>
             </div>
           </Link>
         </div>
