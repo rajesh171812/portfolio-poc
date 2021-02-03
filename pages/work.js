@@ -22,8 +22,8 @@ export default function Work(props) {
       </div>
       <div className="grid grid-cols-6 gap-4 my-10 font-serif">
         <div className="col-span-1"></div>
-        <div className="col-span-4 flex justify-center">
-          <div className="flex-grow mx-3 h-96 bg-red-400 cursor-pointer">
+        <div className="col-span-4 flex flex-col lg:flex-row justify-center">
+          <div className="flex-grow my-3 mx-3 h-96 bg-red-400 cursor-pointer">
             <Link href="/searchProject">
               <div>
                   <img
@@ -34,7 +34,7 @@ export default function Work(props) {
               </div>
             </Link>
           </div>
-          <div className="flex-grow mx-3 h-96 bg-blue-800 cursor-pointer">
+          <div className="flex-grow my-3 mx-3 h-96 bg-blue-800 cursor-pointer">
             <Link href="/ipitch">
               <div>
                 <img
