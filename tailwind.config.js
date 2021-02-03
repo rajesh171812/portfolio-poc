@@ -21,7 +21,10 @@ module.exports = {
     },
     background: {
       blue: '#1A63D9',
-      black: '#000000'
+      black: '#000000',
+      work1: '#26CFA7',
+      work2: '#0E5AFF',
+      work3: '#672CC0'
     },
     spacing: {
       px: "1px",
@@ -74,6 +77,13 @@ module.exports = {
     listStyleType: {
       disc: 'disc',
       hyphen: '-'
+    },
+    minHeight: {
+      '0': '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      'full': '100%',
     },
     maxWidth: {
       '1/4': '20%',

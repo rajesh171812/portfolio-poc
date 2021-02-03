@@ -98,7 +98,7 @@ export default function Ipitch() {
   });
 
   return (
-    <div>
+    <div className="bg-white text-black">
       <div style={{ display: showScroll ? "flex" : "none" }}>
         <ScrollToTop />
       </div>
