@@ -1,12 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/Image";
 
 export default function Work(props) {
   return (
     <div className="py-5 bg-black">
       <div className="flex justify-center my-20">
-        <Image
+        <img
           src="/ipadbg.png"
           alt="Yours truly Rajesh!"
           width={150}
