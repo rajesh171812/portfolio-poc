@@ -23,13 +23,13 @@ export default function Work(props) {
       <div className="grid grid-cols-6 gap-4 my-10 font-serif">
         <div className="col-span-1"></div>
         <div className="col-span-4 flex flex-col lg:flex-row justify-center">
-          <div className="flex-grow my-3 mx-3 h-96 bg-red-400 cursor-pointer">
+          <div className="flex-grow my-3 mx-3 h-96 bg-blue-600 cursor-pointer">
             <Link href="/searchProject">
               <div>
                   <img
-                    src="/ipadbg.png"
+                    src="/project1.png"
                     alt="Yours truly Rajesh!"
-                    className="object-cover h-96"
+                    className="object-cover"
                   />
               </div>
             </Link>
@@ -38,9 +38,9 @@ export default function Work(props) {
             <Link href="/ipitch">
               <div>
                 <img
-                  src="/ipadbg.png"
+                  src="/project2.png"
                   alt="Yours truly Rajesh!"
-                  className="object-cover h-96"
+                  className="object-cover"
                 />
               </div>
             </Link>
@@ -54,7 +54,7 @@ export default function Work(props) {
           <Link className="" href="/searchProject">
             <div>
               <img
-                src="/ipadbg.png"
+                src="/project3.png"
                 alt="Yours truly Rajesh!"
                 className="object-cover h-96 w-full"
               />
