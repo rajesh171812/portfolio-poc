@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/scrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/scrollToTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -57,7 +54,8 @@
       <workItem from="1611977671955" duration="667000" />
       <workItem from="1611978427445" duration="41326000" />
       <workItem from="1612222083702" duration="4970000" />
-      <workItem from="1612314730044" duration="14105000" />
+      <workItem from="1612314730044" duration="14517000" />
+      <workItem from="1612407294063" duration="3888000" />
     </task>
     <servers />
   </component>
@@ -70,13 +68,13 @@
     </state>
     <state x="461" y="155" key="SettingsEditor/0.23.1920.982@0.23.1920.982" timestamp="1612063711693" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1611978682127" />
-    <state x="543" y="271" width="1377" height="500" key="find.popup" timestamp="1612331971820">
+    <state x="535" y="271" width="1385" height="500" key="find.popup" timestamp="1612408874690">
       <screen x="0" y="23" width="1920" height="995" />
     </state>
     <state x="661" y="268" width="598" height="490" key="find.popup/0.23.1920.980@0.23.1920.980" timestamp="1612020305391" />
     <state x="554" y="270" width="1366" height="495" key="find.popup/0.23.1920.989@0.23.1920.989" timestamp="1612242454393" />
     <state x="553" y="270" width="1367" height="497" key="find.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318871266" />
-    <state x="543" y="271" width="1377" height="500" key="find.popup/0.23.1920.995@0.23.1920.995" timestamp="1612331971820" />
+    <state x="535" y="271" width="1385" height="500" key="find.popup/0.23.1920.995@0.23.1920.995" timestamp="1612408874690" />
     <state x="625" y="241" width="670" height="678" key="search.everywhere.popup" timestamp="1612318896701">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
@@ -87,5 +85,15 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="690" y="420" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1920.977@0.23.1920.977" timestamp="1612156396380" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/scrollToTop.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
