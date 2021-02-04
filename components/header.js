@@ -24,7 +24,7 @@ export default function Header() {
       <div
         onClick={toggleMobileMenu}
         id="floatingMenu"
-        className="fixed left-0 -top-full md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-red-400 md:bg-black"
+        className="fixed left-0 -top-full md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-75 md:bg-black md:opacity-100"
       >
         <div className="hidden md:block mt-3 mr-20 w-72 border-t-2 border-white"></div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
