@@ -6,7 +6,7 @@ export default function Work(props) {
     <div className="py-5 bg-black">
       <div className="flex justify-center my-20">
         <img
-          src="/ipadbg.png"
+          src="/rajesh.jpeg"
           alt="Yours truly Rajesh!"
           className="h-56 w-56 rounded-full"
         />
