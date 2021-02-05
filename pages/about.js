@@ -21,7 +21,7 @@ export default function About(props) {
             Banking and Financial Services, Retirement, Retail and Life Sciences
           </span>
         </div>
-        <div className="w-8 h-8 flex items-center justify-center bg-white text-black text-md font-bold rounded-full cursor-pointer z-50">
+        <div className="w-8 h-8 mb-4 flex items-center justify-center bg-white text-black text-md font-bold rounded-full cursor-pointer z-50">
           <Link href="https://www.linkedin.com/in/rajeshrevoor/">
             <span>in</span>
           </Link>

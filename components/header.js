@@ -6,6 +6,7 @@ export default function Header() {
     const floatingMenu = document.getElementById("floatingMenu");
     floatingMenu.classList.toggle("top-0");
     floatingMenu.classList.toggle("-top-full");
+    floatingMenu.classList.toggle("-left-full");
   };
   return (
     <div className="p-4 md:p-8 border-b-0 md:border-b-2 border-white font-sans">
@@ -24,9 +25,9 @@ export default function Header() {
       <div
         onClick={toggleMobileMenu}
         id="floatingMenu"
-        className="fixed left-0 -top-full md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-75 md:bg-black md:opacity-100"
+        className="fixed left-0 -left-full -top-full md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100"
       >
-        <div className="hidden md:block mt-3 mr-20 w-72 border-t-2 border-white"></div>
+        <div className="hidden md:block z-50 mt-3 mr-20 w-72 border-t-2 border-white"></div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
           <Link onClick={toggleMobileMenu} href="/work">
             <div className="text-sans cursor-pointer uppercase">Work</div>
