@@ -49,9 +49,6 @@ export default function Header() {
         </div>
         <div className="hidden md:block mt-3 ml-20 w-72 border-t-2 border-white "></div>
       </div>
-      {/*<div className="">*/}
-      {/*  Hey this one is absolute*/}
-      {/*</div>*/}
     </div>
   );
 }
