@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Header() {
+  const router = useRouter();
+  const [currentRoute, setCurrentRoute] = useState("");
+  useEffect(() => {
+    setCurrentRoute(router.pathname);
+  });
+
   const toggleMobileMenu = () => {
+    console.log(router.route);
+    console.log("currentRoute", currentRoute);
     const floatingMenu = document.getElementById("floatingMenu");
     floatingMenu.classList.toggle("top-0");
     floatingMenu.classList.toggle("-top-full");
@@ -30,22 +39,50 @@ export default function Header() {
         <div className="hidden md:block z-50 mt-3 mr-20 w-72 border-t-2 border-white"></div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
           <Link onClick={toggleMobileMenu} href="/work">
-            <div className="text-sans cursor-pointer uppercase">Work</div>
+            <div
+              className={
+                "text-sans cursor-pointer opacity-70 uppercase " +
+                (currentRoute === "/work" ? "text-bold opacity-100" : "")
+              }
+            >
+              Work
+            </div>
           </Link>
         </div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
           <Link onClick={toggleMobileMenu} href="/about">
-            <div className="text-sans cursor-pointer uppercase">About</div>
+            <div
+              className={
+                "text-sans cursor-pointer opacity-70 uppercase " +
+                (currentRoute === "/about" ? "text-bold opacity-100" : "")
+              }
+            >
+              About
+            </div>
           </Link>
         </div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
           <Link onClick={toggleMobileMenu} href="/contact">
-            <div className="text-sans cursor-pointer uppercase">Contact</div>
+            <div
+              className={
+                "text-sans cursor-pointer opacity-70 uppercase " +
+                (currentRoute === "/contact" ? "text-bold opacity-100" : "")
+              }
+            >
+              Contact
+            </div>
           </Link>
         </div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
-          <a onClick={toggleMobileMenu} href="/resume.pdf" target="_blank" download>
-            <div className="text-sans cursor-pointer uppercase">Resume</div>
+          <a onClick={toggleMobileMenu} href="/resume.pdf" download>
+            <div
+              className={
+                "text-sans cursor-pointer opacity-70 uppercase " +
+                (currentRoute === "/resume" ? "text-bold opacity-100" : "")
+              }
+            >
+              Resume
+            </div>
           </a>
         </div>
         <div className="hidden md:block mt-3 ml-20 w-72 border-t-2 border-white "></div>
