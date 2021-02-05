@@ -43,9 +43,9 @@ export default function Header() {
           </Link>
         </div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
-          <Link onClick={toggleMobileMenu} href="/resume">
+          <a onClick={toggleMobileMenu} href="/resume.pdf" target="_blank" download>
             <div className="text-sans cursor-pointer uppercase">Resume</div>
-          </Link>
+          </a>
         </div>
         <div className="hidden md:block mt-3 ml-20 w-72 border-t-2 border-white "></div>
       </div>
