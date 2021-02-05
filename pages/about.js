@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function About(props) {
   return (
-    <div className="mt-24 grid grid-cols-8 gap-4 bg-black">
+    <div className="mt-20 grid grid-cols-8 gap-4 bg-black">
       <div className="col-span-2 "></div>
       <div className=" col-span-4">
         <div className="my-5 text-6xl">Rajesh Revoor</div>

@@ -4,7 +4,7 @@ import Map from "../components/map";
 
 export default function Contact(props) {
   return (
-    <div className="mt-24 grid grid-cols-8 gap-4 bg-black">
+    <div className="mt-20 grid grid-cols-8 gap-4 bg-black">
       <div className="col-span-2 "></div>
       <div className=" col-span-4">
         <div className="my-5 text-4xl">Nice to meet you!</div>
