@@ -11,12 +11,12 @@ export default function Contact(props) {
         <div className="my-5 pb-5 border-b-2 border-white opacity-75 font-sans text-lg">
           <Map></Map>
         </div>
-        <div className="flex justify-between">
-          <div>
+        <div className="flex flex-col md:flex-row justify-between">
+          <div className="my-2">
             <span className="opacity-75">Reach me at </span>
             rajeshrevoor.ux@gmail.com
           </div>
-          <div className="w-8 h-8 flex items-center justify-center bg-white text-black text-md font-bold rounded-full cursor-pointer z-50">
+          <div className="my-2 flex items-center justify-center bg-white w-8 h-8 text-black text-md font-bold rounded-full cursor-pointer z-50">
             <Link href="https://www.linkedin.com/in/rajeshrevoor/">
               <span>in</span>
             </Link>
