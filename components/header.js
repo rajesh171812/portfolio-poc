@@ -19,7 +19,26 @@ export default function Header() {
   };
   return (
     <div className="p-4 md:p-8 border-b-0 md:border-b-2 border-white font-sans">
-      <div className="mt-4 flex md:hidden justify-between font-sans">
+      <div
+        className={
+          "top-15 left-5 bg-black hover:bg-blue-700 w-16 h-16 flex items-center justify-center text-white text-2xl rounded-full cursor-pointer z-50 " +
+          (currentRoute === "/ipitch" || currentRoute === "/searchProject"
+            ? "absolute"
+            : "hidden")
+        }
+      >
+        <Link href="/work">
+          <span>&#x3c;</span>
+        </Link>
+      </div>
+      <div
+        className={
+          "mt-4 flex md:hidden justify-between font-sans " +
+          (currentRoute === "/ipitch" || currentRoute === "/searchProject"
+            ? "hidden"
+            : "")
+        }
+      >
         <div className="mx-4 text-xl text-white">Rajesh Revoor</div>
         <div
           className="nav-toggle-btn z-50 flex flex-col"
@@ -34,7 +53,12 @@ export default function Header() {
       <div
         onClick={toggleMobileMenu}
         id="floatingMenu"
-        className="fixed left-0 -left-full -top-full md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100"
+        className={
+          "fixed left-0 -left-full -top-full md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
+          (currentRoute === "/ipitch" || currentRoute === "/searchProject"
+            ? "hidden"
+            : "")
+        }
       >
         <div className="hidden md:block z-50 mt-3 mr-20 w-72 border-t-2 border-white"></div>
         <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
