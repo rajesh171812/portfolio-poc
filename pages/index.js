@@ -1,6 +1,12 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
+import Work from "./work";
+import { useRouter } from "next/router";
 export default function Home() {
+  const router = useRouter();
+  useEffect(() => {
+    router.push("/work");
+  });
   return (
     <div>
       <Head>
@@ -16,12 +22,10 @@ export default function Home() {
           rel="stylesheet"
         />
         TODO : change meta
-        <meta
-          name="description"
-          content="Rajesh Revoor portfolio website"
-        />
+        <meta name="description" content="Rajesh Revoor portfolio website" />
         <meta name="og:title" content="Rajesh Revoor" />
       </Head>
+      <Work></Work>
       <footer>
         <div className="fixed bottom-0 left-1/2 font-sans">
           Rajesh Revoor designs<span>&#174;</span>
