@@ -29,7 +29,7 @@ export default function Work(props) {
                   <img
                     src="/project1.png"
                     alt="Yours truly Rajesh!"
-                    className="object-cover"
+                    className="object-cover h-96"
                   />
               </div>
             </Link>
@@ -40,7 +40,7 @@ export default function Work(props) {
                 <img
                   src="/project2.png"
                   alt="Yours truly Rajesh!"
-                  className="object-cover"
+                  className="object-cover h-96"
                 />
               </div>
             </Link>
@@ -48,7 +48,7 @@ export default function Work(props) {
         </div>
         <div className="col-span-1"></div>
       </div>
-      <div className="grid grid-cols-6 gap-4 my-10 font-serif">
+      <div className="grid grid-cols-6 gap-4 my-30 font-serif">
         <div className="col-span-1"></div>
         <div className="col-span-4 mx-3 bg-pink-400 cursor-pointer">
           <Link className="" href="/searchProject">
