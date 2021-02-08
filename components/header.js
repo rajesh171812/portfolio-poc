@@ -13,9 +13,26 @@ export default function Header() {
     console.log(router.route);
     console.log("currentRoute", currentRoute);
     const floatingMenu = document.getElementById("floatingMenu");
+    const leftCross = document.getElementById("left-cross");
+    const rightCross = document.getElementById("right-cross");
+    const hamburgerIcon = document.getElementById("hamburgerIcon");
+      const hamburgerLinesToHide = document.querySelectorAll(".hamburgerLinesToHide");
+      hamburgerLinesToHide.forEach((hl) => {
+          hl.classList.toggle("hidden")
+      })
     floatingMenu.classList.toggle("top-0");
     floatingMenu.classList.toggle("-top-full");
     floatingMenu.classList.toggle("-left-full");
+
+    hamburgerIcon.classList.toggle("flex-col");
+    hamburgerIcon.classList.toggle("flex-row");
+
+    rightCross.classList.toggle("-ml-6");
+
+    leftCross.classList.toggle("mb-1.5");
+    rightCross.classList.toggle("mb-1.5");
+    rightCross.classList.toggle("rotate-45");
+    leftCross.classList.toggle("-rotate-45");
   };
   return (
     <div className="p-4 md:p-8 border-b-0 md:border-b-2 border-white font-sans">
@@ -40,21 +57,27 @@ export default function Header() {
         }
       >
         <div className="mx-4 text-xl text-white">Rajesh Revoor</div>
-        <div
-          className="nav-toggle-btn z-50 flex flex-col"
-          onClick={toggleMobileMenu}
-        >
-          <span className="w-6 mb-1.5 border-t-2 border-white"></span>
-          <span className="w-6 mb-1.5 border-t-2 border-white"></span>
-          <span className="w-6 mb-1.5 border-t-2 border-white"></span>
-          <span className="w-6 mb-1.5 border-t-2 border-white"></span>
+        <div className="nav-toggle-btn z-50" onClick={toggleMobileMenu}>
+          <div id="hamburgerIcon" className="flex flex-col">
+            <span className="hamburgerLinesToHide w-6 mb-1.5 border-t-2 border-white"></span>
+            <span
+              id="left-cross"
+              className="w-6 mb-1.5 border-t-2 border-white transition transform duration-500 ease-in-out"
+            ></span>
+            <span
+              id="right-cross"
+              className="w-6 mb-1.5 border-t-2 border-white transition transform duration-500 ease-in-out"
+            ></span>
+            <span className="hamburgerLinesToHide w-6 mb-1.5 border-t-2 border-white"></span>
+          </div>
+
         </div>
       </div>
       <div
         onClick={toggleMobileMenu}
         id="floatingMenu"
         className={
-          "fixed left-0 -left-full -top-full md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
+          "fixed left-0 -left-full -top-full transition transform duration-500 ease-in-out md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
           (currentRoute === "/ipitch" || currentRoute === "/searchProject"
             ? "hidden"
             : "")
