@@ -22,7 +22,6 @@ export default function Header() {
     hamburgerLinesToHide.forEach((hl) => {
       hl.classList.toggle("hidden");
     });
-    floatingMenu.classList.toggle("top-0");
     floatingMenu.classList.toggle("-left-full");
     floatingMenu.classList.toggle("-translate-y-full");
 
@@ -79,7 +78,7 @@ export default function Header() {
         onClick={toggleMobileMenu}
         id="floatingMenu"
         className={
-          "fixed left-0 -left-full transition transform -translate-y-full duration-500 ease-in-out md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
+          "fixed left-0 -left-full transition md:transition-none transform md:transform-none -translate-y-full duration-500 ease-in-out  md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
           (currentRoute === "/ipitch" || currentRoute === "/searchProject"
             ? "hidden"
             : "")
