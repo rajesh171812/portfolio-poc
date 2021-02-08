@@ -16,13 +16,16 @@ export default function Header() {
     const leftCross = document.getElementById("left-cross");
     const rightCross = document.getElementById("right-cross");
     const hamburgerIcon = document.getElementById("hamburgerIcon");
-      const hamburgerLinesToHide = document.querySelectorAll(".hamburgerLinesToHide");
-      hamburgerLinesToHide.forEach((hl) => {
-          hl.classList.toggle("hidden")
-      })
+    const hamburgerLinesToHide = document.querySelectorAll(
+      ".hamburgerLinesToHide"
+    );
+    hamburgerLinesToHide.forEach((hl) => {
+      hl.classList.toggle("hidden");
+    });
     floatingMenu.classList.toggle("top-0");
-    floatingMenu.classList.toggle("-top-full");
     floatingMenu.classList.toggle("-left-full");
+    floatingMenu.classList.toggle("-translate-y-full");
+
 
     hamburgerIcon.classList.toggle("flex-col");
     hamburgerIcon.classList.toggle("flex-row");
@@ -70,14 +73,13 @@ export default function Header() {
             ></span>
             <span className="hamburgerLinesToHide w-6 mb-1.5 border-t-2 border-white"></span>
           </div>
-
         </div>
       </div>
       <div
         onClick={toggleMobileMenu}
         id="floatingMenu"
         className={
-          "fixed left-0 -left-full -top-full transition transform duration-500 ease-in-out md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
+          "fixed left-0 -left-full transition transform -translate-y-full duration-500 ease-in-out md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
           (currentRoute === "/ipitch" || currentRoute === "/searchProject"
             ? "hidden"
             : "")
