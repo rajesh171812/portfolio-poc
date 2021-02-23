@@ -1,46 +1,46 @@
 import React from "react";
 import Link from "next/link";
 
-export default function Work(props) {
+export default function Work() {
   return (
     <div className="py-5 bg-black">
-      <div className="flex justify-center my-20">
+      <div className="flex justify-center mt-28 mb-20">
         <img
-          src="/rajesh.jpeg"
+          src="/Dashboard_profile_pic.svg"
           alt="Yours truly Rajesh!"
-          className="h-56 w-56 rounded-full"
+          className="h-44 w-44 rounded-full"
         />
       </div>
-      <div className="my-5 text-center text-6xl">Rajesh Revoor</div>
-      <div className="my-5 text-center text-4xl">UX Designer</div>
-      <div className="flex justify-center my-5 text-lg">
+      <div className="mb-5 font-sans text-center text-8xl font-bold">Rajesh Revoor</div>
+      <div className="mb-16 font-serif text-center text-4xl font-light">User Experience Designer</div>
+      <div className="flex font-serif justify-center mb-32 text-xl font-regular">
         <span className="w-1/2">
           I’m Rajesh, a product designer who combines research, rapid
-          prototyping, interaction and visual design to transform complex
-          problems into elegant solutions.
+          prototyping, interaction and visual design to transform <span className="font-serif font-bold">complex
+            problems into elegant solutions</span>.
         </span>
       </div>
-      <div className="grid grid-cols-6 gap-4 my-10 font-serif">
+      <div className="grid grid-cols-6 gap-4 font-serif">
         <div className="col-span-1"></div>
         <div className="col-span-4 flex flex-col lg:flex-row justify-center">
-          <div className="flex-grow my-3 mx-3 h-96 bg-blue-600 cursor-pointer">
+          <div className="md:mr-12 bg-blue-600 cursor-pointer">
             <Link href="/searchProject">
               <div>
                   <img
-                    src="/project1.png"
-                    alt="Yours truly Rajesh!"
-                    className="object-cover h-96"
+                    src="/Dashboard_BE_600x600_1.svg"
+                    alt="Business Edge"
+                    className=""
                   />
               </div>
             </Link>
           </div>
-          <div className="flex-grow my-3 mx-3 h-96 bg-blue-800 cursor-pointer">
+          <div className="mt-12 md:mt-0 bg-blue-800 cursor-pointer">
             <Link href="/ipitch">
               <div>
                 <img
-                  src="/project2.png"
-                  alt="Yours truly Rajesh!"
-                  className="object-cover h-96"
+                  src="/Dashboard_pitch_600x600_1.svg"
+                  alt="Pitch"
+                  className=""
                 />
               </div>
             </Link>
@@ -48,15 +48,15 @@ export default function Work(props) {
         </div>
         <div className="col-span-1"></div>
       </div>
-      <div className="grid grid-cols-6 gap-4 my-30 font-serif">
+      <div className="grid grid-cols-6 gap-4 mt-12 mb-32 font-serif">
         <div className="col-span-1"></div>
-        <div className="col-span-4 mx-3 bg-pink-400 cursor-pointer">
+        <div className="col-span-4 bg-pink-400 cursor-pointer">
           <Link className="" href="/searchProject">
             <div>
               <img
-                src="/project3.png"
-                alt="Yours truly Rajesh!"
-                className="object-cover h-96 w-full"
+                src="/Dashboard_VMO_600x600_1.svg"
+                alt="Vendor Management"
+                className=""
               />
             </div>
           </Link>

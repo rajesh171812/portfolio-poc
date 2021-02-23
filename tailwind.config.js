@@ -14,6 +14,7 @@ module.exports = {
     colors: {
       black: colors.black,
       white: colors.white,
+      gray: colors.gray,
       blue: colors.blue,
       red: colors.rose,
       pink: colors.fuchsia,
@@ -22,9 +23,14 @@ module.exports = {
     background: {
       blue: '#1A63D9',
       black: '#000000',
+      gray: '#cccccc',
       work1: '#26CFA7',
       work2: '#0E5AFF',
       work3: '#672CC0'
+    },
+    gradientColorStops: {
+      'primary': '#000',
+      'secondary': 'rgba(204, 204, 204, 0.2)'
     },
     spacing: {
       px: "1px",
@@ -90,6 +96,15 @@ module.exports = {
       '1/3': '32%',
       '1/2': '50%',
       '3/4': '75%',
+    },
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
     },
     extend: {
       spacing: {

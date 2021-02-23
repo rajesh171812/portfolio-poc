@@ -25,7 +25,6 @@ export default function Header() {
     floatingMenu.classList.toggle("-left-full");
     floatingMenu.classList.toggle("-translate-y-full");
 
-
     hamburgerIcon.classList.toggle("flex-col");
     hamburgerIcon.classList.toggle("flex-row");
 
@@ -37,7 +36,7 @@ export default function Header() {
     leftCross.classList.toggle("-rotate-45");
   };
   return (
-    <div className="p-4 md:p-8 border-b-0 md:border-b-2 border-white font-sans">
+    <div className="p-4 md:pt-16 md:pb-10 md:border-b border-white font-sans">
       <div
         className={
           "top-15 left-5 bg-black hover:bg-blue-700 w-16 h-16 flex items-center justify-center text-white text-2xl rounded-full cursor-pointer z-50 " +
@@ -84,56 +83,56 @@ export default function Header() {
             : "")
         }
       >
-        <div className="hidden md:block z-50 mt-3 mr-20 w-72 border-t-2 border-white"></div>
-        <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="hidden md:block z-50 mt-3 mr-20 w-72 border-t border-gray"></div>
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
           <Link onClick={toggleMobileMenu} href="/work">
             <div
               className={
-                "text-sans cursor-pointer opacity-70 uppercase " +
-                (currentRoute === "/work" ? "text-bold opacity-100" : "")
+                "text-sans cursor-pointer opacity-50 uppercase " +
+                (currentRoute === "/work" ? "font-bold opacity-100" : "")
               }
             >
               Work
             </div>
           </Link>
         </div>
-        <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
           <Link onClick={toggleMobileMenu} href="/about">
             <div
               className={
-                "text-sans cursor-pointer opacity-70 uppercase " +
-                (currentRoute === "/about" ? "text-bold opacity-100" : "")
+                "text-sans cursor-pointer opacity-50 uppercase " +
+                (currentRoute === "/about" ? "font-bold opacity-100" : "")
               }
             >
               About
             </div>
           </Link>
         </div>
-        <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
           <Link onClick={toggleMobileMenu} href="/contact">
             <div
               className={
-                "text-sans cursor-pointer opacity-70 uppercase " +
-                (currentRoute === "/contact" ? "text-bold opacity-100" : "")
+                "text-sans cursor-pointer opacity-50 uppercase " +
+                (currentRoute === "/contact" ? "font-bold opacity-100" : "")
               }
             >
               Contact
             </div>
           </Link>
         </div>
-        <div className="mx-4 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
           <a onClick={toggleMobileMenu} href="/resume.pdf" download>
             <div
               className={
-                "text-sans cursor-pointer opacity-70 uppercase " +
-                (currentRoute === "/resume" ? "text-bold opacity-100" : "")
+                "text-sans cursor-pointer opacity-50 uppercase " +
+                (currentRoute === "/resume" ? "font-bold opacity-100" : "")
               }
             >
               Resume
             </div>
           </a>
         </div>
-        <div className="hidden md:block mt-3 ml-20 w-72 border-t-2 border-white "></div>
+        <div className="hidden md:block mt-3 ml-20 w-72 border-t border-white "></div>
       </div>
     </div>
   );
