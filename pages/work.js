@@ -23,7 +23,7 @@ export default function Work() {
       <div className="grid grid-cols-6 gap-4 font-serif">
         <div className="col-span-1"></div>
         <div className="col-span-4 flex flex-col lg:flex-row justify-center">
-          <div className="md:mr-12 bg-blue-600 cursor-pointer">
+          <div className="mr-0 md:mr-12 cursor-pointer">
             <Link href="/searchProject">
               <div>
                   <img
@@ -34,7 +34,7 @@ export default function Work() {
               </div>
             </Link>
           </div>
-          <div className="mt-12 md:mt-0 bg-blue-800 cursor-pointer">
+          <div className="mt-12 md:mt-0 cursor-pointer">
             <Link href="/ipitch">
               <div>
                 <img
@@ -50,7 +50,7 @@ export default function Work() {
       </div>
       <div className="grid grid-cols-6 gap-4 mt-12 mb-32 font-serif">
         <div className="col-span-1"></div>
-        <div className="col-span-4 bg-pink-400 cursor-pointer">
+        <div className="col-span-4 cursor-pointer justify-center">
           <Link className="" href="/searchProject">
             <div>
               <img
