@@ -18,7 +18,9 @@ module.exports = {
       blue: colors.blue,
       red: colors.rose,
       pink: colors.fuchsia,
-      blueHeading: '#1A63D0'
+      blueHeading: '#1A63D0',
+      headerLine: '#b4b4b4',
+      headerLinksNotSelected: '#848484'
     },
     background: {
       blue: '#1A63D9',

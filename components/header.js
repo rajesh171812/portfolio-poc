@@ -36,7 +36,7 @@ export default function Header() {
     leftCross.classList.toggle("-rotate-45");
   };
   return (
-    <div className="p-4 md:pt-16 md:pb-10 md:border-b border-white font-sans">
+    <div className="p-4 md:pt-16 md:pb-10 font-sans bg-gradient-to-t from-primary to-secondary">
       <div
         className={
           "top-15 left-5 bg-black hover:bg-blue-700 w-16 h-16 flex items-center justify-center text-white text-2xl rounded-full cursor-pointer z-50 " +
@@ -77,55 +77,55 @@ export default function Header() {
         onClick={toggleMobileMenu}
         id="floatingMenu"
         className={
-          "fixed left-0 -left-full transition md:transition-none transform md:transform-none -translate-y-full duration-500 ease-in-out  md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black opacity-90 md:bg-black md:opacity-100 " +
+          "fixed left-0 -left-full transition md:transition-none transform md:transform-none -translate-y-full duration-500 ease-in-out  md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-transparent opacity-90 md:opacity-100 " +
           (currentRoute === "/ipitch" || currentRoute === "/searchProject"
             ? "hidden"
             : "")
         }
       >
-        <div className="hidden md:block z-50 mt-3 mr-20 w-72 border-t border-gray"></div>
-        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="hidden md:block z-50 mt-3 mr-20 w-72 border-t border-headerLine"></div>
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-headerLinksNotSelected">
           <Link onClick={toggleMobileMenu} href="/work">
             <div
               className={
-                "text-sans cursor-pointer opacity-50 uppercase " +
-                (currentRoute === "/work" ? "font-bold opacity-100" : "")
+                "text-serif cursor-pointer uppercase " +
+                (currentRoute === "/work" ? "font-bold text-white" : "")
               }
             >
               Work
             </div>
           </Link>
         </div>
-        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-headerLinksNotSelected">
           <Link onClick={toggleMobileMenu} href="/about">
             <div
               className={
-                "text-sans cursor-pointer opacity-50 uppercase " +
-                (currentRoute === "/about" ? "font-bold opacity-100" : "")
+                "text-serif cursor-pointer uppercase " +
+                (currentRoute === "/about" ? "font-bold text-white" : "")
               }
             >
               About
             </div>
           </Link>
         </div>
-        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-headerLinksNotSelected">
           <Link onClick={toggleMobileMenu} href="/contact">
             <div
               className={
-                "text-sans cursor-pointer opacity-50 uppercase " +
-                (currentRoute === "/contact" ? "font-bold opacity-100" : "")
+                "text-serif cursor-pointer uppercase " +
+                (currentRoute === "/contact" ? "font-bold text-white" : "")
               }
             >
               Contact
             </div>
           </Link>
         </div>
-        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-white">
+        <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-headerLinksNotSelected">
           <a onClick={toggleMobileMenu} href="/resume.pdf" download>
             <div
               className={
-                "text-sans cursor-pointer opacity-50 uppercase " +
-                (currentRoute === "/resume" ? "font-bold opacity-100" : "")
+                "text-serif cursor-pointer uppercase" +
+                (currentRoute === "/resume" ? "font-bold text-white" : "")
               }
             >
               Resume

@@ -4,17 +4,17 @@ import Link from "next/link";
 export default function Work() {
   return (
     <div className="py-5 bg-black">
-      <div className="flex justify-center mt-28 mb-20">
+      <div className="flex justify-center my-16">
         <img
           src="/Dashboard_profile_pic.svg"
           alt="Yours truly Rajesh!"
           className="h-44 w-44 rounded-full"
         />
       </div>
-      <div className="mb-5 font-sans text-center text-8xl font-bold">Rajesh Revoor</div>
-      <div className="mb-16 font-serif text-center text-4xl font-light">User Experience Designer</div>
-      <div className="flex font-serif justify-center mb-32 text-xl font-regular">
-        <span className="w-1/2">
+      <div className="mb-5 font-sans text-center text-7xl font-bold">Rajesh Revoor</div>
+      <div className="mb-16 font-serif text-center text-3xl font-light">User Experience Designer</div>
+      <div className="flex font-serif justify-center mb-20 text-xl font-light">
+        <span className="w-1/2 leading-7">
           I’m Rajesh, a product designer who combines research, rapid
           prototyping, interaction and visual design to transform <span className="font-serif font-bold">complex
             problems into elegant solutions</span>.
