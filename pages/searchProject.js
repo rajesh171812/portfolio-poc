@@ -106,9 +106,6 @@ export default function SearchProject() {
         </div>
 
         {/*Full size before after*/}
-        <div className="text-3xl text-orange">
-          Need image here with left and right contents as image!
-        </div>
         <div className="mt-24 grid grid-cols-6 gap-4">
           <div className="col-span-6 m-auto">
             <img
@@ -225,7 +222,7 @@ export default function SearchProject() {
               <img
                 src="/Casestudy_BE/Casestudy1_Feature_Prioritisation.svg"
                 alt="heuristic evaluation 1"
-                className=""
+                className="m-auto"
               />
             </div>
           </div>
@@ -307,36 +304,36 @@ export default function SearchProject() {
             <TealHeading2 headingTitle="Custom Reports" />
             <RegularParagraph content="Through user-feedback and analytical research, it has been revealed that most of the users were using the reports only on specific days and that too particularly at the end of each month to download their monthly reports. These reports can be formatted only via static templates. Users requested the option to create custom reports by selecting data columns, saving them, and using them as a template. Such custom reports helped the consultants present specific performance data to plan sponsors." />
             <div className="mt-12">
-              <div className="mb-5">
+              <div className="mb-5 text-center font-serif font-light">
                 Preview of the user to view what data elements have been
                 selected.
               </div>
               <img
                 src="/Casestudy_BE/Casestudy1_Report_1.svg"
                 alt="Report"
-                className=""
+                className="m-auto"
               />
             </div>
             <div className="mt-24">
-              <div className="mb-5">
+              <div className="mb-5 text-center font-serif font-light">
                 User is now able to realign or remove the order of the data
                 table before creating the report.
               </div>
               <img
                 src="/Casestudy_BE/Casestudy1_Report_2.svg"
                 alt="Report"
-                className=""
+                className="m-auto"
               />
             </div>
             <div className="mt-24">
-              <div className="mb-5">
+              <div className="mb-5 text-center font-serif font-light">
                 Users can now move the selected data elements also by using
                 keyboard actions.
               </div>
               <img
                 src="/Casestudy_BE/Casestudy1_Report_2.svg"
                 alt="Report"
-                className=""
+                className="m-auto"
               />
             </div>
 
