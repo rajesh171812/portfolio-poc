@@ -60,7 +60,7 @@ export default function SearchProject() {
             />
 
             <TealHeading headingTitle="Business Problem" />
-            <div className="font-serif leading-7 text-xl text-black">
+            <div className="font-serif leading-7 text-base text-black">
               <div>
                 - The clients felt that the Business Edge is not performing as
                 expected in the consulting firms market.
@@ -77,7 +77,7 @@ export default function SearchProject() {
                 - The client wanted to revamp the existing application and
                 achieve three objectives:
               </div>
-              <div className="pl-20">
+              <div className="pl-14">
                 <div>
                   - Recapture and increase their market share in the consultant
                   space.
@@ -123,7 +123,7 @@ export default function SearchProject() {
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <div className="text-center text-3xl md:text-6xl text-teal">
+            <div className="text-center text-3xl md:text-6xl text-teal font-bold">
               Our Methodology
             </div>
             <div className="mt-24 mb-28">
@@ -150,7 +150,7 @@ export default function SearchProject() {
                 alt="heuristic evaluation 1"
                 className=""
               />
-              <div className="my-10 text-center">
+              <div className="mt-10 mb-4 text-center">
                 <BlackSubHeading headingTitle="The key findings from the evaluation were:"></BlackSubHeading>
               </div>
               <div className="flex justify-center">
@@ -178,8 +178,8 @@ export default function SearchProject() {
                 />
               </div>
               <TealDivider></TealDivider>
-              <TealHeading2 headingTitle="Web Analytics"></TealHeading2>
-              <div className="grid grid-flow-col gap-4">
+              <TealHeading2 headingTitle="User Interviews"></TealHeading2>
+              <div className="grid grid-flow-col gap-10">
                 <div>
                   <RegularParagraph content="We started organising the user interviews to understand the users motivations, behaviour and their pain points in using the application. We were able to put together a user group consisting 10 members which included the firm managers and consultant associates from top consulting firms, to know more about their view and usage of business edge application. They brought us some screenshots where they were facing some issues with the current application and also some of the features samples used by the competitors in the market." />
                   <div className="mt-2">
@@ -252,7 +252,7 @@ export default function SearchProject() {
                 className=""
               />
             </div>
-            <div className="mb-7">
+            <div className="mb-4 mt-12">
               <BlackSubHeading headingTitle="Feedback from usability test"></BlackSubHeading>
             </div>
             <RegularParagraph content="1. Users found it difficult to interact with the clients dropdown." />
