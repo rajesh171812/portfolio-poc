@@ -288,20 +288,19 @@ export default function SearchProject() {
             <TealHeading2 headingTitle="KPI tiles"></TealHeading2>
             <RegularParagraph content="KPI means key performance indicators. These numbers provide overall information about their business performance in different segments. Each of the tiles gives more detailed information like investments, contributions etc,… Due to ignorance, most of the users failed to drill down to view these information earlier." />
             <div className="mt-12">
-              <ReactCompareSlider
-                itemOne={
-                  <ReactCompareSliderImage
+              <div className="mt-12 grid grid-flow-col gap-4">
+                <img
+                    className="mr-1"
                     src="/Casestudy_BE/Casestudy1_solution_KPI_1.svg"
-                    alt="Image one"
-                  />
-                }
-                itemTwo={
-                  <ReactCompareSliderImage
+                    alt="heuristic evaluation 1"
+                    className=""
+                />
+                <img
                     src="/Casestudy_BE/Casestudy1_solution_KPI_2.svg"
-                    alt="Image two"
-                  />
-                }
-              />
+                    alt="heuristic evaluation 1"
+                    className=""
+                />
+              </div>
             </div>
             <TealDivider></TealDivider>
 
