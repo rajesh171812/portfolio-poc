@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="358" viewBox="0 0 1280 358">
+  <g id="Group_205" data-name="Group 205" transform="translate(-320 -1175)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(421 1184)" fill="#fff" stroke="#4c5264" stroke-width="1">
+      <ellipse cx="142.5" cy="142" rx="142.5" ry="142" stroke="none"/>
+      <ellipse cx="142.5" cy="142" rx="142" ry="141.5" fill="none"/>
+    </g>
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(713 1184)" fill="#fff" stroke="#4c5264" stroke-width="1">
+      <ellipse cx="142.5" cy="142" rx="142.5" ry="142" stroke="none"/>
+      <ellipse cx="142.5" cy="142" rx="142" ry="141.5" fill="none"/>
+    </g>
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(973 1184)" fill="#fff" stroke="#4c5264" stroke-width="1">
+      <ellipse cx="142.5" cy="142" rx="142.5" ry="142" stroke="none"/>
+      <ellipse cx="142.5" cy="142" rx="142" ry="141.5" fill="none"/>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(1242 1184)" fill="#fff" stroke="#4c5264" stroke-width="1">
+      <ellipse cx="142.5" cy="142" rx="142.5" ry="142" stroke="none"/>
+      <ellipse cx="142.5" cy="142" rx="142" ry="141.5" fill="none"/>
+    </g>
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(1242 1239)" fill="#fff" stroke="#4c5264" stroke-width="1" stroke-dasharray="5">
+      <ellipse cx="142.5" cy="142" rx="142.5" ry="142" stroke="none"/>
+      <ellipse cx="142.5" cy="142" rx="142" ry="141.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_1643" data-name="Rectangle 1643" width="107" height="62" transform="translate(523 1364)" fill="#fff"/>
+    <rect id="Rectangle_1644" data-name="Rectangle 1644" width="107" height="62" transform="translate(510 1427)" fill="#fff"/>
+    <rect id="Rectangle_1645" data-name="Rectangle 1645" width="107" height="62" transform="translate(802 1427)" fill="#fff"/>
+    <rect id="Rectangle_1646" data-name="Rectangle 1646" width="107" height="62" transform="translate(1062 1427)" fill="#fff"/>
+    <rect id="Rectangle_1647" data-name="Rectangle 1647" width="1105" height="190" transform="translate(455 1278)" fill="#fff"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(320 1249)" fill="#fff" stroke="#4abfa3" stroke-width="3">
+      <circle cx="120" cy="120" r="120" stroke="none"/>
+      <circle cx="120" cy="120" r="118.5" fill="none"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(840 1249)" fill="#fff" stroke="#4abfa3" stroke-width="3">
+      <ellipse cx="120.5" cy="120" rx="120.5" ry="120" stroke="none"/>
+      <ellipse cx="120.5" cy="120" rx="119" ry="118.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_1648" data-name="Rectangle 1648" width="186" height="111" transform="translate(1280 1236)" fill="#fff"/>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(580 1249)" fill="#fff" stroke="#4abfa3" stroke-width="3">
+      <circle cx="120" cy="120" r="120" stroke="none"/>
+      <circle cx="120" cy="120" r="118.5" fill="none"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1100 1249)" fill="#fff" stroke="#4abfa3" stroke-width="3">
+      <circle cx="120" cy="120" r="120" stroke="none"/>
+      <circle cx="120" cy="120" r="118.5" fill="none"/>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1360 1249)" fill="#fff" stroke="#4abfa3" stroke-width="3">
+      <circle cx="120" cy="120" r="120" stroke="none"/>
+      <circle cx="120" cy="120" r="118.5" fill="none"/>
+    </g>
+    <text id="Research" transform="translate(389 1379)" fill="#a3a3a3" font-size="25" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Research</tspan></text>
+    <text id="Analyse" transform="translate(700 1379)" fill="#a3a3a3" font-size="25" font-family="Roboto-Regular, Roboto"><tspan x="-43.866" y="0">Analyse</tspan></text>
+    <text id="Strategize" transform="translate(961 1379)" fill="#a3a3a3" font-size="25" font-family="Roboto-Regular, Roboto"><tspan x="-55.853" y="0">Strategize</tspan></text>
+    <text id="Design" transform="translate(1220 1379)" fill="#a3a3a3" font-size="25" font-family="Roboto-Regular, Roboto"><tspan x="-38.208" y="0">Design</tspan></text>
+    <text id="Test" transform="translate(1485 1379)" fill="#a3a3a3" font-size="25" font-family="Roboto-Regular, Roboto"><tspan x="-24.609" y="0">Test</tspan></text>
+    <path id="Polygon_1" data-name="Polygon 1" d="M9.5,0,19,17H0Z" transform="translate(563 1175) rotate(90)" fill="#ffd502"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M9.5,0,19,17H0Z" transform="translate(857 1175) rotate(90)" fill="#ffd502"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M9.5,0,19,17H0Z" transform="translate(1117 1175) rotate(90)" fill="#ffd502"/>
+    <path id="Polygon_4" data-name="Polygon 4" d="M9.5,0,19,17H0Z" transform="translate(1393 1175) rotate(90)" fill="#ffd502"/>
+    <path id="Polygon_5" data-name="Polygon 5" d="M9.5,0,19,17H0Z" transform="translate(1368 1533) rotate(-90)" fill="#ffd502"/>
+  </g>
+</svg>

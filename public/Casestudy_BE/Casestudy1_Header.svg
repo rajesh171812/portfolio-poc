@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2800" height="488" viewBox="0 0 2800 488">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#043c2f"/>
+      <stop offset="1" stop-color="#1a8067" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2ba78a"/>
+      <stop offset="1" stop-color="#1a8067" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_7">
+      <rect width="2800" height="488"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_7" data-name="Artboard – 7" clip-path="url(#clip-Artboard_7)">
+    <rect width="2800" height="488" fill="#fff"/>
+    <g id="Group_509" data-name="Group 509" transform="translate(-16772 -209)">
+      <rect id="Rectangle_1768" data-name="Rectangle 1768" width="2800" height="488" transform="translate(16772 209)" fill="#4abfa3"/>
+      <g id="Group_506" data-name="Group 506" transform="translate(123)">
+        <rect id="Rectangle_1769" data-name="Rectangle 1769" width="2800" height="286" transform="translate(16649 209)" opacity="0.979" fill="url(#linear-gradient)"/>
+        <rect id="Rectangle_1770" data-name="Rectangle 1770" width="2800" height="123" transform="translate(16649 209)" opacity="0.979" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

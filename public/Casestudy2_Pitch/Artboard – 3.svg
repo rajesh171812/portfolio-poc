@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="299" height="295" viewBox="0 0 299 295">
+  <defs>
+    <filter id="Rectangle_7" x="-2" y="22" width="299" height="274" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_3">
+      <rect width="299" height="295"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <rect width="299" height="295" fill="#fff"/>
+    <g id="Group_198" data-name="Group 198" transform="translate(7 5.875)">
+      <g transform="matrix(1, 0, 0, 1, -7, -5.88)" filter="url(#Rectangle_7)">
+        <rect id="Rectangle_7-2" data-name="Rectangle 7" width="281" height="256" rx="20" transform="translate(7 28)" fill="#fff"/>
+      </g>
+      <text id="There_is_no_clarity_on_the_Days_Schedule_as_it_has_been_updated_by_our_managers._By_the_time_I_reach_the_office_I_completely_miss_the_morning_appointment_as_I_ve_no_access_to_the_current_interface_outside_the_office." data-name="There is no clarity on the “Days Schedule” as it has been updated by our managers. By the time I reach the office, I completely miss the morning appointment as I’ve no access to the current interface outside the office." transform="translate(28 56.125)" fill="rgba(0,0,0,0.59)" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0.113" y="17">There is no clarity on the “Days </tspan><tspan x="22.805" y="42">Schedule” as it has been </tspan><tspan x="5.941" y="67">updated by our managers. By </tspan><tspan x="13.289" y="92">the time I reach the office, I </tspan><tspan x="6.551" y="117">completely miss the morning </tspan><tspan x="1.887" y="142">appointment as I’ve no access </tspan><tspan x="0.016" y="167">to the current interface outside </tspan><tspan x="73.961" y="192">the office.</tspan></text>
+      <g id="Group_1" data-name="Group 1" transform="translate(121)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="18" cy="17.5" rx="18" ry="17.5" transform="translate(2.16 3.125)" fill="#fff"/>
+        <g id="Icon_ionic-md-sad" data-name="Icon ionic-md-sad">
+          <path id="Path_1" data-name="Path 1" d="M20.527,20.25a10.748,10.748,0,0,0-9.713,6.082H30.24A10.748,10.748,0,0,0,20.527,20.25Z" transform="translate(-0.759 2.559)" fill="#1a63d9"/>
+          <path id="Path_2" data-name="Path 2" d="M23.143,3.375A19.768,19.768,0,1,0,42.91,23.143,19.762,19.762,0,0,0,23.143,3.375Zm0,35.582A15.814,15.814,0,1,1,38.957,23.143,15.861,15.861,0,0,1,23.143,38.957Z" transform="translate(-3.375 -3.375)" fill="#1a63d9"/>
+          <path id="Path_3" data-name="Path 3" d="M23.89,18.08a2.965,2.965,0,1,0-2.965-2.965A2.912,2.912,0,0,0,23.89,18.08Z" transform="translate(2.796 -0.289)" fill="#1a63d9"/>
+          <path id="Path_4" data-name="Path 4" d="M13.653,18.08a2.965,2.965,0,1,0-2.965-2.965A2.912,2.912,0,0,0,13.653,18.08Z" transform="translate(-0.804 -0.289)" fill="#1a63d9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1072" height="897" viewBox="0 0 1072 897">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="563.193" height="422.394" fill="#f6f5f5" stroke="#cacaca" stroke-miterlimit="10" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.541" y1="0.458" x2="1.325" y2="0.458" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="0" stop-color="#eee"/>
+      <stop offset="1" stop-color="#c5c5c5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.441" y1="1" x2="0.441" y2="-1.083" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ef8366"/>
+      <stop offset="1" stop-color="#fbfdff"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <rect id="Mask-2" data-name="Mask" width="563.447" height="422.585" fill="#f6f5f5" stroke="#cacaca" stroke-miterlimit="10" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H12.667V5.043H0Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_11">
+      <rect width="1072" height="897"/>
+    </clipPath>
+    <image id="image" width="89.138" height="46.089" xlink:href="data:image/png;base64,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"/>
+  </defs>
+  <g id="Artboard_11" data-name="Artboard – 11" clip-path="url(#clip-Artboard_11)">
+    <rect width="1072" height="897" fill="#fff"/>
+    <g id="Group_212" data-name="Group 212" transform="translate(-165 -9367)">
+      <g id="Group_32" data-name="Group 32" transform="translate(173 9379.009)" style="mix-blend-mode: luminosity;isolation: isolate">
+        <rect id="Rectangle_Copy_28" data-name="Rectangle Copy 28" width="563.193" height="422.394" transform="translate(0)" fill="#f6f5f5"/>
+        <g id="Group_Copy_3" data-name="Group Copy 3" transform="translate(0)">
+          <g id="Mask-3" data-name="Mask" fill="#f6f5f5" stroke="#cacaca" stroke-miterlimit="10" stroke-width="1">
+            <rect width="563.193" height="422.394" stroke="none"/>
+            <rect x="0.5" y="0.5" width="562.193" height="421.394" fill="none"/>
+          </g>
+          <g id="Group_Copy_3-2" data-name="Group Copy 3" clip-path="url(#clip-path)">
+            <g id="Group_2_Copy" data-name="Group 2 Copy" transform="translate(-42.797 188.406)" style="mix-blend-mode: luminosity;isolation: isolate">
+              <use id="pitchlogo" transform="translate(89.392)" xlink:href="#image"/>
+              <path id="Line" d="M179.283.5H.5" transform="translate(-0.5 33.18)" fill="none" stroke="#979797" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.5"/>
+            </g>
+            <g id="Group" transform="translate(185.367 194.99)">
+              <rect id="Rectangle_Copy_3" data-name="Rectangle Copy 3" width="114.968" height="82.048" transform="translate(0 81.541)" fill="#ecbdb1"/>
+              <rect id="Rectangle_Copy_4" data-name="Rectangle Copy 4" width="114.968" height="55.205" transform="translate(0 163.589)" fill="#e4967e"/>
+              <rect id="Rectangle_Copy_6" data-name="Rectangle Copy 6" width="114.968" height="55.205" transform="translate(0 218.794)" fill="#e6a08a"/>
+              <text id="Insights" transform="translate(39.505 243.014)" fill="#fff" font-size="10" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Insights</tspan></text>
+              <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="114.968" height="81.541" fill="#e6a08a"/>
+              <text id="Opportunities" transform="translate(25.83 40.933)" fill="#fff" font-size="10" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Opportunities</tspan></text>
+              <text id="Products" transform="translate(36.466 122.981)" fill="#fff" font-size="10" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Products</tspan></text>
+              <text id="Reports" transform="translate(40.011 191.354)" fill="#fff" font-size="10" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Reports</tspan></text>
+            </g>
+            <rect id="Rectangle_Copy_10" data-name="Rectangle Copy 10" width="20.765" height="468.989" transform="translate(185.367 468.989) rotate(180)" fill="url(#linear-gradient)"/>
+            <rect id="Rectangle_Copy_11" data-name="Rectangle Copy 11" width="20.765" height="468.989" transform="translate(300.336)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+        <rect id="Rectangle_Copy_29" data-name="Rectangle Copy 29" width="114.968" height="92.684" transform="translate(185.367)" fill="#bb492a"/>
+        <text id="Contacts_Copy" data-name="Contacts Copy" transform="translate(219.301 47.491)" fill="#fff" font-size="13" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Contacts</tspan></text>
+        <rect id="Rectangle_Copy_30" data-name="Rectangle Copy 30" width="241.585" height="421.888" transform="translate(321.101 0.506)" fill="#fff"/>
+        <rect id="Rectangle_Copy_32" data-name="Rectangle Copy 32" width="221.327" height="27.856" transform="translate(331.23 186.886)" fill="#e08366"/>
+        <rect id="Rectangle_Copy_39" data-name="Rectangle Copy 39" width="221.327" height="229.936" transform="translate(331.23 186.886)" fill="#e08366"/>
+        <rect id="Rectangle_Copy_40" data-name="Rectangle Copy 40" width="221.327" height="27.349" transform="translate(331.23 186.886)" fill="#ef8366"/>
+        <text id="Appointments" transform="translate(336.801 202.471)" fill="#fff" font-size="9" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Appointments</tspan></text>
+        <text id="_" data-name="+" transform="translate(534.324 205.471)" fill="#fff" font-size="20" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">+</tspan></text>
+        <rect id="Rectangle_Copy_41" data-name="Rectangle Copy 41" width="221.327" height="47.102" transform="translate(331.23 214.743)" fill="#fff"/>
+        <rect id="Rectangle" width="34.946" height="34.946" transform="translate(339.334 220.82)" fill="#ef8366" opacity="0.469"/>
+        <rect id="Rectangle_Copy_45" data-name="Rectangle Copy 45" width="157.512" height="9.623" transform="translate(379.344 220.82)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_47" data-name="Rectangle Copy 47" width="89.138" height="9.116" transform="translate(379.344 233.989)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_48" data-name="Rectangle Copy 48" width="20.765" height="5.571" transform="translate(379.344 250.195)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_42" data-name="Rectangle Copy 42" width="221.327" height="16.207" transform="translate(331.23 407.201)" fill="#fff"/>
+        <rect id="Rectangle_Copy_44" data-name="Rectangle Copy 44" width="221.327" height="47.102" transform="translate(331.23 310.971)" fill="#fff"/>
+        <rect id="Rectangle_Copy_49" data-name="Rectangle Copy 49" width="34.946" height="34.946" transform="translate(339.334 317.049)" fill="#ef8366" opacity="0.469"/>
+        <rect id="Rectangle_Copy_50" data-name="Rectangle Copy 50" width="157.512" height="9.623" transform="translate(379.344 317.049)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_67" data-name="Rectangle Copy 67" width="89.138" height="9.116" transform="translate(379.344 330.218)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_68" data-name="Rectangle Copy 68" width="20.765" height="5.571" transform="translate(379.344 346.425)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_46" data-name="Rectangle Copy 46" width="221.327" height="47.102" transform="translate(331.23 262.858)" fill="#fff"/>
+        <rect id="Rectangle_Copy_49-2" data-name="Rectangle Copy 49" width="34.946" height="34.946" transform="translate(339.334 269.947)" fill="#ef8366" opacity="0.469"/>
+        <rect id="Rectangle_Copy_50-2" data-name="Rectangle Copy 50" width="157.512" height="9.623" transform="translate(379.344 269.947)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_67-2" data-name="Rectangle Copy 67" width="89.138" height="9.116" transform="translate(379.344 283.115)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_68-2" data-name="Rectangle Copy 68" width="20.765" height="5.571" transform="translate(379.344 299.323)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_51" data-name="Rectangle Copy 51" width="221.327" height="47.102" transform="translate(331.23 359.086)" fill="#fff"/>
+        <rect id="Rectangle_Copy_49-3" data-name="Rectangle Copy 49" width="34.946" height="34.946" transform="translate(339.334 366.177)" fill="#ef8366" opacity="0.469"/>
+        <rect id="Rectangle_Copy_69" data-name="Rectangle Copy 69" width="34.946" height="10.129" transform="translate(339.334 413.277)" fill="#ef8366" opacity="0.469"/>
+        <rect id="Rectangle_Copy_50-3" data-name="Rectangle Copy 50" width="157.512" height="9.623" transform="translate(379.344 366.177)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_70" data-name="Rectangle Copy 70" width="157.512" height="9.623" transform="translate(379.344 413.277)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_67-3" data-name="Rectangle Copy 67" width="89.138" height="9.116" transform="translate(379.344 379.345)" fill="#ef8366" opacity="0.396"/>
+        <rect id="Rectangle_Copy_68-3" data-name="Rectangle Copy 68" width="20.765" height="5.571" transform="translate(379.344 395.551)" fill="#ef8366" opacity="0.396"/>
+        <g id="Group_4" data-name="Group 4" transform="translate(341.866 16.714)" opacity="0.217">
+          <text id="October_2020" data-name="October 2020" transform="translate(0 4)" font-size="5" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">October 2020</tspan></text>
+          <rect id="Rectangle-2" data-name="Rectangle" width="48.621" height="11.649" fill="#d8d8d8"/>
+          <rect id="Rectangle_Copy_31" data-name="Rectangle Copy 31" width="17.22" height="11.649" transform="translate(0 18.739)" fill="#d8d8d8"/>
+          <rect id="Rectangle_Copy_33" data-name="Rectangle Copy 33" width="17.22" height="11.649" transform="translate(31.401 18.739)" fill="#d8d8d8"/>
+          <rect id="Rectangle_Copy_34" data-name="Rectangle Copy 34" width="17.22" height="11.649" transform="translate(62.802 18.739)" fill="#d8d8d8"/>
+          <rect id="Rectangle_Copy_35" data-name="Rectangle Copy 35" width="17.22" height="11.649" transform="translate(92.177 18.739)" fill="#d8d8d8"/>
+          <rect id="Rectangle_Copy_36" data-name="Rectangle Copy 36" width="17.22" height="11.649" transform="translate(122.565 18.739)" fill="#d8d8d8"/>
+          <rect id="Rectangle_Copy_37" data-name="Rectangle Copy 37" width="17.22" height="11.649" transform="translate(153.966 18.739)" fill="#d8d8d8"/>
+          <rect id="Rectangle_Copy_38" data-name="Rectangle Copy 38" width="17.22" height="11.649" transform="translate(183.341 18.739)" fill="#d8d8d8"/>
+          <circle id="Oval" cx="4.811" cy="4.811" r="4.811" transform="translate(4.052 38.492)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_8" data-name="Oval Copy 8" cx="4.811" cy="4.811" r="4.811" transform="translate(35.453 38.492)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_13" data-name="Oval Copy 13" cx="4.811" cy="4.811" r="4.811" transform="translate(66.854 38.492)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_18" data-name="Oval Copy 18" cx="4.811" cy="4.811" r="4.811" transform="translate(96.229 38.492)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_23" data-name="Oval Copy 23" cx="4.811" cy="4.811" r="4.811" transform="translate(126.617 38.492)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_28" data-name="Oval Copy 28" cx="4.811" cy="4.811" r="4.811" transform="translate(158.018 38.492)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_33" data-name="Oval Copy 33" cx="4.811" cy="4.811" r="4.811" transform="translate(187.393 38.492)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_4" data-name="Oval Copy 4" cx="4.811" cy="4.811" r="4.811" transform="translate(4.052 62.802)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_9" data-name="Oval Copy 9" cx="4.811" cy="4.811" r="4.811" transform="translate(35.453 62.802)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_14" data-name="Oval Copy 14" cx="4.811" cy="4.811" r="4.811" transform="translate(66.854 62.802)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_19" data-name="Oval Copy 19" cx="4.811" cy="4.811" r="4.811" transform="translate(96.229 62.802)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_24" data-name="Oval Copy 24" cx="4.811" cy="4.811" r="4.811" transform="translate(126.617 62.802)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_29" data-name="Oval Copy 29" cx="4.811" cy="4.811" r="4.811" transform="translate(158.018 62.802)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_34" data-name="Oval Copy 34" cx="4.811" cy="4.811" r="4.811" transform="translate(187.393 62.802)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_5" data-name="Oval Copy 5" cx="4.811" cy="4.811" r="4.811" transform="translate(4.052 87.113)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_10" data-name="Oval Copy 10" cx="4.811" cy="4.811" r="4.811" transform="translate(35.453 87.113)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_15" data-name="Oval Copy 15" cx="4.811" cy="4.811" r="4.811" transform="translate(66.854 87.113)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_20" data-name="Oval Copy 20" cx="4.811" cy="4.811" r="4.811" transform="translate(96.229 87.113)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_25" data-name="Oval Copy 25" cx="4.811" cy="4.811" r="4.811" transform="translate(126.617 87.113)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_30" data-name="Oval Copy 30" cx="4.811" cy="4.811" r="4.811" transform="translate(158.018 87.113)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_35" data-name="Oval Copy 35" cx="4.811" cy="4.811" r="4.811" transform="translate(187.393 87.113)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_6" data-name="Oval Copy 6" cx="4.811" cy="4.811" r="4.811" transform="translate(4.052 110.917)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_11" data-name="Oval Copy 11" cx="4.811" cy="4.811" r="4.811" transform="translate(35.453 110.917)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_16" data-name="Oval Copy 16" cx="4.811" cy="4.811" r="4.811" transform="translate(66.854 110.917)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_21" data-name="Oval Copy 21" cx="4.811" cy="4.811" r="4.811" transform="translate(96.229 110.917)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_26" data-name="Oval Copy 26" cx="4.811" cy="4.811" r="4.811" transform="translate(126.617 110.917)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_31" data-name="Oval Copy 31" cx="4.811" cy="4.811" r="4.811" transform="translate(158.018 110.917)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_36" data-name="Oval Copy 36" cx="4.811" cy="4.811" r="4.811" transform="translate(187.393 110.917)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_7" data-name="Oval Copy 7" cx="4.811" cy="4.811" r="4.811" transform="translate(4.052 135.227)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_12" data-name="Oval Copy 12" cx="4.811" cy="4.811" r="4.811" transform="translate(35.453 135.227)" fill="#d8d8d8"/>
+          <circle id="Oval_Copy_17" data-name="Oval Copy 17" cx="4.811" cy="4.811" r="4.811" transform="translate(66.854 135.227)" fill="#d8d8d8"/>
+        </g>
+        <g id="Group_3" data-name="Group 3" transform="translate(195.497 92.684)">
+          <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="114.968" height="102.307" fill="#ef8366"/>
+          <rect id="Rectangle-3" data-name="Rectangle" width="114.968" height="15.194" transform="translate(0 87.113)" opacity="0.479" fill="url(#linear-gradient-3)"/>
+          <text id="Appointments-2" data-name="Appointments" transform="translate(30.895 73.36)" fill="#fff" font-size="9" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Appointments</tspan></text>
+          <text id="Sept_30_2020" data-name="Sept 30, 2020" transform="translate(39.505 14.142)" fill="#fff" font-size="4" font-family="SignPainter-HouseScript, SignPainter"><tspan x="0" y="0">Sept 30, 2020</tspan></text>
+          <text id="Meet_George_in_15min" data-name="Meet George in 15min" transform="translate(31.401 94.164)" fill="#fff" font-size="4" font-family="SignPainter-HouseScript, SignPainter"><tspan x="0" y="0">Meet George in 15mins</tspan></text>
+          <text id="_6" data-name="6" transform="translate(47.102 50.869)" fill="#fff" font-size="32" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">6</tspan></text>
+        </g>
+      </g>
+      <g id="Group_34" data-name="Group 34" transform="translate(173 9830.15)" style="mix-blend-mode: luminosity;isolation: isolate">
+        <rect id="Rectangle_Copy_28-2" data-name="Rectangle Copy 28" width="563.447" height="422.585" transform="translate(0)" fill="#f6f5f5"/>
+        <g id="Group_Copy_3-3" data-name="Group Copy 3" transform="translate(0)">
+          <g id="Mask-4" data-name="Mask" fill="#f6f5f5" stroke="#cacaca" stroke-miterlimit="10" stroke-width="1">
+            <rect width="563.447" height="422.585" stroke="none"/>
+            <rect x="0.5" y="0.5" width="562.447" height="421.585" fill="none"/>
+          </g>
+          <g id="Group_Copy_3-4" data-name="Group Copy 3" clip-path="url(#clip-path-2)">
+            <g id="Group_2_Copy-2" data-name="Group 2 Copy" transform="translate(-42.816 188.491)" style="mix-blend-mode: luminosity;isolation: isolate">
+              <use id="pitchlogo-2" data-name="pitchlogo" transform="translate(89.432)" xlink:href="#image"/>
+              <path id="Line-2" data-name="Line" d="M179.364.5H.5" transform="translate(-0.5 33.195)" fill="none" stroke="#979797" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.5"/>
+            </g>
+            <g id="Group-2" data-name="Group" transform="translate(185.451 195.078)">
+              <rect id="Rectangle_Copy_3-2" data-name="Rectangle Copy 3" width="115.02" height="82.085" transform="translate(0 81.578)" fill="#ecbdb1"/>
+              <rect id="Rectangle_Copy_4-2" data-name="Rectangle Copy 4" width="115.02" height="55.23" transform="translate(0 163.663)" fill="#e4967e"/>
+              <rect id="Rectangle_Copy_6-2" data-name="Rectangle Copy 6" width="115.02" height="55.23" transform="translate(0 218.893)" fill="#e6a08a"/>
+              <text id="Insights-2" data-name="Insights" transform="translate(39.522 243.121)" fill="#fff" font-size="10" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Insights</tspan></text>
+              <rect id="Rectangle_Copy_2-2" data-name="Rectangle Copy 2" width="115.02" height="81.578" fill="#e6a08a"/>
+              <text id="Opportunities-2" data-name="Opportunities" transform="translate(25.842 40.949)" fill="#fff" font-size="10" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Opportunities</tspan></text>
+              <text id="Products-2" data-name="Products" transform="translate(36.482 123.034)" fill="#fff" font-size="10" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Products</tspan></text>
+              <text id="Reports-2" data-name="Reports" transform="translate(40.029 192.438)" fill="#fff" font-size="12" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Reports</tspan></text>
+            </g>
+            <rect id="Rectangle_Copy_10-2" data-name="Rectangle Copy 10" width="20.775" height="469.202" transform="translate(185.451 469.202) rotate(180)" fill="url(#linear-gradient)"/>
+            <rect id="Rectangle_Copy_11-2" data-name="Rectangle Copy 11" width="20.775" height="469.202" transform="translate(300.471)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+        <rect id="Rectangle_Copy_29-2" data-name="Rectangle Copy 29" width="115.02" height="92.726" transform="translate(185.451)" fill="#bb492a"/>
+        <text id="Contacts_Copy-2" data-name="Contacts Copy" transform="translate(219.4 47.509)" fill="#fff" font-size="13" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Contacts</tspan></text>
+        <rect id="Rectangle_Copy_30-2" data-name="Rectangle Copy 30" width="241.695" height="422.079" transform="translate(321.246 0.507)" fill="#fff"/>
+        <rect id="Rectangle_Copy_115" data-name="Rectangle Copy 115" width="221.427" height="60.297" transform="translate(331.38 38.509)" fill="#fdf6f4" opacity="0.42"/>
+        <rect id="Rectangle_Copy_144" data-name="Rectangle Copy 144" width="221.427" height="60.297" transform="translate(331.38 98.806)" fill="#e9b09e" opacity="0.416"/>
+        <rect id="Rectangle_Copy_146" data-name="Rectangle Copy 146" width="221.427" height="60.297" transform="translate(331.38 158.089)" fill="#f9eae5" opacity="0.416"/>
+        <rect id="Rectangle_Copy_148" data-name="Rectangle Copy 148" width="221.427" height="81.578" transform="translate(331.38 341.007)" fill="#f9eae5" opacity="0.416"/>
+        <rect id="Rectangle_Copy_147" data-name="Rectangle Copy 147" width="221.427" height="122.114" transform="translate(331.38 218.892)" fill="#e9b09e" opacity="0.416"/>
+        <g id="Group_20" data-name="Group 20" transform="translate(368.876 242.201)">
+          <rect id="Rectangle-4" data-name="Rectangle" width="115.02" height="6.08" fill="#f6c3b5"/>
+          <rect id="Rectangle_Copy_102" data-name="Rectangle Copy 102" width="83.605" height="6.08" transform="translate(0 7.6)" fill="#f6c3b5"/>
+        </g>
+        <g id="Group_20_Copy_3" data-name="Group 20 Copy 3" transform="translate(368.876 365.328)">
+          <rect id="Rectangle-5" data-name="Rectangle" width="115.02" height="6.08" fill="#f6c3b5"/>
+          <rect id="Rectangle_Copy_102-2" data-name="Rectangle Copy 102" width="83.605" height="6.08" transform="translate(0 7.6)" fill="#f6c3b5"/>
+        </g>
+        <g id="Group_20_Copy_4" data-name="Group 20 Copy 4" transform="translate(368.876 393.704)">
+          <rect id="Rectangle-6" data-name="Rectangle" width="115.02" height="6.08" fill="#f6c3b5"/>
+          <rect id="Rectangle_Copy_102-3" data-name="Rectangle Copy 102" width="83.605" height="6.08" transform="translate(0 7.6)" fill="#f6c3b5"/>
+        </g>
+        <g id="Group_20_Copy" data-name="Group 20 Copy" transform="translate(368.876 280.204)">
+          <rect id="Rectangle-7" data-name="Rectangle" width="115.02" height="6.08" fill="#f6c3b5"/>
+          <rect id="Rectangle_Copy_102-4" data-name="Rectangle Copy 102" width="83.605" height="6.08" transform="translate(0 7.6)" fill="#f6c3b5"/>
+        </g>
+        <rect id="Rectangle_Copy_40-2" data-name="Rectangle Copy 40" width="221.427" height="27.362" transform="translate(331.38 11.147)" fill="#ef8366"/>
+        <g id="Rectangle_Copy_40-3" data-name="Rectangle Copy 40" transform="translate(331.38 38.509)" fill="none" stroke="#ef8366" stroke-miterlimit="10" stroke-width="0.5">
+          <rect width="221.427" height="384.076" stroke="none"/>
+          <rect x="0.25" y="0.25" width="220.927" height="383.576" fill="none"/>
+        </g>
+        <text id="Meeting_1" data-name="Meeting 1" transform="translate(345.101 26.254)" fill="#fff" font-size="7" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Meeting 1</tspan></text>
+        <text id="Date_Time" data-name="Date &amp; Time" transform="translate(341.514 48.603)" fill="#ef8366" font-size="4" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Date &amp; Time</tspan></text>
+        <text id="Location" transform="translate(341.514 108.899)" fill="#ef8366" font-size="4" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Location</tspan></text>
+        <text id="Notes" transform="translate(341.514 168.183)" fill="#ef8366" font-size="4" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Notes</tspan></text>
+        <text id="Documents" transform="translate(341.514 349.075)" fill="#ef8366" font-size="4" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Documents</tspan></text>
+        <text id="Invitees" transform="translate(341.514 228.987)" fill="#ef8366" font-size="4" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Invitees</tspan></text>
+        <g id="Group_3-2" data-name="Group 3" transform="translate(195.585 92.726)">
+          <rect id="Rectangle_Copy-2" data-name="Rectangle Copy" width="115.02" height="102.353" fill="#ef8366"/>
+          <rect id="Rectangle-8" data-name="Rectangle" width="115.02" height="15.201" transform="translate(0 87.152)" opacity="0.479" fill="url(#linear-gradient-3)"/>
+          <text id="Appointments-3" data-name="Appointments" transform="translate(30.909 73.391)" fill="#fff" font-size="9" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">Appointments</tspan></text>
+          <text id="Sept_30_2020-2" data-name="Sept 30, 2020" transform="translate(39.522 14.147)" fill="#fff" font-size="4" font-family="SignPainter-HouseScript, SignPainter"><tspan x="0" y="0">Sept 30, 2020</tspan></text>
+          <text id="Meet_George_in_15min-2" data-name="Meet George in 15min" transform="translate(31.415 94.205)" fill="#fff" font-size="4" font-family="SignPainter-HouseScript, SignPainter"><tspan x="0" y="0">Meet George in 15mins</tspan></text>
+          <text id="_6-2" data-name="6" transform="translate(47.123 50.882)" fill="#fff" font-size="32" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-weight="600"><tspan x="0" y="0">6</tspan></text>
+        </g>
+        <path id="Fill_1" data-name="Fill 1" d="M.108,3.944l3.311,3.31a.372.372,0,1,0,.526-.525L.9,3.681,3.944.634A.372.372,0,0,0,3.418.109L.107,3.418A.375.375,0,0,0,.108,3.944Z" transform="translate(337.46 21.281)" fill="#fff"/>
+        <g id="Group_16" data-name="Group 16" transform="translate(341.514 57.258)" opacity="0.373">
+          <rect id="Rectangle-9" data-name="Rectangle" width="183.424" height="14.188" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_96" data-name="Rectangle Copy 96" width="91.712" height="8.107" transform="translate(0 17.734)" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_97" data-name="Rectangle Copy 97" width="37.496" height="3.547" transform="translate(0 29.388)" fill="#ef8366"/>
+        </g>
+        <g id="Group_16_Copy" data-name="Group 16 Copy" transform="translate(341.514 117.553)" opacity="0.373">
+          <rect id="Rectangle-10" data-name="Rectangle" width="115.02" height="14.188" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_96-2" data-name="Rectangle Copy 96" width="57.763" height="8.107" transform="translate(0 17.734)" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_97-2" data-name="Rectangle Copy 97" width="23.308" height="3.547" transform="translate(0 29.388)" fill="#ef8366"/>
+        </g>
+        <g id="Group_17" data-name="Group 17" transform="translate(341.514 176.837)" opacity="0.442">
+          <rect id="Rectangle-11" data-name="Rectangle" width="205.212" height="4.56" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_98" data-name="Rectangle Copy 98" width="205.212" height="4.56" transform="translate(0 7.094)" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_99" data-name="Rectangle Copy 99" width="205.212" height="4.56" transform="translate(0 14.188)" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_100" data-name="Rectangle Copy 100" width="205.212" height="4.56" transform="translate(0 21.281)" fill="#ef8366"/>
+          <rect id="Rectangle_Copy_101" data-name="Rectangle Copy 101" width="92.726" height="4.56" transform="translate(0 28.375)" fill="#ef8366"/>
+        </g>
+        <g id="Group_18" data-name="Group 18" transform="translate(497.07 105.394)">
+          <rect id="Rectangle-12" data-name="Rectangle" width="48.136" height="48.136" fill="#f4bcac" opacity="0.647"/>
+        </g>
+        <g id="Group_19" data-name="Group 19" transform="translate(341.514 237.134)">
+          <rect id="Rectangle-13" data-name="Rectangle" width="23.308" height="23.308" fill="#f4c8ba"/>
+          <g id="Group_5_Copy" data-name="Group 5 Copy" transform="translate(5.574 6.08)" opacity="0.457" style="mix-blend-mode: luminosity;isolation: isolate">
+            <g id="Group_4-2" data-name="Group 4" transform="translate(0 6.102)">
+              <path id="Clip_2-4" data-name="Clip 2" d="M0,0H12.667V5.043H0Z" transform="translate(0 0)" fill="none"/>
+              <g id="Group_4-3" data-name="Group 4" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+                <path id="Fill_1-2" data-name="Fill 1" d="M3.531,1.124A7.934,7.934,0,0,0,0,0,8.167,8.167,0,0,1,.759.392a1.991,1.991,0,0,1,.677.715,7.111,7.111,0,0,1,1.7.749.416.416,0,0,1,.181.359V4.179H1.734v.844H3.714a.409.409,0,0,0,.4-.422V2.215A1.273,1.273,0,0,0,3.531,1.124Z" transform="translate(8.558 0.022)" fill="#4c98cf"/>
+                <path id="Fill_3" data-name="Fill 3" d="M9.1,5.046H.4A.41.41,0,0,1,0,4.623V2.237A1.274,1.274,0,0,1,.578,1.146,7.965,7.965,0,0,1,4.75,0,7.965,7.965,0,0,1,8.922,1.146,1.273,1.273,0,0,1,9.5,2.237V4.623A.41.41,0,0,1,9.1,5.046ZM4.75.843A7.213,7.213,0,0,0,.973,1.878a.416.416,0,0,0-.181.359V4.2H8.709V2.237a.416.416,0,0,0-.181-.358A7.214,7.214,0,0,0,4.75.843Z" transform="translate(0 0)" fill="#4c98cf"/>
+              </g>
+            </g>
+            <path id="Fill_5" data-name="Fill 5" d="M.6.815A1.876,1.876,0,0,1,.792.8a1.991,1.991,0,0,1,0,3.981,1.87,1.87,0,0,1-.2-.019,3.583,3.583,0,0,1-.6.683,2.661,2.661,0,0,0,.792.132A2.787,2.787,0,0,0,.792,0,2.661,2.661,0,0,0,0,.132,3.577,3.577,0,0,1,.6.815Z" transform="translate(7.094)" fill="#4c98cf"/>
+            <path id="Fill_6" data-name="Fill 6" d="M2.787,5.574A2.787,2.787,0,1,1,5.574,2.787,2.79,2.79,0,0,1,2.787,5.574ZM2.787.8A1.991,1.991,0,1,0,4.777,2.787,1.993,1.993,0,0,0,2.787.8Z" transform="translate(2.027 0)" fill="#4c98cf"/>
+          </g>
+        </g>
+        <g id="Group_19_Copy_3" data-name="Group 19 Copy 3" transform="translate(341.514 360.262)">
+          <rect id="Rectangle-14" data-name="Rectangle" width="23.308" height="23.308" fill="#f4c8ba"/>
+        </g>
+        <g id="Group_19_Copy_4" data-name="Group 19 Copy 4" transform="translate(341.514 388.636)">
+          <rect id="Rectangle-15" data-name="Rectangle" width="23.308" height="23.308" fill="#f4c8ba"/>
+        </g>
+        <g id="Group_20_Copy_5" data-name="Group 20 Copy 5" transform="translate(368.876 420.052)">
+          <rect id="Rectangle-16" data-name="Rectangle" width="115.02" height="2.533" fill="#f6c3b5"/>
+        </g>
+        <g id="Group_19_Copy_5" data-name="Group 19 Copy 5" transform="translate(341.514 417.011)">
+          <rect id="Rectangle-17" data-name="Rectangle" width="23.308" height="5.574" fill="#f4c8ba"/>
+        </g>
+        <g id="Group_19_Copy" data-name="Group 19 Copy" transform="translate(341.514 275.137)">
+          <rect id="Rectangle-18" data-name="Rectangle" width="23.308" height="23.308" fill="#f4c8ba"/>
+          <g id="Group_5_Copy-2" data-name="Group 5 Copy" transform="translate(5.574 6.08)" opacity="0.462" style="mix-blend-mode: luminosity;isolation: isolate">
+            <g id="Group_4-4" data-name="Group 4" transform="translate(0 6.102)">
+              <path id="Clip_2-5" data-name="Clip 2" d="M0,0H12.667V5.043H0Z" transform="translate(0 0)" fill="none"/>
+              <g id="Group_4-5" data-name="Group 4" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+                <path id="Fill_1-3" data-name="Fill 1" d="M3.531,1.124A7.934,7.934,0,0,0,0,0,8.167,8.167,0,0,1,.759.392a1.991,1.991,0,0,1,.677.715,7.111,7.111,0,0,1,1.7.749.416.416,0,0,1,.181.359V4.179H1.734v.844H3.714a.409.409,0,0,0,.4-.422V2.215A1.273,1.273,0,0,0,3.531,1.124Z" transform="translate(8.558 0.022)" fill="#4c98cf"/>
+                <path id="Fill_3-2" data-name="Fill 3" d="M9.1,5.046H.4A.41.41,0,0,1,0,4.623V2.237A1.274,1.274,0,0,1,.578,1.146,7.965,7.965,0,0,1,4.75,0,7.965,7.965,0,0,1,8.922,1.146,1.273,1.273,0,0,1,9.5,2.237V4.623A.41.41,0,0,1,9.1,5.046ZM4.75.843A7.213,7.213,0,0,0,.973,1.878a.416.416,0,0,0-.181.359V4.2H8.709V2.237a.416.416,0,0,0-.181-.358A7.214,7.214,0,0,0,4.75.843Z" transform="translate(0 0)" fill="#4c98cf"/>
+              </g>
+            </g>
+            <path id="Fill_5-2" data-name="Fill 5" d="M.6.815A1.876,1.876,0,0,1,.792.8a1.991,1.991,0,0,1,0,3.981,1.87,1.87,0,0,1-.2-.019,3.583,3.583,0,0,1-.6.683,2.661,2.661,0,0,0,.792.132A2.787,2.787,0,0,0,.792,0,2.661,2.661,0,0,0,0,.132,3.577,3.577,0,0,1,.6.815Z" transform="translate(7.094)" fill="#4c98cf"/>
+            <path id="Fill_6-2" data-name="Fill 6" d="M2.787,5.574A2.787,2.787,0,1,1,5.574,2.787,2.79,2.79,0,0,1,2.787,5.574ZM2.787.8A1.991,1.991,0,1,0,4.777,2.787,1.993,1.993,0,0,0,2.787.8Z" transform="translate(2.027 0)" fill="#4c98cf"/>
+          </g>
+        </g>
+        <path id="Line_3" data-name="Line 3" d="M.5.5H201.152" transform="translate(341.267 267.289)" fill="none" stroke="#e6a08a" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.5"/>
+        <path id="Line_3_Copy" data-name="Line 3 Copy" d="M.5.5H201.152" transform="translate(341.267 305.292)" fill="none" stroke="#e6a08a" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.5"/>
+        <g id="Group_20_Copy_2" data-name="Group 20 Copy 2" transform="translate(368.876 318.206)">
+          <rect id="Rectangle-19" data-name="Rectangle" width="115.02" height="6.08" fill="#f6c3b5"/>
+          <rect id="Rectangle_Copy_102-5" data-name="Rectangle Copy 102" width="83.605" height="6.08" transform="translate(0 7.6)" fill="#f6c3b5"/>
+        </g>
+        <g id="Group_19_Copy_2" data-name="Group 19 Copy 2" transform="translate(341.514 313.139)">
+          <rect id="Rectangle-20" data-name="Rectangle" width="23.308" height="23.308" fill="#f4c8ba"/>
+          <g id="Group_5_Copy-3" data-name="Group 5 Copy" transform="translate(5.574 6.08)" opacity="0.384" style="mix-blend-mode: luminosity;isolation: isolate">
+            <g id="Group_4-6" data-name="Group 4" transform="translate(0 6.102)">
+              <path id="Clip_2-6" data-name="Clip 2" d="M0,0H12.667V5.043H0Z" transform="translate(0 0)" fill="none"/>
+              <g id="Group_4-7" data-name="Group 4" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+                <path id="Fill_1-4" data-name="Fill 1" d="M3.531,1.124A7.934,7.934,0,0,0,0,0,8.167,8.167,0,0,1,.759.392a1.991,1.991,0,0,1,.677.715,7.111,7.111,0,0,1,1.7.749.416.416,0,0,1,.181.359V4.179H1.734v.844H3.714a.409.409,0,0,0,.4-.422V2.215A1.273,1.273,0,0,0,3.531,1.124Z" transform="translate(8.558 0.022)" fill="#4c98cf"/>
+                <path id="Fill_3-3" data-name="Fill 3" d="M9.1,5.046H.4A.41.41,0,0,1,0,4.623V2.237A1.274,1.274,0,0,1,.578,1.146,7.965,7.965,0,0,1,4.75,0,7.965,7.965,0,0,1,8.922,1.146,1.273,1.273,0,0,1,9.5,2.237V4.623A.41.41,0,0,1,9.1,5.046ZM4.75.843A7.213,7.213,0,0,0,.973,1.878a.416.416,0,0,0-.181.359V4.2H8.709V2.237a.416.416,0,0,0-.181-.358A7.214,7.214,0,0,0,4.75.843Z" transform="translate(0 0)" fill="#4c98cf"/>
+              </g>
+            </g>
+            <path id="Fill_5-3" data-name="Fill 5" d="M.6.815A1.876,1.876,0,0,1,.792.8a1.991,1.991,0,0,1,0,3.981,1.87,1.87,0,0,1-.2-.019,3.583,3.583,0,0,1-.6.683,2.661,2.661,0,0,0,.792.132A2.787,2.787,0,0,0,.792,0,2.661,2.661,0,0,0,0,.132,3.577,3.577,0,0,1,.6.815Z" transform="translate(7.094)" fill="#4c98cf"/>
+            <path id="Fill_6-3" data-name="Fill 6" d="M2.787,5.574A2.787,2.787,0,1,1,5.574,2.787,2.79,2.79,0,0,1,2.787,5.574ZM2.787.8A1.991,1.991,0,1,0,4.777,2.787,1.993,1.993,0,0,0,2.787.8Z" transform="translate(2.027 0)" fill="#4c98cf"/>
+          </g>
+        </g>
+        <g id="Group_21" data-name="Group 21" transform="translate(537.606 343.54)">
+          <rect id="Rectangle-21" data-name="Rectangle" width="12.161" height="12.161" fill="#f6ded7"/>
+          <path id="Triangle" d="M2.28,0,4.56,4.56H0Z" transform="translate(8.614 4.054) rotate(90)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="A_simple_timeline_view_of_the_days_for_a_given_month_which_prioritises_the_upcoming_past_appointments_meeting_events_coupled_with_a_collapsible_calendar_dropdown_with_a_heat_map_view_to_show_which_days_are_busy_and_which_are_free_in_a_quick_glance._" data-name="A simple timeline view of the days for a given month which prioritises the upcoming/past appointments/meeting events, coupled with a collapsible calendar dropdown with a “heat map” view to show which days are busy and which are free, in a quick glance.
+" transform="translate(857 9454)" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="17">A simple timeline view of the days for a given month </tspan><tspan x="0" y="42">which prioritises the upcoming/past appointments/</tspan><tspan x="0" y="67">meeting events, coupled with a collapsible calendar </tspan><tspan x="0" y="92">dropdown with a “heat map” view to show which </tspan><tspan x="0" y="117">days are busy and which are free, in a quick glance.</tspan><tspan x="0" y="142"></tspan></text>
+      <text id="Google_Maps_integrated_location_suggestions_and_automatic_detection_of_client_office_venue_address_with_option_to_view_directions_and_time_required_to_navigate_from_current_location" data-name="Google Maps integrated location suggestions and automatic detection of client office/venue address with option to view directions and time required to navigate from current location" transform="translate(849 9902)" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="17">Google Maps integrated location suggestions and </tspan><tspan x="0" y="42">automatic detection of client office/venue address </tspan><tspan x="0" y="67">with option to view directions and time required to </tspan><tspan x="0" y="92">navigate from current location</tspan></text>
+      <text id="Creation_of_sales_meetings_appointments_with_feature_to_maintain_mail-based_communication_to_fetch_meeting_data_from_it_and_create_event_with_a_single_tap_" data-name="Creation of sales meetings/appointments with feature to maintain mail-based communication to fetch meeting data from it and create event with a single tap
+" transform="translate(857 9649)" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="17">Creation of sales meetings/appointments with </tspan><tspan x="0" y="42">feature to maintain mail-based communication to </tspan><tspan x="0" y="67">fetch meeting data from it and create event with a </tspan><tspan x="0" y="92">single tap</tspan></text>
+      <text id="The_user_can_append_the_collateral_playlist_while_creating_the_appointment." data-name="The user can append the collateral playlist while creating the appointment." transform="translate(853 10106)" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="17">The user can append the collateral playlist while </tspan><tspan x="0" y="42">creating the appointment.</tspan></text>
+      <g id="Group_84" data-name="Group 84" transform="translate(483 9465)">
+        <line id="Line_10" data-name="Line 10" x2="62.5" transform="translate(242.5 55.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_11" data-name="Line 11" y1="49" x2="49" transform="translate(305 6.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="6.5" cy="6.5" r="6.5" transform="translate(346.5)" fill="#1a63d9"/>
+      </g>
+      <g id="Group_88" data-name="Group 88" transform="translate(483 9660)">
+        <line id="Line_10-2" data-name="Line 10" x2="62.5" transform="translate(242.5 55.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_11-2" data-name="Line 11" y1="49" x2="49" transform="translate(305 6.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <circle id="Ellipse_9-2" data-name="Ellipse 9" cx="6.5" cy="6.5" r="6.5" transform="translate(346.5)" fill="#1a63d9"/>
+      </g>
+      <g id="Group_86" data-name="Group 86" transform="translate(475 9911)">
+        <line id="Line_10-3" data-name="Line 10" x2="62.5" transform="translate(242.5 55.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_11-3" data-name="Line 11" y1="49" x2="49" transform="translate(305 6.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <circle id="Ellipse_9-3" data-name="Ellipse 9" cx="6.5" cy="6.5" r="6.5" transform="translate(346.5)" fill="#1a63d9"/>
+      </g>
+      <g id="Group_85" data-name="Group 85" transform="translate(483 10125)">
+        <line id="Line_10-4" data-name="Line 10" x2="62.5" transform="translate(242.5 55.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Line_11-4" data-name="Line 11" y1="49" x2="49" transform="translate(305 6.5)" fill="none" stroke="#707070" stroke-width="1"/>
+        <circle id="Ellipse_9-4" data-name="Ellipse 9" cx="6.5" cy="6.5" r="6.5" transform="translate(346.5)" fill="#1a63d9"/>
+      </g>
+      <path id="Icon_awesome-map-marked-alt" data-name="Icon awesome-map-marked-alt" d="M6.774,0A2.964,2.964,0,0,0,3.811,2.964c0,1.323,1.937,3.735,2.679,4.611a.371.371,0,0,0,.569,0C7.8,6.7,9.738,4.287,9.738,2.964A2.964,2.964,0,0,0,6.774,0Zm0,3.952a.988.988,0,1,1,.988-.988A.988.988,0,0,1,6.774,3.952ZM.473,5.08a.753.753,0,0,0-.473.7v5.888a.376.376,0,0,0,.516.35l3.247-1.478V5.055a7.123,7.123,0,0,1-.5-1.092Zm6.3,3.381a1.124,1.124,0,0,1-.859-.4c-.462-.546-.954-1.167-1.4-1.8v4.281l4.516,1.505V6.257c-.445.637-.937,1.259-1.4,1.8A1.124,1.124,0,0,1,6.774,8.46Zm6.258-4.669L9.785,5.269v6.774l3.29-1.316a.753.753,0,0,0,.473-.7V4.14A.376.376,0,0,0,13.033,3.791Z" transform="translate(688.318 9951.422)" opacity="0.275"/>
+    </g>
+  </g>
+</svg>

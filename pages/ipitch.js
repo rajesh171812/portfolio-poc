@@ -106,7 +106,7 @@ export default function Ipitch() {
         <div
           className="mb-6 grid grid-cols-6 gap-4 bg-fixed font-sans"
           style={{
-            backgroundImage: `url(http://unsplash.it/1300/250)`,
+            backgroundImage: `url(/Casestudy2_Pitch/Casestudypitch-bg.svg)`,
             backgroundPosition: "-500px -200px",
             backgroundSize: "cover",
           }}

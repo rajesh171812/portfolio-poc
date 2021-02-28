@@ -5,9 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/blackSubHeading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tealBanner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tealDivider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tealHeading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tealHeading2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 11.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 13.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 14.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 15@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 16.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 17.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 18.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 19.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 20.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 9@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Group 224.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Group 225.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Group 226.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Icon feather-users.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Icon metro-table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Web 1920 – 1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pitch-bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/regularParagraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/regularParagraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/searchProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/searchProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +62,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -42,6 +75,7 @@
       <recent name="$PROJECT_DIR$/pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -59,7 +93,7 @@
       <workItem from="1612314730044" duration="14517000" />
       <workItem from="1612407294063" duration="34938000" />
       <workItem from="1612810146612" duration="4323000" />
-      <workItem from="1613920211085" duration="19123000" />
+      <workItem from="1613920211085" duration="47037000" />
     </task>
     <servers />
   </component>
@@ -67,22 +101,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="155" key="SettingsEditor" timestamp="1612063711693">
-      <screen x="0" y="23" width="1920" height="982" />
+    <state x="461" y="158" key="SettingsEditor" timestamp="1614459885161">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
+    <state x="461" y="158" key="SettingsEditor/0.23.1920.1002@0.23.1920.1002" timestamp="1614459885161" />
     <state x="461" y="155" key="SettingsEditor/0.23.1920.982@0.23.1920.982" timestamp="1612063711693" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1611978682127" />
-    <state x="535" y="271" width="1385" height="500" key="find.popup" timestamp="1614054866523">
-      <screen x="0" y="23" width="1920" height="995" />
+    <state x="535" y="269" width="1385" height="496" key="find.popup" timestamp="1614493046915">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
+    <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614458275783" />
     <state x="661" y="268" width="598" height="490" key="find.popup/0.23.1920.980@0.23.1920.980" timestamp="1612020305391" />
+    <state x="535" y="269" width="1385" height="496" key="find.popup/0.23.1920.984@0.23.1920.984" timestamp="1614493046915" />
+    <state x="330" y="485" width="1385" height="498" key="find.popup/0.23.1920.986@0.23.1920.986" timestamp="1614480000445" />
     <state x="554" y="270" width="1366" height="495" key="find.popup/0.23.1920.989@0.23.1920.989" timestamp="1612242454393" />
     <state x="553" y="270" width="1367" height="497" key="find.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318871266" />
-    <state x="535" y="271" width="1385" height="500" key="find.popup/0.23.1920.994@0.23.1920.994" timestamp="1613921548184" />
+    <state x="535" y="271" width="1385" height="499" key="find.popup/0.23.1920.992@0.23.1920.992" timestamp="1614291044118" />
+    <state x="535" y="271" width="1385" height="500" key="find.popup/0.23.1920.994@0.23.1920.994" timestamp="1614267435420" />
     <state x="535" y="271" width="1385" height="500" key="find.popup/0.23.1920.995@0.23.1920.995" timestamp="1614054866523" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1614137315215">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="535" y="272" width="1385" height="502" key="find.popup/0.23.1920.997@0.23.1920.997" timestamp="1614454225063" />
+    <state x="625" y="244" width="670" height="685" key="search.everywhere.popup" timestamp="1614459882667">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
+    <state x="625" y="244" width="670" height="685" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614459882667" />
     <state x="625" y="238" width="670" height="668" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1612024126338" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1920.989@0.23.1920.989" timestamp="1614137315215" />
     <state x="625" y="241" width="670" height="678" key="search.everywhere.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318896701" />

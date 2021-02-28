@@ -18,8 +18,10 @@ module.exports = {
       blue: colors.blue,
       red: colors.rose,
       pink: colors.fuchsia,
+      orange: '#ffa500',
       blueHeading: '#1A63D0',
       headerLine: '#b4b4b4',
+      teal:'#31A88C',
       headerLinksNotSelected: '#848484'
     },
     background: {
@@ -28,7 +30,8 @@ module.exports = {
       gray: '#cccccc',
       work1: '#26CFA7',
       work2: '#0E5AFF',
-      work3: '#672CC0'
+      work3: '#672CC0',
+      teal:'#31A88C',
     },
     gradientColorStops: {
       'primary': '#000',
