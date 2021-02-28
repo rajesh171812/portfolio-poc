@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/blackSubHeading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tealBanner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tealDivider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tealHeading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/tealHeading2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 11.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 13.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 14.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 15@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 16.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 17.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 18.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 19.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 20.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Artboard – 9@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Group 224.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Group 225.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Group 226.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Icon feather-users.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Icon metro-table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy2_Pitch/Web 1920 – 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pitch-bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/regularParagraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/regularParagraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/searchProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/searchProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +58,7 @@
       <workItem from="1612314730044" duration="14517000" />
       <workItem from="1612407294063" duration="34938000" />
       <workItem from="1612810146612" duration="4323000" />
-      <workItem from="1613920211085" duration="47037000" />
+      <workItem from="1613920211085" duration="49849000" />
     </task>
     <servers />
   </component>

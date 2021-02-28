@@ -123,7 +123,7 @@ export default function SearchProject() {
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <div className="text-center text-6xl text-teal">
+            <div className="text-center text-3xl md:text-6xl text-teal">
               Our Methodology
             </div>
             <div className="mt-24 mb-28">
@@ -401,16 +401,16 @@ export default function SearchProject() {
               <RegularParagraph content="2. Analyze datas for a particular client and plan." />
               <RegularParagraph content="3. Review goals and performance." />
             </div>
-            <div className="grid grid-flow-col mt-12 mb-36">
-              <div className="pr-12 border-r border-headerLine">
+            <div className="flex flex-col md:flex-row mt-12 mb-36">
+              <div className="pl-12 pr-12 py-4 md:border-r border-headerLine">
                 <div className="font-sans font-bold text-6xl">8</div>
                 <div className="font-serif text-xl">Participants</div>
               </div>
-              <div className="px-12 border-r border-headerLine">
+              <div className="px-12 py-4 md:border-r border-headerLine">
                 <div className="font-sans font-bold text-6xl">87%</div>
                 <div className="font-serif text-xl">Tasks were completed </div>
               </div>
-              <div className="pl-12">
+              <div className="pl-12 py-4">
                 <div className="font-sans font-bold text-6xl">100%</div>
                 <div className="font-serif text-xl">
                   Of participants enjoyed this experience.
