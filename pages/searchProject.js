@@ -47,7 +47,7 @@ export default function SearchProject() {
               </Link>
             </div>
             <div className="flex flex-col md:flex-row items-stretch">
-              <div className="pt-5 self-start">
+              <div className="pt-16">
                 <div className="mb-7 text-6xl font-sans font-bold text-white">Business Edge</div>
                 <div className="md:w-3/4 text-2xl font-serif font-light">
                   Re-designed consultant application and increase in users using new
@@ -142,7 +142,7 @@ export default function SearchProject() {
             <div className="text-center text-3xl md:text-6xl text-teal font-bold">
               Our Methodology
             </div>
-            <div className="mt-24 mb-28">
+            <div className="mt-24">
               <img
                 src="/Casestudy_BE/Casestudy1_process.svg"
                 alt="process"
