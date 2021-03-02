@@ -46,15 +46,15 @@ export default function SearchProject() {
                 />
               </Link>
             </div>
-            <div className="flex flex-row pt-24 items-stretch">
+            <div className="flex flex-col md:flex-row pt-24 items-stretch">
               <div className="self-start">
                 <div className="mb-7 text-6xl font-sans font-bold text-white">Business Edge</div>
-                <div className="w-2/3 text-3xl font-serif font-regular">
+                <div className="w-1/2 md:w-2/3 text-3xl font-serif font-regular">
                   Re-designed consultant application and increase in users using new
                   the application
                 </div>
               </div>
-              <div className="self-end">
+              <div className="self-end mt-10">
                 <img
                     src="/Casestudy_BE/Casestudy1_Header_image.svg"
                     alt="Business Edge"
