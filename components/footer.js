@@ -9,17 +9,17 @@ export default function Footer() {
     setCurrentRoute(router.pathname);
   });
   return (
-    <div>
+    <div className="p-7 md:p-0 bg-footerBackgroundColor">
       {currentRoute === '/ipitch' || currentRoute === '/searchProject' || currentRoute === '/vendorManagement'? (
         <div
           className={
-            "flex flex-row items-center justify-center font-sans font-bold bg-footerBackgroundColor text-footerFontColor "
+            "flex flex-col md:flex-row items-center justify-center font-sans font-bold bg-footerBackgroundColor text-footerFontColor "
           }
         >
           <div className="flex flex-col font-serif font-light text-base">
             <img
               src="/Casestudy_Footer/Footer_Profile.svg"
-              alt="Business Edge"
+              alt="Profile"
               className="object-center"
             />
             <Link href="/about">
@@ -33,7 +33,7 @@ export default function Footer() {
             </Link>
           </div>
           <div className="my-16 flex flex-col ml-20">
-            <div className="text-base">SEE MORE OF MY WORK</div>
+            <div className="text-sm font-regular">SEE MORE OF MY WORK</div>
             <Link href="/searchProject" className="mt-2">
               <img
                   src="/Casestudy_Footer/Footer_3.svg"

@@ -125,10 +125,10 @@ export default function SearchProject() {
         </div>
 
         {/*Full size before after*/}
-        <div className="mt-24 grid grid-cols-6 gap-4">
+        <div className="my-36 py-16 grid grid-cols-6 gap-4 bg-tealLight">
           <div className="col-span-6 m-auto">
             <img
-              src="/Casestudy_BE/Casestudy1_impacts.svg"
+              src="/Casestudy_BE/Casestudy1_Impact.svg"
               alt="Business Edge"
               className="object-center"
             />
@@ -378,12 +378,12 @@ export default function SearchProject() {
             <div className="mt-12 grid grid-flow-col gap-4">
               <img
                 className="mr-1"
-                src="/Casestudy_BE/Casestudy1_solution_contact_1.png"
+                src="/Casestudy_BE/Casestudy1_solution_contact_1.jpg"
                 alt="contact"
                 className=""
               />
               <img
-                src="/Casestudy_BE/Casestudy1_solution_contact_2.png"
+                src="/Casestudy_BE/Casestudy1_solution_contact_2.jpg"
                 alt="contact"
                 className=""
               />

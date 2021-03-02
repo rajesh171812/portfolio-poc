@@ -22,6 +22,7 @@ module.exports = {
       blueHeading: '#1A63D0',
       headerLine: '#b4b4b4',
       teal:'#31A88C',
+      tealLight:'#4ABFA3',
       headerLinksNotSelected: '#848484',
       footerBackgroundColor: '#F7F8FC',
       footerFontColor: '#707070'
