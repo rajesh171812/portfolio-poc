@@ -10,6 +10,7 @@ import TealBanner from "../components/tealBanner";
 import TealHeading2 from "../components/tealHeading2";
 import TealDivider from "../components/tealDivider";
 import BlackSubHeading from "../components/blackSubHeading";
+import Link from "next/link";
 
 export default function SearchProject() {
   const [showScroll, setShowScroll] = useState(false);
@@ -27,7 +28,7 @@ export default function SearchProject() {
       </div>
       <div className="">
         <div
-          className="mb-6 grid grid-cols-6 gap-4 bg-fixed font-sans"
+          className="mb-6 grid grid-cols-10 gap-4 bg-fixed font-sans"
           style={{
             backgroundImage: `url(/Casestudy_BE/Casestudy1_Header.svg)`,
             backgroundPosition: "-500px -200px",
@@ -35,20 +36,38 @@ export default function SearchProject() {
           }}
         >
           <div className="col-span-1"></div>
-          <div className=" col-span-4 my-12 py-8 text-white">
-            <div className="py-2 text-6xl font-sans text-bold">
-              Business Edge
+          <div className=" col-span-8 my-12 text-white">
+            <div>
+              <Link href="/work">
+                <img
+                    src="/Casestudy_BE/Casestudy_profilepic.svg"
+                    alt="Business Edge"
+                    className="object-center"
+                />
+              </Link>
             </div>
-            <div className="text-3xl font-serif">
-              Re-designed consultant application and increase in users using new
-              the application
+            <div className="flex flex-row pt-24 items-stretch">
+              <div className="self-start">
+                <div className="mb-7 text-6xl font-sans font-bold text-white">Business Edge</div>
+                <div className="w-2/3 text-3xl font-serif font-regular">
+                  Re-designed consultant application and increase in users using new
+                  the application
+                </div>
+              </div>
+              <div className="self-end">
+                <img
+                    src="/Casestudy_BE/Casestudy1_Header_image.svg"
+                    alt="Business Edge"
+                    className=""
+                />
+              </div>
             </div>
           </div>
           <div className="col-span-1"></div>
         </div>
         <div className="grid grid-cols-6 gap-4 font-serif">
           <div className="col-span-1"></div>
-          <div className="col-span-4 mt-24 text-lg">
+          <div className="col-span-4 mt-24 text-6xl">
             <RegularParagraph content="A hundred year-old Retirement Financial Services company from New York, USA with a global presence, (name not disclosed due to confidentiality purpose and hereafter referred to as Retirement Services Institution (RSI)) approached us to provide a solution for a consultant application." />
             <TealHeading headingTitle="Business Edge Overview" />
             <RegularParagraph

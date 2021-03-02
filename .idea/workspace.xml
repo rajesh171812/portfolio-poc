@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_Footer/Footer_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_Footer/Footer_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_Footer/Footer_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_Footer/Footer_Profile.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/searchProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/searchProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +58,8 @@
       <workItem from="1612314730044" duration="14517000" />
       <workItem from="1612407294063" duration="34938000" />
       <workItem from="1612810146612" duration="4323000" />
-      <workItem from="1613920211085" duration="59242000" />
+      <workItem from="1613920211085" duration="60202000" />
+      <workItem from="1614644448818" duration="2701000" />
     </task>
     <servers />
   </component>
@@ -80,10 +73,10 @@
     <state x="461" y="158" key="SettingsEditor/0.23.1920.1002@0.23.1920.1002" timestamp="1614459885161" />
     <state x="461" y="155" key="SettingsEditor/0.23.1920.982@0.23.1920.982" timestamp="1612063711693" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1611978682127" />
-    <state x="533" y="270" width="1387" height="495" key="find.popup" timestamp="1614546197635">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="535" y="273" width="1385" height="505" key="find.popup" timestamp="1614645557072">
+      <screen x="0" y="23" width="1920" height="1002" />
     </state>
-    <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614458275783" />
+    <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614645557072" />
     <state x="661" y="268" width="598" height="490" key="find.popup/0.23.1920.980@0.23.1920.980" timestamp="1612020305391" />
     <state x="535" y="269" width="1385" height="496" key="find.popup/0.23.1920.984@0.23.1920.984" timestamp="1614493046915" />
     <state x="330" y="485" width="1385" height="498" key="find.popup/0.23.1920.986@0.23.1920.986" timestamp="1614480000445" />
