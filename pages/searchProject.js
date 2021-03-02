@@ -36,7 +36,7 @@ export default function SearchProject() {
           }}
         >
           <div className="col-span-1"></div>
-          <div className=" col-span-8 my-12 text-white">
+          <div className=" col-span-8 mt-12 mb-5 text-white">
             <div>
               <Link href="/work">
                 <img
