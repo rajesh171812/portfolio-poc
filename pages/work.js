@@ -14,7 +14,7 @@ export default function Work() {
       <div className="mb-5 font-sans text-center text-7xl font-bold">Rajesh Revoor</div>
       <div className="mb-16 font-serif text-center text-3xl font-light">User Experience Designer</div>
       <div className="flex font-serif justify-center mb-20 text-xl font-light">
-        <span className="w-1/2 leading-7">
+        <span className="w-1/2 leading-7 text-center">
           I’m Rajesh, a product designer who combines research, rapid
           prototyping, interaction and visual design to transform <span className="font-serif font-bold">complex
             problems into elegant solutions</span>.
