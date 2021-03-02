@@ -36,7 +36,7 @@ export default function SearchProject() {
           }}
         >
           <div className="col-span-1"></div>
-          <div className=" col-span-8 mt-12 mb-5 text-white">
+          <div className=" col-span-8 my-10 text-white">
             <div>
               <Link href="/work">
                 <img
@@ -47,14 +47,14 @@ export default function SearchProject() {
               </Link>
             </div>
             <div className="flex flex-col md:flex-row items-stretch">
-              <div className="pt-16 self-start">
+              <div className="pt-5 self-start">
                 <div className="mb-7 text-6xl font-sans font-bold text-white">Business Edge</div>
-                <div className="md:w-3/4 text-3xl font-serif font-regular">
+                <div className="md:w-3/4 text-2xl font-serif font-light">
                   Re-designed consultant application and increase in users using new
                   the application
                 </div>
               </div>
-              <div className="self-end">
+              <div className="mt-10 md:-mt-5">
                 <img
                     src="/Casestudy_BE/Casestudy1_Header_image.svg"
                     alt="Business Edge"
