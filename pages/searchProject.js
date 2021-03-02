@@ -37,7 +37,7 @@ export default function SearchProject() {
         >
           <div className="col-span-1"></div>
           <div className=" col-span-8 my-10 text-white">
-            <div>
+            <div className="cursor-pointer">
               <Link href="/work">
                 <img
                     src="/Casestudy_BE/Casestudy_profilepic.svg"
@@ -435,14 +435,6 @@ export default function SearchProject() {
           </div>
           <div className="col-span-1"></div>
         </div>
-
-        {/*<div>*/}
-        {/*  <Link href="/searchProject">*/}
-        {/*    <div className="my-5 text-center text-sans cursor-pointer">*/}
-        {/*      Search Project >*/}
-        {/*    </div>*/}
-        {/*  </Link>*/}
-        {/*</div>*/}
       </div>
     </div>
   );
