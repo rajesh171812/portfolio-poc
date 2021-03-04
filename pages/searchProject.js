@@ -37,17 +37,17 @@ export default function SearchProject() {
             <div className="cursor-pointer">
               <Link href="/work">
                 <img
-                    src="/Casestudy_BE/Casestudy_profilepic.svg"
-                    alt="Business Edge"
-                    className="object-center"
+                  src="/Casestudy_BE/Casestudy_profilepic.svg"
+                  alt="Business Edge"
+                  className="object-center"
                 />
               </Link>
             </div>
             <ProjectHeader
-                projectTitle="Business Edge"
-                projectDescription="Ree-designed consultant application and increase in users using new
+              projectTitle="Business Edge"
+              projectDescription="Ree-designed consultant application and increase in users using new
                   the application"
-                projectImageUrl="/Casestudy_BE/Casestudy1_Header_image.svg"
+              projectImageUrl="/Casestudy_BE/Casestudy1_Header_image.svg"
             />
           </div>
           <div className="col-span-1"></div>
@@ -56,7 +56,7 @@ export default function SearchProject() {
           <div className="col-span-1"></div>
           <div className="col-span-4 mt-24 text-6xl">
             <RegularParagraph content="A hundred year-old Retirement Financial Services company from New York, USA with a global presence, (name not disclosed due to confidentiality purpose and hereafter referred to as Retirement Services Institution (RSI)) approached us to provide a solution for a consultant application." />
-            <TealHeading headingTitle="Business Edge Overview"color="teal"/>
+            <TealHeading headingTitle="Business Edge Overview" color="teal" />
             <RegularParagraph
               content="Business Edge is a fluid design application, which provides data
               of all retirement client information to consultant firms. It
@@ -65,7 +65,7 @@ export default function SearchProject() {
               user can also derive business insights from this."
             />
 
-            <TealHeading headingTitle="Business Problem" color="teal"/>
+            <TealHeading headingTitle="Business Problem" color="teal" />
             <div className="font-serif leading-7 text-base text-black">
               <div>
                 - The clients felt that the Business Edge is not performing as
@@ -100,7 +100,7 @@ export default function SearchProject() {
               </div>
             </div>
 
-            <TealHeading headingTitle="What’s my role?" color="teal"/>
+            <TealHeading headingTitle="What’s my role?" color="teal" />
             <RegularParagraph
               content="As the Lead UX Designer for this project, I owned the stakeholder meetings and intensely collaborated with the clients to solve their business problems.
                I solely designed, presented the wireframes and concept models.
@@ -141,11 +141,14 @@ export default function SearchProject() {
         </div>
 
         {/*Research*/}
-        <TealBanner title="Research"></TealBanner>
+        <TealBanner color="teal" title="Research"></TealBanner>
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <TealHeading2 headingTitle="Heuristic Evaluation"></TealHeading2>
+            <TealHeading2
+              color="teal"
+              headingTitle="Heuristic Evaluation"
+            ></TealHeading2>
             <RegularParagraph content="Before diving deep into user interviews, I’ve evaluate the existing application with Heuristic principle to find out current usability issues (Navigation, presentation, content & Interaction) with the application. After the results were compiled, presented to the clients. We fixed some experience and design issues as a temporary solution." />
             <div className="mt-12">
               <img
@@ -164,8 +167,11 @@ export default function SearchProject() {
                   className=""
                 />
               </div>
-              <TealDivider></TealDivider>
-              <TealHeading2 headingTitle="Web Analytics"></TealHeading2>
+              <TealDivider color="teal"></TealDivider>
+              <TealHeading2
+                color="teal"
+                headingTitle="Web Analytics"
+              ></TealHeading2>
               <RegularParagraph content="After heuristics evaluation, I’ve moved on to website behavior analytics. I was able to view the number of users logged in, how long they spent on each page, and how the users navigated and proceeded to other sections." />
               <div className="mt-12 grid grid-flow-col gap-4">
                 <img
@@ -180,8 +186,11 @@ export default function SearchProject() {
                   className=""
                 />
               </div>
-              <TealDivider></TealDivider>
-              <TealHeading2 headingTitle="User Interviews"></TealHeading2>
+              <TealDivider color="teal"></TealDivider>
+              <TealHeading2
+                color="teal"
+                headingTitle="User Interviews"
+              ></TealHeading2>
               <div className="grid grid-flow-col gap-10">
                 <div>
                   <RegularParagraph content="We started organising the user interviews to understand the users motivations, behaviour and their pain points in using the application. We were able to put together a user group consisting 10 members which included the firm managers and consultant associates from top consulting firms, to know more about their view and usage of business edge application. They brought us some screenshots where they were facing some issues with the current application and also some of the features samples used by the competitors in the market." />
@@ -218,11 +227,14 @@ export default function SearchProject() {
         </div>
 
         {/*Analyse*/}
-        <TealBanner title="Analyse"></TealBanner>
+        <TealBanner color="teal" title="Analyse"></TealBanner>
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <TealHeading2 headingTitle="Feature Prioritisation"></TealHeading2>
+            <TealHeading2
+              color="teal"
+              headingTitle="Feature Prioritisation"
+            ></TealHeading2>
             <RegularParagraph content="Based on the problem statement and user research findings, we’ve shortlisted some important features that would address the pain points of the identified personas." />
             <div className="mt-12">
               <img
@@ -236,11 +248,11 @@ export default function SearchProject() {
         </div>
 
         {/*Design*/}
-        <TealBanner title="Design"></TealBanner>
+        <TealBanner color="teal" title="Design"></TealBanner>
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <TealHeading2 headingTitle="Wireframes"></TealHeading2>
+            <TealHeading2 color="teal" headingTitle="Wireframes"></TealHeading2>
             <RegularParagraph content="With the selected features and pages, we created a High-fidelity prototype (invision clickable prototype)  and conducted formative usability tests with 6 participants." />
             <div className="mt-12 grid grid-flow-col gap-4">
               <img
@@ -269,13 +281,17 @@ export default function SearchProject() {
 
         {/*Solution*/}
         <TealBanner
+          color="teal"
           title="Solution"
           subtitle="Here is a comparison of the old app and proposed design. We have highlighted the different features that enhanced the usability and user experience of Business edge."
         />
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <TealHeading2 headingTitle="Dashboard redesign"></TealHeading2>
+            <TealHeading2
+              color="teal"
+              headingTitle="Dashboard redesign"
+            ></TealHeading2>
             <RegularParagraph content="Feedback from users about the dashboard revealed that they found it difficult to find relevant information. Even though business gives important information to consultants  (for e.g. key performance indicator), the placement of related filter made it difficult for users to get that information." />
             <div className="mt-5">
               <RegularParagraph content="Now all important information has been reprioritized and displayed above the fold. All clients dropdown has been moved from the header to the KPI tiles." />
@@ -287,8 +303,8 @@ export default function SearchProject() {
                 className=""
               />
             </div>
-            <TealDivider></TealDivider>
-            <TealHeading2 headingTitle="KPI tiles"></TealHeading2>
+            <TealDivider color="teal"></TealDivider>
+            <TealHeading2 color="teal" headingTitle="KPI tiles"></TealHeading2>
             <RegularParagraph content="KPI means key performance indicators. These numbers provide overall information about their business performance in different segments. Each of the tiles gives more detailed information like investments, contributions etc,… Due to ignorance, most of the users failed to drill down to view these information earlier." />
             <div className="mt-12">
               <div className="mt-12 grid grid-flow-col gap-4">
@@ -305,9 +321,9 @@ export default function SearchProject() {
                 />
               </div>
             </div>
-            <TealDivider></TealDivider>
+            <TealDivider color="teal"></TealDivider>
 
-            <TealHeading2 headingTitle="Custom Reports" />
+            <TealHeading2 color="teal" headingTitle="Custom Reports" />
             <RegularParagraph content="Through user-feedback and analytical research, it has been revealed that most of the users were using the reports only on specific days and that too particularly at the end of each month to download their monthly reports. These reports can be formatted only via static templates. Users requested the option to create custom reports by selecting data columns, saving them, and using them as a template. Such custom reports helped the consultants present specific performance data to plan sponsors." />
             <div className="mt-12">
               <div className="mb-5 text-center font-serif font-light">
@@ -343,8 +359,8 @@ export default function SearchProject() {
               />
             </div>
 
-            <TealDivider></TealDivider>
-            <TealHeading2 headingTitle="Insights"></TealHeading2>
+            <TealDivider color="teal"></TealDivider>
+            <TealHeading2 color="teal" headingTitle="Insights"></TealHeading2>
             <RegularParagraph content="With the help of the data science team, the consultants are now able to get additional insights about the business. This feature is helping them to landup in new business opportunities."></RegularParagraph>
             <div className="mt-12 grid grid-flow-col gap-4">
               <img
@@ -359,9 +375,9 @@ export default function SearchProject() {
                 className=""
               />
             </div>
-            <TealDivider></TealDivider>
+            <TealDivider color="teal"></TealDivider>
 
-            <TealHeading2 headingTitle="Contact Us"></TealHeading2>
+            <TealHeading2 color="teal" headingTitle="Contact Us"></TealHeading2>
             <div className="mt-12 grid grid-flow-col gap-4">
               <img
                 className="mr-1"
@@ -375,9 +391,12 @@ export default function SearchProject() {
                 className=""
               />
             </div>
-            <TealDivider></TealDivider>
+            <TealDivider color="teal"></TealDivider>
 
-            <TealHeading2 headingTitle="Goals and performance (concept)"></TealHeading2>
+            <TealHeading2
+              color="teal"
+              headingTitle="Goals and performance (concept)"
+            ></TealHeading2>
             <RegularParagraph content="During our research and discussion with business, we’ve noticed that the client wants to create multiple opportunities for the consultants to generate more business." />
             <div className="mt-12">
               <img
@@ -391,11 +410,11 @@ export default function SearchProject() {
         </div>
 
         {/*testing*/}
-        <TealBanner title="Testing"></TealBanner>
+        <TealBanner color="teal" title="Testing"></TealBanner>
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <TealHeading2 headingTitle="Usability Testing" />
+            <TealHeading2 color="teal" headingTitle="Usability Testing" />
             <RegularParagraph content="We performed a final usability testing with 8 participants.  We have used qualitative and quantitative testing methods to evaluate the results. We’ve set a series of tasks for the participants, which included." />
             <div className="mt-12">
               <BlackSubHeading headingTitle="Tasks" />

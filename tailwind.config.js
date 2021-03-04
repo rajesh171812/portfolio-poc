@@ -15,8 +15,6 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
-      red: colors.rose,
-      pink: colors.fuchsia,
       blue: '#1A63D9',
       orange: '#ffa500',
       blueHeading: '#1A63D0',
@@ -29,12 +27,12 @@ module.exports = {
     },
     background: {
       blue: '#1A63D9',
+      teal:'#31A88C',
       black: '#000000',
       gray: '#cccccc',
       work1: '#26CFA7',
       work2: '#0E5AFF',
       work3: '#672CC0',
-      teal:'#31A88C',
     },
     gradientColorStops: {
       'primary': '#000',
