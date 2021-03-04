@@ -1,16 +1,13 @@
 import React, { useState } from "react";
 import ScrollToTop from "../components/scrollToTop";
 import RegularParagraph from "../components/regularParagraph";
-import {
-  ReactCompareSlider,
-  ReactCompareSliderImage,
-} from "react-compare-slider";
 import TealHeading from "../components/tealHeading";
 import TealBanner from "../components/tealBanner";
 import TealHeading2 from "../components/tealHeading2";
 import TealDivider from "../components/tealDivider";
 import BlackSubHeading from "../components/blackSubHeading";
 import Link from "next/link";
+import ProjectHeader from "../components/projectHeader";
 
 export default function SearchProject() {
   const [showScroll, setShowScroll] = useState(false);
@@ -46,22 +43,12 @@ export default function SearchProject() {
                 />
               </Link>
             </div>
-            <div className="flex flex-col md:flex-row items-stretch">
-              <div className="pt-16">
-                <div className="mb-7 text-6xl font-sans font-bold text-white">Business Edge</div>
-                <div className="md:w-3/4 text-2xl font-serif font-light">
-                  Re-designed consultant application and increase in users using new
-                  the application
-                </div>
-              </div>
-              <div className="mt-10 md:-mt-5">
-                <img
-                    src="/Casestudy_BE/Casestudy1_Header_image.svg"
-                    alt="Business Edge"
-                    className=""
-                />
-              </div>
-            </div>
+            <ProjectHeader
+                projectTitle="Business Edge"
+                projectDescription="Ree-designed consultant application and increase in users using new
+                  the application"
+                projectImageUrl="/Casestudy_BE/Casestudy1_Header_image.svg"
+            />
           </div>
           <div className="col-span-1"></div>
         </div>
@@ -306,15 +293,15 @@ export default function SearchProject() {
             <div className="mt-12">
               <div className="mt-12 grid grid-flow-col gap-4">
                 <img
-                    className="mr-1"
-                    src="/Casestudy_BE/Casestudy1_solution_KPI_1.svg"
-                    alt="heuristic evaluation 1"
-                    className=""
+                  className="mr-1"
+                  src="/Casestudy_BE/Casestudy1_solution_KPI_1.svg"
+                  alt="heuristic evaluation 1"
+                  className=""
                 />
                 <img
-                    src="/Casestudy_BE/Casestudy1_solution_KPI_2.svg"
-                    alt="heuristic evaluation 1"
-                    className=""
+                  src="/Casestudy_BE/Casestudy1_solution_KPI_2.svg"
+                  alt="heuristic evaluation 1"
+                  className=""
                 />
               </div>
             </div>
