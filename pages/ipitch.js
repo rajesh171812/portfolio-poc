@@ -12,6 +12,8 @@ import {
   ReactCompareSliderImage,
 } from "react-compare-slider";
 import ScrollToTop from "../components/scrollToTop";
+import ProjectHeader from "../components/projectHeader";
+import TealHeading from "../components/tealHeading";
 export default function Ipitch() {
   // function debounce(func, wait = 20, immediate = true) {
   //   console.log("in debounce");
@@ -104,23 +106,86 @@ export default function Ipitch() {
       </div>
       <div className="">
         <div
-          className="mb-6 grid grid-cols-6 gap-4 bg-fixed font-sans"
+          className="mb-6 grid grid-cols-10 gap-4 bg-fixed font-sans"
           style={{
-            backgroundImage: `url(/Casestudy2_Pitch/Casestudypitch-bg.svg)`,
+            backgroundImage: `url(/Casestudy_IPitch/Casestudy2_Header.svg)`,
             backgroundPosition: "-500px -200px",
             backgroundSize: "cover",
           }}
         >
           <div className="col-span-1"></div>
-          <div className=" col-span-4 my-12 py-8 text-white">
-            <div className="py-2 text-4xl text-bold">IPitch</div>
-            <div className="text-3xl">
-              An application which helps to increase productivity for sales team
+          <div className=" col-span-8 my-10 text-white">
+            <div className="cursor-pointer">
+              <Link href="/work">
+                <img
+                  src="/Casestudy_BE/Casestudy_profilepic.svg"
+                  alt="Business Edge"
+                  className="object-center"
+                />
+              </Link>
+            </div>
+            <ProjectHeader
+              projectTitle="Ipitch"
+              projectDescription="An application which helps to increase productivity for sales team"
+              projectImageUrl="/Casestudy_IPitch/Casestudy2_Header_1.svg"
+            />
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+
+        <div className="grid grid-cols-6 gap-4 font-serif">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 mt-24 text-6xl">
+            <RegularParagraph content="One of the top 100 pharma companies approached Cognizant, who’s a leading IT Software Development, to help them to solve the issues faced by their sales team. By building a digital solution that could provide a 360° view on their business and team members performance." />
+
+            <TealHeading headingTitle="Business Problem" color="blue"/>
+            <RegularParagraph content="- Losing the market share." />
+            <RegularParagraph content="- Decreasing productivity from the sales team." />
+            <RegularParagraph content="- No new business." />
+            <RegularParagraph content="- Losing credibility from the existing customers" />
+            <RegularParagraph content="- Collaboration is missing between cross functional teams." />
+            <RegularParagraph content="- Unable to meet any reasonable annual targets." />
+            <RegularParagraph content="- Unable to perform on par with the competitors." />
+
+            <TealHeading headingTitle="What’s my role?" color="blue"/>
+            <RegularParagraph content="Being a lead UX consultant, specialised in Product Strategy, Design and UX. My role was to apply Human Centered Design methods to a project with immense technical focus and to provide valuable insights from user research to help build a solution that would take into account the complexity of everyday business cases and real user needs." color="blue"/>
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+
+        {/*Full size before after*/}
+        <div className="my-36 py-16 grid grid-cols-6 gap-4 bg-blue">
+          <div className="col-span-6 m-auto">
+            <img
+                src="/Casestudy_IPitch/Casestudy2_Impact.svg"
+                alt="IPitch"
+                className="object-center"
+            />
+          </div>
+        </div>
+
+        {/*The design process*/}
+        <div className="mt-28 grid grid-cols-6 gap-4">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <div className="text-center text-3xl md:text-6xl text-blue font-bold">
+              The design process
+            </div>
+            <div className="mt-24">
+              <img
+                  src="/Casestudy_IPitch/Casestudy2_Design_Process.svg"
+                  alt="process"
+                  className="m-auto"
+              />
             </div>
           </div>
           <div className="col-span-1"></div>
         </div>
-        <div className="grid grid-cols-6 gap-4 font-serif">
+
+
+
+        {/*old file starts*/}
+        <div className="grid grid-cols-6 gap-4 mt-32 font-serif">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
             <RegularParagraph

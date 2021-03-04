@@ -56,7 +56,7 @@ export default function SearchProject() {
           <div className="col-span-1"></div>
           <div className="col-span-4 mt-24 text-6xl">
             <RegularParagraph content="A hundred year-old Retirement Financial Services company from New York, USA with a global presence, (name not disclosed due to confidentiality purpose and hereafter referred to as Retirement Services Institution (RSI)) approached us to provide a solution for a consultant application." />
-            <TealHeading headingTitle="Business Edge Overview" />
+            <TealHeading headingTitle="Business Edge Overview"color="teal"/>
             <RegularParagraph
               content="Business Edge is a fluid design application, which provides data
               of all retirement client information to consultant firms. It
@@ -65,7 +65,7 @@ export default function SearchProject() {
               user can also derive business insights from this."
             />
 
-            <TealHeading headingTitle="Business Problem" />
+            <TealHeading headingTitle="Business Problem" color="teal"/>
             <div className="font-serif leading-7 text-base text-black">
               <div>
                 - The clients felt that the Business Edge is not performing as
@@ -100,7 +100,7 @@ export default function SearchProject() {
               </div>
             </div>
 
-            <TealHeading headingTitle="What’s my role?" />
+            <TealHeading headingTitle="What’s my role?" color="teal"/>
             <RegularParagraph
               content="As the Lead UX Designer for this project, I owned the stakeholder meetings and intensely collaborated with the clients to solve their business problems.
                I solely designed, presented the wireframes and concept models.
@@ -151,7 +151,7 @@ export default function SearchProject() {
               <img
                 src="/Casestudy_BE/Casestudy1_Heuristic Evaluation_1@2x.jpg"
                 alt="heuristic evaluation 1"
-                className=""
+                className="m-auto"
               />
               <div className="mt-10 mb-4 text-center">
                 <BlackSubHeading headingTitle="The key findings from the evaluation were:"></BlackSubHeading>
