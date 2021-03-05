@@ -302,7 +302,7 @@ export default function Ipitch() {
               <div class="flex flex-col">
                 <div className="mb-20">
                   <img
-                    className="mr-1"
+                    className=""
                     src="/Casestudy_IPitch/Casestudy2_Research_Persona_1.svg"
                     alt=""
                     className=""
@@ -310,7 +310,7 @@ export default function Ipitch() {
                 </div>
 
                 <img
-                  className="mr-1"
+                  className=""
                   src="/Casestudy_IPitch/Casestudy2_Research_Persona_2.svg"
                   alt=""
                   className=""
@@ -323,6 +323,53 @@ export default function Ipitch() {
 
         {/*Ideation*/}
         <TealBanner color="blue" title="Ideation"></TealBanner>
+        <div className="mt-28 grid grid-cols-6 gap-4">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <TealHeading2
+              color="blue"
+              headingTitle="Root causes Issues or problems."
+            />
+
+            <RegularParagraph content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+            <div className="mt-12">
+              <img
+                className=""
+                src="/Casestudy_IPitch/Casestudy2_Analysis_RCA.svg"
+                alt=""
+                className="m-auto"
+              />
+            </div>
+            <TealDivider color="blue"></TealDivider>
+
+            <div className="grid grid-flow-col gap-10">
+              <div>
+                <RegularParagraph content="After identifying the user pain-points, we went in for a discussion with business to prioritize the issues." />
+                <div className="mt-2">
+                  <RegularParagraph content="Following this, I worked on my own UX prioritization by categorizing issues as easy and hard to fix" />
+                </div>
+                <div className="mt-20 mb-9">
+                  <RegularParagraph content="1. Accessing customer details" />
+                  <RegularParagraph content="2. Organizing daily schedule" />
+                  <RegularParagraph content="3. Accessing Marketing Collaterals" />
+                  <RegularParagraph content="4. Generating & Customize Reports" />
+                  <RegularParagraph content="5. Product Demo" />
+                  <RegularParagraph content="6. Collaterals Customization" />
+                  <RegularParagraph content="7. Order Tracking" />
+                </div>
+              </div>
+              <div>
+                <img
+                  className=""
+                  src="/Casestudy_IPitch/Casestudy2_Analysis_Prioritization_Matrix.jpg"
+                  alt=""
+                  className=""
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-span-1"></div>
+        </div>
 
         {/*Solution*/}
         <TealBanner
@@ -330,292 +377,136 @@ export default function Ipitch() {
           title="Solution"
           subtitle="I displayed the solution to every pain point I found"
         ></TealBanner>
+        <div className="mt-28 grid grid-cols-6 gap-4">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <TealHeading2
+              color="blue"
+              headingTitle="Accessing information in a single tap."
+            ></TealHeading2>
+            <img
+              className=""
+              src="/Casestudy_IPitch/Casestudy2_Solution_Accessing_Info.svg"
+              alt=""
+              className=""
+            />
+            <TealDivider color="blue"></TealDivider>
+            <TealHeading2 color="blue" headingTitle="Appointment organizer." />
+            <img
+              className=""
+              src="/Casestudy_IPitch/Casestudy2_Solution_Appointment.svg"
+              alt=""
+              className=""
+            />
+            <TealDivider color="blue"></TealDivider>
+            <TealHeading2
+              color="blue"
+              headingTitle="Central Repository of Marketing Collaterals and playing demo."
+            />
+            <RegularParagraph content="The collaterals were not available offline and accessing an updated version was a cumbersome process. Therefore, as part of the updated application, I built a central repository of marketing collaterals. Now the sales team can access to the latest collaterals at all times and accessing them was a breeze." />
+            <img
+              className=""
+              src="/Casestudy_IPitch/Casestudy2_Solution_Central_Repository.svg"
+              alt=""
+              className=""
+            />
+            <TealDivider color="blue"></TealDivider>
+            <TealHeading2 color="blue" headingTitle="Reporting" />
+            <RegularParagraph content="Many of the Sales Heads & Managers spent a lot of time generating their daily reports. The current application did not allow users to visualize data in various forms. When I spoke to the sales team, the ability to generate reports quickly emerged as a critical feature." />
+            <img
+              className=""
+              src="/Casestudy_IPitch/Casestudy2_Solution_Reporting.svg"
+              alt=""
+              className=""
+            />
+            <div className="grid grid-flow-col gap-10 w-2/3 m-auto mt-12">
+              <div>
+                <img
+                  className=""
+                  src="/Casestudy_IPitch/Casestudy2_Solution_Reporting_Icon.svg"
+                  alt=""
+                  className=""
+                />
+              </div>
+              <RegularParagraph content="Now the Sales Head’s have also got additional functionality to customize a report according to their requirements. The reports are available offline too, which would  help the team to access the data any time and anywhere." />
+            </div>
+            <TealDivider color="blue"></TealDivider>
+            <TealHeading2
+              color="blue"
+              headingTitle="AI Sales insights"
+            ></TealHeading2>
+            <img
+              className=""
+              src="/Casestudy_IPitch/Casestudy2_Solution_AI_Sales.svg"
+              alt=""
+            />
+          </div>
+          <div className="col-span-1"></div>
+        </div>
 
         {/*Testing*/}
         <TealBanner color="blue" title="Testing"></TealBanner>
-
-        {/*Learning on entire project*/}
-        <TealBanner color="blue" title="Learnings on entire project"></TealBanner>
-
-
-
-
-        {/*old file starts*/}
-        <div className="grid grid-cols-6 gap-4 mt-32 font-serif">
+        <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
-            <RegularParagraph
-              content=" One of the top 100 pharma companies approached Cognizant, who’s a
-        leading IT Software Development, to help them to solve the issues
-        faced by their sales team. By building a digital solution that
-        could provide a 360° view on their business and team members
-        performance."
-            />
-            <GrayHeading headingTitle="Business Problem" />
-            <div>
-              <div>- Losing the market share.</div>
-              <div>- Decreasing productivity from the sales team.</div>
-              <div>- No new business.</div>
-              <div>- Losing credibility from the existing customers</div>
+            <div className="grid grid-flow-col gap-10">
               <div>
-                - Collaboration is missing between cross functional teams.
-              </div>
-              <div>- Unable to meet any reasonable annual targets.</div>
-              <div>- Unable to perform on par with the competitors.</div>
-            </div>
-
-            <GrayHeading headingTitle="What’s my role?" />
-            <RegularParagraph
-              content=" Being a lead UX consultant, specialised in Product Strategy,
-              Design and UX. My role was to apply Human Centered Design methods
-              to a project with immense technical focus and to provide valuable
-              insights from user research to help build a solution that would
-              take into account the complexity of everyday business cases and
-              real user needs."
-            />
-          </div>
-          <div className="col-span-1"></div>
-        </div>
-
-        {/*Impacts And Results Achieved*/}
-        <div className="my-6 col-auto bg-blue-500 text-center font-sans">
-          <div className="p-8 text-7xl text-white">
-            Impact and Results Achieved
-          </div>
-        </div>
-        <div className="grid grid-cols-6 gap-4 font-serif">
-          <div className="col-span-1"></div>
-          <div className="col-span-4 text-lg">
-            <div>
-              <div>
-                - Sales team productivity increased to 60% by using iPitch
-                application.
-              </div>
-              <div>- New customers increased to 40% </div>
-              <div>- 60% of sales revenue increased</div>
-              <div>- 80% of operational cost reduced</div>
-              <div>- 50% of IT cost reduced</div>
-              <div>
-                - From 4 different applications, users have come to use a single
-                application
-              </div>
-            </div>
-            <div className="flex flex-col lg:flex-row flex-wrap justify-between my-5">
-              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
-                <Card
-                  img="icon-copy.png"
-                  imgAlt="Research"
-                  eyebrow="Research"
-                  title="Gain user insight and understand challenges. Look for ideas."
-                />
-              </div>
-              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
-                <Card
-                  img="icon-copy.png"
-                  imgAlt="Ideation"
-                  eyebrow="Ideation"
-                  title="Gain ideas and sketch design and user flows."
-                />
-              </div>
-              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
-                <Card
-                  img="icon-copy.png"
-                  imgAlt="Design"
-                  eyebrow="Design"
-                  title="Craft the brand, the message and interface."
-                />
-              </div>
-              <div className="lg:max-w-1/4 card-appear transform translate-y-10">
-                <Card
-                  img="icon-copy.png"
-                  imgAlt="User Testing"
-                  eyebrow="User Testing"
-                  title="Get User feedback and iterate."
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-span-1"></div>
-        </div>
-
-        {/*Research*/}
-        <BlueBanner
-          title="Research"
-          subtitle="Without any presumptions in mind and we went on the field in an exploration mode. All we wanted to understand was
-the sales team’s domain by revealing layer by layer from their basic activity levels and how was their sales process
-and sales person in their daily activity."
-        />
-        <div className="grid grid-cols-6 gap-4 font-serif">
-          <div className="col-span-1"></div>
-          <div className="col-span-4 text-lg">
-            <GrayHeading headingTitle="Contextual enquiry" />
-            <div>
-              <div>- We had selected over 20+ people at their workplace.</div>
-              <div>
-                - Started asking them with open-ended questions, this enabled
-                them to share “a day in the life of” experiences.
-              </div>
-              <div>
-                - The sales team interviews yielded a gold mine of information.
-                Many shared their daily struggles with the legacy application.
-                In addition to the interviews, we also created a survey which
-                was sent to the larger group.
-              </div>
-              <div>
-                - After asking “Why” and “Who else” multiple times, we were able
-                to detect formerly unaddressed user groups
-              </div>
-            </div>
-            <div className="flex flex-col lg:flex-row flex-wrap justify-between my-5">
-              <div className="lg:max-w-1/3 card-appear simple-card">
-                <SimpleCard
-                  img="icon-copy.png"
-                  imgAlt="Smiley"
-                  title="There is no clarity on the “Days
-                    Schedule” as it has been
-                    updated by our managers. By
-                    the time I reach the office, I
-                    completely miss the morning
-                    appointment as I’ve no access
-                    to the current interface outside
-                    the office."
-                />
-              </div>
-              <div className="lg:max-w-1/3 card-appear simple-card">
-                <SimpleCard
-                  img="icon-copy.png"
-                  imgAlt="Smiley"
-                  title="It’s not that easy to use
-                  multiple interfaces for tracking
-                  sales reports, appointments,
-                  Target update reports,
-                  downloading collaterals, goals
-                  to be met etc. It would be
-                  great if I could access all
-                  these at one place. "
-                />
-              </div>
-              <div className="lg:max-w-1/3 card-appear simple-card">
-                <SimpleCard
-                  img="icon-copy.png"
-                  imgAlt="Smiley"
-                  title="Unable to track the current
-                status and predict the end of
-                the year sales of the sales
-                team. And understanding
-                where I stand and where I
-                have to improve is not
-                available now. "
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-span-1"></div>
-        </div>
-
-        {/*Solution*/}
-        <BlueBanner
-          title="Solution"
-          subtitle="I displayed the solution to every pain point I found:"
-        />
-        <div className="grid grid-cols-6 gap-4 font-serif">
-          <div className="col-span-1"></div>
-          <div className="col-span-4 text-lg">
-            <BlueHeading headingTitle="Accessing information in a single tap." />
-            <div className="grid grid-cols-1 lg:grid-cols-8 gap-5">
-              <div className="col-span-1 lg:col-span-3">
-                <RegularParagraph
-                  content="With a single tap, the user will be able to
-                  access the summary view of the
-                  required information. On further clicking,
-                  the user will be taken to the detailed
-                  information. "
-                />
-              </div>
-              <div className="col-span-1"></div>
-              <div className="col-span-1 lg:col-span-4">
-                <img
-                  src="http://unsplash.it/400/450"
-                  className="slide-in right opacity-0 transform transition-all translate-x-10"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-span-1"></div>
-        </div>
-
-        <div className="grid grid-cols-6 gap-4 font-serif">
-          <div className="col-span-1"></div>
-          <div className="col-span-4 text-lg">
-            <BlueHeading headingTitle="Appointment organizer." />
-            <div className="grid grid-cols-1 lg:grid-cols-8 gap-5">
-              <div className="col-span-1 lg:col-span-4">
-                <div>
+                <TealHeading2 color="blue" headingTitle="Usability Testing" />
+                <RegularParagraph content="We created a test plan for users to complete their consecutive tasks on the high fidelity prototype.  We’ve gained the following insights: Completion time, heat maps, video recordings, user flows and direct/indirect success." />
+                <div className="mt-20 mb-9">
                   <img
-                    src="http://unsplash.it/400/500"
-                    className="slide-in left opacity-0 transform transition-all -translate-x-10"
+                    className=""
+                    src="/Casestudy_IPitch/Casestudy2_Usabilitytesting_Usericon.svg"
+                    alt=""
                   />
-                  <div className="absolute h-50 w-50 top-0 right-0">
-                    <img
-                      src="/arrowdot.jpg"
-                      className="left opacity-0 transform transition-all -translate-x-10"
-                    />
+                  <RegularParagraph content="- 9 people participated in the Usability Testing." />
+                  <RegularParagraph content="- 3 Sales Managers / 4 Sales Associates." />
+                  <RegularParagraph content="- Age 35 -55" />
+                </div>
+              </div>
+              <div className="mt-12 grid grid-flow-row gap-4">
+                <img
+                  className=""
+                  src="/Casestudy_IPitch/Casestudy2_Testing.jpg"
+                  alt=""
+                />
+                <div className="flex flex-col md:flex-row justify-between mt-12 mb-36">
+                  <div className="md:pr-10">
+                    <div className="font-sans font-bold text-6xl">85%</div>
+                    <div className="font-serif text-xl">
+                      Test completion rate
+                    </div>
+                  </div>
+                  <div>
+                    <div className="font-sans font-bold text-6xl">90%</div>
+                    <div className="font-serif text-xl">
+                      Smooth and easy experience
+                    </div>
+                  </div>
+                  <div>
+                    <div className="font-sans font-bold text-6xl">95%</div>
+                    <div className="font-serif text-xl">
+                      Users are willing to use this app.
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-span-1"></div>
-              <div className="col-span-1 lg:col-span-3">
-                <RegularParagraph
-                  content="A simple timeline view of the days for a given month
-                    which prioritises the upcoming/past appointments/
-                    meeting events, coupled with a collapsible calendar
-                    dropdown with a “heat map” view to show which
-                    days are busy and which are free, in a quick glance."
-                />
-                <div className="my-5">
-                  <RegularParagraph
-                    content="Creation of sales meetings/appointments with
-                    feature to maintain mail-based communication to
-                    fetch meeting data from it and create event with a
-                    single tap "
-                  />
-                </div>
-              </div>
             </div>
           </div>
           <div className="col-span-1"></div>
         </div>
 
-        <div className="grid grid-cols-6 gap-4 font-serif">
-          <div className="col-span-1"></div>
-          <div className="col-span-4 text-lg">
-            <BlueHeading headingTitle="Before/After" />
-            <div className="grid grid-cols-1 lg:grid-cols-8 gap-5">
-              <div className="col-span-1 lg:col-span-3">
-                <RegularParagraph content="Scroll to see the before/after changes" />
-              </div>
-              <div className="col-span-1"></div>
-              <div className="col-span-1 lg:col-span-4">
-                <ReactCompareSlider
-                  itemOne={
-                    <ReactCompareSliderImage
-                      src="http://unsplash.it/400/450"
-                      alt="Image one"
-                    />
-                  }
-                  itemTwo={
-                    <ReactCompareSliderImage
-                      src="http://unsplash.it/400/500"
-                      alt="Image two"
-                    />
-                  }
-                />
-              </div>
-            </div>
-          </div>
-          <div className="col-span-1"></div>
-        </div>
-        <div>
+        {/*Learning on entire project*/}
+        <TealBanner
+          color="blue"
+          title="Learnings on entire project"
+        ></TealBanner>
+        <div className="mb-36">
+          <img
+            className="m-auto"
+            src="/Casestudy_IPitch/Casestudy2_Learnings.svg"
+            alt=""
+          />
         </div>
       </div>
     </div>
