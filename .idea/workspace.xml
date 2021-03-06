@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/vendorManagement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Design_High_Wireframe_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Design_High_Wireframe_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Design_High_Wireframe_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Design_High_Wireframe_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Design_High_Wireframe_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Design_High_Wireframe_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Design_Low_Wireframe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Header.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Header_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Impact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Research_Competitive_Analysis.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Research_Meeting.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Research_Persona_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Research_Persona_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Research_Persona_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Research_User_Flow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_learnings.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +64,7 @@
       <workItem from="1614828751025" duration="4000" />
       <workItem from="1614828767263" duration="3000" />
       <workItem from="1614828783415" duration="9162000" />
-      <workItem from="1614916265515" duration="7113000" />
+      <workItem from="1614916265515" duration="7697000" />
     </task>
     <servers />
   </component>
@@ -98,14 +78,14 @@
     <state x="461" y="158" key="SettingsEditor/0.23.1920.1002@0.23.1920.1002" timestamp="1614459885161" />
     <state x="461" y="155" key="SettingsEditor/0.23.1920.982@0.23.1920.982" timestamp="1612063711693" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1611978682127" />
-    <state x="330" y="427" width="1385" height="582" key="find.popup" timestamp="1615050954837">
+    <state x="330" y="427" width="1385" height="582" key="find.popup" timestamp="1615052902862">
       <screen x="0" y="23" width="1920" height="986" />
     </state>
     <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1001@0.23.1920.1001" timestamp="1614694814200" />
     <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614645557072" />
     <state x="661" y="268" width="598" height="490" key="find.popup/0.23.1920.980@0.23.1920.980" timestamp="1612020305391" />
     <state x="535" y="269" width="1385" height="496" key="find.popup/0.23.1920.984@0.23.1920.984" timestamp="1614493046915" />
-    <state x="330" y="427" width="1385" height="582" key="find.popup/0.23.1920.986@0.23.1920.986" timestamp="1615050954837" />
+    <state x="330" y="427" width="1385" height="582" key="find.popup/0.23.1920.986@0.23.1920.986" timestamp="1615052902862" />
     <state x="533" y="270" width="1387" height="495" key="find.popup/0.23.1920.989@0.23.1920.989" timestamp="1614546197635" />
     <state x="553" y="270" width="1367" height="497" key="find.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318871266" />
     <state x="535" y="271" width="1385" height="499" key="find.popup/0.23.1920.992@0.23.1920.992" timestamp="1614291044118" />
