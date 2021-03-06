@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import RegularParagraph from "../components/regularParagraph";
 import Link from "next/link";
 import ScrollToTop from "../components/scrollToTop";
@@ -10,430 +10,273 @@ import BlackSubHeading from "../components/blackSubHeading";
 import TealDivider from "../components/tealDivider";
 
 export default function VendorManagement() {
-    const [showScroll, setShowScroll] = useState(false);
-    const checkScrollTop = () => {
-        if (!showScroll && window.pageYOffset > 800) {
-            setShowScroll(true);
-        } else if (showScroll && window.pageYOffset <= 800) {
-            setShowScroll(false);
-        }
-    };
+  const [showScroll, setShowScroll] = useState(false);
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 800) {
+      setShowScroll(true);
+    } else if (showScroll && window.pageYOffset <= 800) {
+      setShowScroll(false);
+    }
+  };
 
-    const handleScroll = () => {
-        checkScrollTop();
-    };
+  const handleScroll = () => {
+    checkScrollTop();
+  };
 
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    });
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
 
-    return (
-        <div className="bg-white text-black">
-            <div style={{ display: showScroll ? "flex" : "none" }}>
-                <ScrollToTop />
+  return (
+    <div className="bg-white text-black">
+      <div style={{ display: showScroll ? "flex" : "none" }}>
+        <ScrollToTop />
+      </div>
+      <div className="">
+        <div
+          className="mb-6 grid grid-cols-10 gap-4 bg-fixed font-sans"
+          style={{
+            backgroundImage: `url(/Casestudy_VMO/Casestudy3_Header.svg)`,
+            backgroundPosition: "-500px -200px",
+            backgroundSize: "cover",
+          }}
+        >
+          <div className="col-span-1"></div>
+          <div className=" col-span-8 my-10 text-white">
+            <div className="cursor-pointer">
+              <Link href="/work">
+                <img
+                  src="/Casestudy_BE/Casestudy_profilepic.svg"
+                  alt="Business Edge"
+                  className="object-center"
+                />
+              </Link>
             </div>
-            <div className="">
-                <div
-                    className="mb-6 grid grid-cols-10 gap-4 bg-fixed font-sans"
-                    style={{
-                        backgroundImage: `url(/Casestudy_VMO/Casestudy3_Header.svg)`,
-                        backgroundPosition: "-500px -200px",
-                        backgroundSize: "cover",
-                    }}
-                >
-                    <div className="col-span-1"></div>
-                    <div className=" col-span-8 my-10 text-white">
-                        <div className="cursor-pointer">
-                            <Link href="/work">
-                                <img
-                                    src="/Casestudy_BE/Casestudy_profilepic.svg"
-                                    alt="Business Edge"
-                                    className="object-center"
-                                />
-                            </Link>
-                        </div>
-                        <ProjectHeader
-                            projectTitle="Vendor Management"
-                            projectDescription="Conversion of legacy process in to digital automated process"
-                            projectImageUrl="/Casestudy_VMO/Casestudy3_Header_1.svg"
-                        />
-                    </div>
-                    <div className="col-span-1"></div>
-                </div>
-
-                <div className="grid grid-cols-6 gap-4 font-serif">
-                    <div className="col-span-1"></div>
-                    <div className="col-span-4 mt-24 text-6xl">
-                        <RegularParagraph content="One of the top 100 pharma companies approached Cognizant, who’s a leading IT Software Development, to help them to solve the issues faced by their sales team. By building a digital solution that could provide a 360° view on their business and team members performance." />
-
-                        <TealHeading headingTitle="Business Problem" color="blue" />
-                        <RegularParagraph content="- Losing the market share." />
-                        <RegularParagraph content="- Decreasing productivity from the sales team." />
-                        <RegularParagraph content="- No new business." />
-                        <RegularParagraph content="- Losing credibility from the existing customers" />
-                        <RegularParagraph content="- Collaboration is missing between cross functional teams." />
-                        <RegularParagraph content="- Unable to meet any reasonable annual targets." />
-                        <RegularParagraph content="- Unable to perform on par with the competitors." />
-
-                        <TealHeading headingTitle="What’s my role?" color="blue" />
-                        <RegularParagraph
-                            content="Being a lead UX consultant, specialised in Product Strategy, Design and UX. My role was to apply Human Centered Design methods to a project with immense technical focus and to provide valuable insights from user research to help build a solution that would take into account the complexity of everyday business cases and real user needs."
-                            color="blue"
-                        />
-                    </div>
-                    <div className="col-span-1"></div>
-                </div>
-
-                {/*Full size before after*/}
-                <div className="my-36 py-16 grid grid-cols-6 gap-4 bg-blue">
-                    <div className="col-span-6 m-auto">
-                        <img
-                            src="/Casestudy_IPitch/Casestudy2_Impact.svg"
-                            alt="IPitch"
-                            className="object-center"
-                        />
-                    </div>
-                </div>
-
-                {/*The design process*/}
-                <div className="mt-28 grid grid-cols-6 gap-4">
-                    <div className="col-span-1"></div>
-                    <div className="col-span-4 text-lg">
-                        <div className="text-center text-3xl md:text-6xl text-blue font-bold">
-                            The design process
-                        </div>
-                        <div className="mt-24">
-                            <img
-                                src="/Casestudy_IPitch/Casestudy2_Design_Process.svg"
-                                alt="process"
-                                className="m-auto"
-                            />
-                        </div>
-                    </div>
-                    <div className="col-span-1"></div>
-                </div>
-
-                {/*Research*/}
-                <TealBanner
-                    color="blue"
-                    title="Research"
-                    subtitle="Without  any presumptions in mind and we went on the field in an exploration mode. All we wanted to understand was the sales team’s domain by revealing layer by layer from their basic activity levels and how was their sales process and sales person in their daily activity."
-                ></TealBanner>
-                <div className="mt-28 grid grid-cols-6 gap-4">
-                    <div className="col-span-1"></div>
-                    <div className="col-span-4 text-lg">
-                        <TealHeading2
-                            color="blue"
-                            headingTitle="Contextual enquiry"
-                        ></TealHeading2>
-                        <RegularParagraph content="- We had selected over 20+ people at their workplace." />
-                        <RegularParagraph content="- Started asking them with open-ended questions, this enabled them to share 'a day in the life of' experiences." />
-                        <RegularParagraph content="- The sales team interviews yielded a gold mine of information. Many shared their daily struggles with the legacy application. In addition to the interviews, we also created a survey which was sent to the larger group." />
-                        <RegularParagraph content="- After asking “Why” and “Who else” multiple times, we were able to detect formerly unaddressed user groups" />
-                        <div className="mt-12">
-                            <div className="mt-12 grid grid-flow-col gap-4">
-                                <img
-                                    className="mr-1"
-                                    src="/Casestudy_IPitch/Casestudy2_Research_CE_1.svg"
-                                    alt=""
-                                    className=""
-                                />
-                                <img
-                                    src="/Casestudy_IPitch/Casestudy2_Research_CE_2.svg"
-                                    alt=""
-                                    className=""
-                                />
-                                <img
-                                    src="/Casestudy_IPitch/Casestudy2_Research_CE_3.svg"
-                                    alt=""
-                                    className=""
-                                />
-                            </div>
-                            <TealDivider color="blue"></TealDivider>
-                            <TealHeading2 color="blue" headingTitle="Survey"></TealHeading2>
-                            <RegularParagraph
-                                color="blue"
-                                content="Conducted a survey in a large group with the sales team across the country, and other users who were involved in the sales process."
-                            />
-                            <div className="mb-12 mt-9">
-                                <BlackSubHeading headingTitle="10 questions  | 54 responses"></BlackSubHeading>
-                            </div>
-                            <div className="mb-9">
-                                <BlackSubHeading headingTitle="Results summary:"></BlackSubHeading>
-                            </div>
-                            <div className="flex flex-col md:flex-row mt-12 mb-36">
-                                <div className="pl-12 pr-12 py-4 md:border-r border-headerLine">
-                                    <div className="font-sans font-bold text-6xl">60%</div>
-                                    <div className="font-serif text-xl">
-                                        Frequently missing their appointments
-                                    </div>
-                                </div>
-                                <div className="px-12 py-4 md:border-r border-headerLine">
-                                    <div className="font-sans font-bold text-6xl">55%</div>
-                                    <div className="font-serif text-xl">
-                                        Create and view monthly sales report{" "}
-                                    </div>
-                                </div>
-                                <div className="px-12 py-4 md:border-r border-headerLine">
-                                    <div className="font-sans font-bold text-6xl">80%</div>
-                                    <div className="font-serif text-xl">
-                                        Users very often updating marketing manually{" "}
-                                    </div>
-                                </div>
-                                <div className="pl-12 py-4">
-                                    <div className="font-sans font-bold text-6xl">60%</div>
-                                    <div className="font-serif text-xl">
-                                        Very often users will see customers details on the field
-                                    </div>
-                                </div>
-                            </div>
-                            <TealDivider color="blue"></TealDivider>
-                            <TealHeading2
-                                color="blue"
-                                headingTitle="Key Insights"
-                            ></TealHeading2>
-                            <RegularParagraph
-                                color="blue"
-                                content="We visited multiple client locations, observed the way the users are using the current application. Below are the commonly observed key data points we arrived at with all the interviews."
-                            />
-                            <RegularParagraph
-                                color="blue"
-                                content="- Users are unable to access customer details anytime anywhere."
-                            />
-                            <RegularParagraph
-                                color="blue"
-                                content="- Users are accessing multiple applications to complete sales tasks."
-                            />
-                            <RegularParagraph
-                                color="blue"
-                                content="- They find difficulty in communicating with other teams and in seeing the stats of sales progress."
-                            />
-                            <RegularParagraph
-                                color="blue"
-                                content="- Users Lack of consolidated data on sales achievements, generation reports are not user-friendly and due to which they are unable to accurately predict next year sales targets."
-                            />
-                            <RegularParagraph
-                                color="blue"
-                                content="The salesman feels that there is no clarity on “Schedule for the day” and the internet connectivity is a great issue when the salesperson is on the field to download the updated product catalog."
-                            />
-                            <TealDivider color="blue"></TealDivider>
-
-                            <TealHeading2 color="blue" headingTitle="Personas"></TealHeading2>
-                            <RegularParagraph
-                                color="blue"
-                                content="Based on the interviews, two main personals were identified:"
-                            />
-                            <div class="flex flex-col">
-                                <div className="mb-20">
-                                    <img
-                                        className=""
-                                        src="/Casestudy_IPitch/Casestudy2_Research_Persona_1.svg"
-                                        alt=""
-                                        className=""
-                                    />
-                                </div>
-
-                                <img
-                                    className=""
-                                    src="/Casestudy_IPitch/Casestudy2_Research_Persona_2.svg"
-                                    alt=""
-                                    className=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-span-1"></div>
-                </div>
-
-                {/*Ideation*/}
-                <TealBanner color="blue" title="Ideation"></TealBanner>
-                <div className="mt-28 grid grid-cols-6 gap-4">
-                    <div className="col-span-1"></div>
-                    <div className="col-span-4 text-lg">
-                        <TealHeading2
-                            color="blue"
-                            headingTitle="Root causes Issues or problems."
-                        />
-
-                        <RegularParagraph content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
-                        <div className="mt-12">
-                            <img
-                                className=""
-                                src="/Casestudy_IPitch/Casestudy2_Analysis_RCA.svg"
-                                alt=""
-                                className="m-auto"
-                            />
-                        </div>
-                        <TealDivider color="blue"></TealDivider>
-
-                        <div className="grid grid-flow-col gap-10">
-                            <div>
-                                <RegularParagraph content="After identifying the user pain-points, we went in for a discussion with business to prioritize the issues." />
-                                <div className="mt-2">
-                                    <RegularParagraph content="Following this, I worked on my own UX prioritization by categorizing issues as easy and hard to fix" />
-                                </div>
-                                <div className="mt-20 mb-9">
-                                    <RegularParagraph content="1. Accessing customer details" />
-                                    <RegularParagraph content="2. Organizing daily schedule" />
-                                    <RegularParagraph content="3. Accessing Marketing Collaterals" />
-                                    <RegularParagraph content="4. Generating & Customize Reports" />
-                                    <RegularParagraph content="5. Product Demo" />
-                                    <RegularParagraph content="6. Collaterals Customization" />
-                                    <RegularParagraph content="7. Order Tracking" />
-                                </div>
-                            </div>
-                            <div>
-                                <img
-                                    className=""
-                                    src="/Casestudy_IPitch/Casestudy2_Analysis_Prioritization_Matrix.jpg"
-                                    alt=""
-                                    className=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-span-1"></div>
-                </div>
-
-                {/*Solution*/}
-                <TealBanner
-                    color="blue"
-                    title="Solution"
-                    subtitle="I displayed the solution to every pain point I found"
-                ></TealBanner>
-                <div className="mt-28 grid grid-cols-6 gap-4">
-                    <div className="col-span-1"></div>
-                    <div className="col-span-4 text-lg">
-                        <TealHeading2
-                            color="blue"
-                            headingTitle="Accessing information in a single tap."
-                        ></TealHeading2>
-                        <img
-                            className=""
-                            src="/Casestudy_IPitch/Casestudy2_Solution_Accessing_Info.svg"
-                            alt=""
-                            className=""
-                        />
-                        <TealDivider color="blue"></TealDivider>
-                        <TealHeading2 color="blue" headingTitle="Appointment organizer." />
-                        <img
-                            className=""
-                            src="/Casestudy_IPitch/Casestudy2_Solution_Appointment.svg"
-                            alt=""
-                            className=""
-                        />
-                        <TealDivider color="blue"></TealDivider>
-                        <TealHeading2
-                            color="blue"
-                            headingTitle="Central Repository of Marketing Collaterals and playing demo."
-                        />
-                        <RegularParagraph content="The collaterals were not available offline and accessing an updated version was a cumbersome process. Therefore, as part of the updated application, I built a central repository of marketing collaterals. Now the sales team can access to the latest collaterals at all times and accessing them was a breeze." />
-                        <img
-                            className=""
-                            src="/Casestudy_IPitch/Casestudy2_Solution_Central_Repository.svg"
-                            alt=""
-                            className=""
-                        />
-                        <TealDivider color="blue"></TealDivider>
-                        <TealHeading2 color="blue" headingTitle="Reporting" />
-                        <RegularParagraph content="Many of the Sales Heads & Managers spent a lot of time generating their daily reports. The current application did not allow users to visualize data in various forms. When I spoke to the sales team, the ability to generate reports quickly emerged as a critical feature." />
-                        <img
-                            className=""
-                            src="/Casestudy_IPitch/Casestudy2_Solution_Reporting.svg"
-                            alt=""
-                            className=""
-                        />
-                        <div className="grid grid-flow-col gap-10 w-2/3 m-auto mt-12">
-                            <div>
-                                <img
-                                    className=""
-                                    src="/Casestudy_IPitch/Casestudy2_Solution_Reporting_Icon.svg"
-                                    alt=""
-                                    className=""
-                                />
-                            </div>
-                            <RegularParagraph content="Now the Sales Head’s have also got additional functionality to customize a report according to their requirements. The reports are available offline too, which would  help the team to access the data any time and anywhere." />
-                        </div>
-                        <TealDivider color="blue"></TealDivider>
-                        <TealHeading2
-                            color="blue"
-                            headingTitle="AI Sales insights"
-                        ></TealHeading2>
-                        <img
-                            className=""
-                            src="/Casestudy_IPitch/Casestudy2_Solution_AI_Sales.svg"
-                            alt=""
-                        />
-                    </div>
-                    <div className="col-span-1"></div>
-                </div>
-
-                {/*Testing*/}
-                <TealBanner color="blue" title="Testing"></TealBanner>
-                <div className="mt-28 grid grid-cols-6 gap-4">
-                    <div className="col-span-1"></div>
-                    <div className="col-span-4 text-lg">
-                        <div className="grid grid-flow-col gap-10">
-                            <div>
-                                <TealHeading2 color="blue" headingTitle="Usability Testing" />
-                                <RegularParagraph content="We created a test plan for users to complete their consecutive tasks on the high fidelity prototype.  We’ve gained the following insights: Completion time, heat maps, video recordings, user flows and direct/indirect success." />
-                                <div className="mt-20 mb-9">
-                                    <img
-                                        className=""
-                                        src="/Casestudy_IPitch/Casestudy2_Usabilitytesting_Usericon.svg"
-                                        alt=""
-                                    />
-                                    <RegularParagraph content="- 9 people participated in the Usability Testing." />
-                                    <RegularParagraph content="- 3 Sales Managers / 4 Sales Associates." />
-                                    <RegularParagraph content="- Age 35 -55" />
-                                </div>
-                            </div>
-                            <div className="mt-12 grid grid-flow-row gap-4">
-                                <img
-                                    className=""
-                                    src="/Casestudy_IPitch/Casestudy2_Testing.jpg"
-                                    alt=""
-                                />
-                                <div className="flex flex-col md:flex-row justify-between mt-12 mb-36">
-                                    <div className="md:pr-10">
-                                        <div className="font-sans font-bold text-6xl">85%</div>
-                                        <div className="font-serif text-xl">
-                                            Test completion rate
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className="font-sans font-bold text-6xl">90%</div>
-                                        <div className="font-serif text-xl">
-                                            Smooth and easy experience
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className="font-sans font-bold text-6xl">95%</div>
-                                        <div className="font-serif text-xl">
-                                            Users are willing to use this app.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-span-1"></div>
-                </div>
-
-                {/*Learning on entire project*/}
-                <TealBanner
-                    color="blue"
-                    title="Learnings on entire project"
-                ></TealBanner>
-                <div className="mb-36">
-                    <img
-                        className="m-auto"
-                        src="/Casestudy_IPitch/Casestudy2_Learnings.svg"
-                        alt=""
-                    />
-                </div>
-            </div>
+            <ProjectHeader
+              projectTitle="Vendor Management"
+              projectDescription="Conversion of legacy process in to digital automated process"
+              projectImageUrl="/Casestudy_VMO/Casestudy3_Header_1.svg"
+            />
+          </div>
+          <div className="col-span-1"></div>
         </div>
-    );
+
+        <div className="grid grid-cols-6 gap-4 font-serif">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 mt-24 text-6xl">
+            <RegularParagraph content="One of the largest retail bank in Newyork, USA went through a massive digital transformation. They’ve completely reinvented their 10-year-old existing manual process in managing their resourcing technology partners." />
+
+            <TealHeading headingTitle="About this application" color="maroon" />
+            <RegularParagraph content="This application will allow the Organization’s vendor management team to interact with their IT service consulting businesses and other small consultants to identify technical talent for their IT projects." />
+            <RegularParagraph content="This retail bank owned staffing requirements for around 60% of their consultants across the globe. While managing the IT services, vendors were the main focus of this application which had many more associated modules like allocation, Invoice status and onboarding." />
+
+            <TealHeading headingTitle="Business Problem" color="maroon" />
+
+            <RegularParagraph content="- In this existing scenario, there was no system in place to facilitate interaction between the Project Manager / Finance team & IT Consultant companies. Over 6 teams were involved in completing a consultant’s hiring and on-boarding process." />
+            <RegularParagraph content="- The organization found that each project team hired technical consultants as per requirement with no thought towards budgeting." />
+            <RegularParagraph content="- In addition, consultant’s hourly rates differed from project to project, even for resources with the same experience and skill-set. This reduced their profits and resulted in difficulty to handle the skilled resources." />
+
+            <RegularParagraph content="Therefore, the bank wanted to streamline the entire consultant resource management process by creating a new team called Vendor Management Resources." />
+
+            <TealHeading headingTitle="The Goal" color="maroon" />
+            <RegularParagraph content="Develop a single responsive application that needs to transform the manual process into a digital process." />
+            <RegularParagraph content="Reduce the workload of Project managers & vendors." />
+            <RegularParagraph content="Reduce the number of manual and unwanted steps in this process." />
+            <RegularParagraph content="Increase the internal resources productivity by automating the onboarding and Invoices process." />
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+
+        {/*Full size before after*/}
+        <div className="my-36 py-16 grid grid-cols-6 gap-4 bg-maroon">
+          <div className="col-span-6 m-auto">
+            <div className="text-6xl text-white pt-28 pb-24 font-bold text-center">
+              Impact and Results Achieved
+            </div>
+            <img
+              src="/Casestudy_VMO/Casestudy3_Impact.svg"
+              alt="IPitch"
+              className="object-center"
+            />
+          </div>
+        </div>
+
+        <div className="mt-28 grid grid-cols-6 gap-4">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <TealHeading headingTitle="My Role" color="maroon" />
+            <RegularParagraph content="I played a part as a Lead Experience Designer in this project. As a lead, I owned the stakeholder meetings and intensely collaborated with the clients through this application development." />
+            <div className="mt-9 font-serif leading-7 text-base text-black">
+              <span className="font-bold">Other Team members:</span>
+              <span> UI Designer / BA / Copywriter / Researcher</span>
+            </div>
+            <div className="mt-28 font-sans font-bold text-4xl text-center">
+              It was a great opportunity for me to work on an enterprise-level
+              issue and build a single application that fulfilled requirements
+            </div>
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+
+        {/*Research*/}
+        <TealBanner color="maroon" title="Research"></TealBanner>
+        <div className="mt-28 grid grid-cols-6 gap-4">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <TealHeading2
+              color="maroon"
+              headingTitle="Evaluating existing process on process documents."
+            ></TealHeading2>
+            <RegularParagraph content="- Onboarding the IT Consultant associate." />
+            <RegularParagraph content="- IT Services invoice submissions on a monthly basis and its approval process." />
+            <RegularParagraph content="- Managing IT consultant associates allocation project to project." />
+
+            <TealDivider color="maroon"></TealDivider>
+
+            <TealHeading2
+              color="maroon"
+              headingTitle="Meeting with Internal users who are involved in this process"
+            ></TealHeading2>
+            <RegularParagraph content="IT Head / Finance (Payment & Invoices Team) / Application Owners / Human Resources team / Security & Background Verification team."></RegularParagraph>
+            <div className="mt-12">
+              <img
+                className="mr-1"
+                src="/Casestudy_VMO/Casestudy3_Research_Meeting.svg"
+                alt=""
+                className=""
+              />
+            </div>
+            <TealDivider color="maroon"></TealDivider>
+
+            <TealHeading2
+              color="maroon"
+              headingTitle="Key Insights"
+            ></TealHeading2>
+            <RegularParagraph content="-  Identifying and formalizing the process" />
+            <RegularParagraph content="-  Multiple applications and manual processing to complete a single on-boarding." />
+            <RegularParagraph content="-  Lack of technology to automate clerical tasks." />
+            <RegularParagraph content="-  Multiple teams lead to duplication of efforts." />
+            <RegularParagraph content="-  Lots of admin staff are involved in this process." />
+
+            <TealDivider color="maroon" />
+
+            <TealHeading2
+              color="maroon"
+              headingTitle="Competitive Analysis"
+            ></TealHeading2>
+            <RegularParagraph content="I chose to approach the solution with a competitive analysis. My research was based on how the competitors are addressing these issues. These analyses helped me understand how to integrate multiple processes into one single application. In addition, all of this information was interconnected with all modules."></RegularParagraph>
+            <div className="mt-9 mb-12">
+              <RegularParagraph content="-  What are the advantages in the competitors’ customer experience?" />
+              <RegularParagraph content="-  What makes their users struggle?" />
+              <RegularParagraph content="-  How do they position themselves in the market?" />
+            </div>
+
+            <BlackSubHeading headingTitle="Main products in market:"></BlackSubHeading>
+            <div className="mt-9">
+              <img
+                src="/Casestudy_VMO/Casestudy3_Research_Competitive_Analysis.svg"
+                alt=""
+              />
+            </div>
+            <TealDivider color="maroon"></TealDivider>
+
+            <TealHeading2 color="maroon" headingTitle="Personas"></TealHeading2>
+            <RegularParagraph content="For the launch of Vendor management we focussed on three main target audiences:" />
+            <div className="mt-12">
+              <div class="flex flex-col">
+                <div className="mb-20">
+                  <img
+                    className=""
+                    src="/Casestudy_VMO/Casestudy3_Research_Persona_1.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  className=""
+                  src="/Casestudy_VMO/Casestudy3_Research_Persona_2.svg"
+                  alt=""
+                />
+                <img
+                  className=""
+                  src="/Casestudy_VMO/Casestudy3_Research_Persona_3.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <TealDivider color="maroon"></TealDivider>
+            <TealHeading2
+              color="maroon"
+              headingTitle="User flow for Create request flow"
+            ></TealHeading2>
+            <RegularParagraph content="I’ve created an onboarding flow diagram to map every step of the process interaction required to achieve the main goal of onboarding users in a digital way."></RegularParagraph>
+            <div className="mt-12">
+              <img
+                className=""
+                src="/Casestudy_VMO/Casestudy3_Research_User_Flow.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+
+        {/*Design*/}
+        <div className="mt-28 grid grid-cols-6 gap-4">
+          <div className="col-span-1"></div>
+          <div className="col-span-4 text-lg">
+            <TealHeading2
+              color="maroon"
+              headingTitle="Low-fidelity wireframes"
+            ></TealHeading2>
+            <RegularParagraph content="I’ve sketched each interaction and added the elements and screens that were necessary to reach users goals & quickly see which ideas worked best. I’ve developed the sketches into invision to build an interactive prototype and tested with some." />
+
+            <BlackSubHeading headingTitle="Usability Test"></BlackSubHeading>
+            <div className="mt-12 mb-12">
+              <RegularParagraph content="-  Tests were conducted with 7 users across different roles " />
+              <RegularParagraph content="-  4 users for desktop & 3 users for mobile" />
+              <RegularParagraph content="-  5 to 6 tasks given to each user according to their roles & responsibilities" />
+            </div>
+
+            <BlackSubHeading headingTitle="Findings"></BlackSubHeading>
+            <div className="mt-12 mb-12">
+              <RegularParagraph content="-  Instead of showing the data in the numbers, the user expects to view in data visualization." />
+              <RegularParagraph content="-  Easy access to find for project or associate information." />
+              <RegularParagraph content="-  Users asked for the option to view “ongoing” and “approved” request filters." />
+              <RegularParagraph content="-  Quickly share the visualization report to the management team." />
+            </div>
+
+            <img
+              className="m-auto"
+              src="/Casestudy_VMO/Casestudy3_Design_Low_Wireframe.svg"
+              alt=""
+            />
+            <TealDivider color="maroon"></TealDivider>
+
+            <TealHeading2 color="maroon" headingTitle="High-fidelity wireframes"/>
+            <RegularParagraph content="I’ve turned my revised sketches into black and white interactive prototypes done through a sketch software. I’ve defined UI elements, patterns and visual hierarchy. Also, tested the prototype over the remote usability testing."/>
+            <img
+              className="m-auto"
+              src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_1.jpg"
+              alt=""
+              />
+          </div>
+          <div className="col-span-1"></div>
+        </div>
+
+        {/*Learning on entire project*/}
+        <TealBanner
+          color="maroon"
+          title="Learnings on entire project"
+        ></TealBanner>
+        <div className="mb-36">
+          <img
+            className="m-auto"
+            src="/Casestudy_VMO/Casestudy3_Learnings.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
