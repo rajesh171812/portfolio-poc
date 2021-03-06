@@ -1,16 +1,6 @@
-import Head from "next/head";
-import React, { useEffect, useState } from "react";
-import BlueBanner from "../components/blueBanner";
-import Card from "../components/card";
-import SimpleCard from "../components/simpleCard";
-import GrayHeading from "../components/grayHeading";
-import BlueHeading from "../components/blueHeading";
+import React, {useEffect, useState} from "react";
 import RegularParagraph from "../components/regularParagraph";
 import Link from "next/link";
-import {
-  ReactCompareSlider,
-  ReactCompareSliderImage,
-} from "react-compare-slider";
 import ScrollToTop from "../components/scrollToTop";
 import ProjectHeader from "../components/projectHeader";
 import TealHeading from "../components/tealHeading";
@@ -18,23 +8,8 @@ import TealBanner from "../components/tealBanner";
 import TealHeading2 from "../components/tealHeading2";
 import BlackSubHeading from "../components/blackSubHeading";
 import TealDivider from "../components/tealDivider";
+
 export default function Ipitch() {
-  // function debounce(func, wait = 20, immediate = true) {
-  //   console.log("in debounce");
-  //   let timeout;
-  //   return function() {
-  //     const context = this,
-  //         args = arguments;
-  //     const later = function () {
-  //       timeout = null;
-  //       if (!immediate) func.apply(context, args);
-  //     };
-  //     const callNow = immediate && !timeout;
-  //     clearTimeout(timeout);
-  //     timeout = setTimeout(later, wait);
-  //     if (callNow) func.apply(context, args);
-  //   };
-  // }
   const [showScroll, setShowScroll] = useState(false);
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 800) {
@@ -44,58 +19,8 @@ export default function Ipitch() {
     }
   };
 
-  function checkSlide() {
-    const sliderImages = document.querySelectorAll(".slide-in");
-    sliderImages.forEach((sliderImage) => {
-      // halfway through the image
-      const slideInAt =
-        window.scrollY + window.innerHeight - sliderImage.height / 2;
-      // bottom of the image
-      const imageBottom = sliderImage.offsetTop + sliderImage.height;
-      const isHalfShown = slideInAt > sliderImage.offsetTop;
-      const isNotScrolledPast = window.scrollY < imageBottom;
-      if (isHalfShown && isNotScrolledPast) {
-        sliderImage.classList.remove("opacity-0");
-        sliderImage.classList.add("delay-100");
-        sliderImage.classList.contains("left")
-          ? sliderImage.classList.remove("-translate-x-10")
-          : sliderImage.classList.remove("translate-x-10");
-      } else {
-        sliderImage.classList.contains("left")
-          ? sliderImage.classList.add("-translate-x-10")
-          : sliderImage.classList.add("translate-x-10");
-        sliderImage.classList.add("opacity-0");
-      }
-    });
-
-    const cards = document.querySelectorAll(".card-appear");
-    cards.forEach((card, index) => {
-      const cardHeight = card.classList.contains("simple-card") ? 300 : 200;
-      // halfway through the card
-      const slideInAt = window.scrollY + window.innerHeight - cardHeight / 2;
-      // bottom of the card
-      const cardBottom = card.offsetTop + cardHeight;
-      const isHalfShown = slideInAt > card.offsetTop;
-      const isNotScrolledPast = window.scrollY < cardBottom;
-      const durationValue = "duration-" + 100 * Math.floor(Math.random() * 7);
-      if (isHalfShown && isNotScrolledPast) {
-        card.classList.add("transition-all");
-        card.classList.add("ease-in");
-        card.classList.add("delay-500");
-        card.classList.add(durationValue);
-        card.classList.remove("translate-y-10");
-        card.classList.remove("opacity-0");
-      } else {
-        card.classList.add("opacity-0");
-        card.classList.add("translate-y-10");
-      }
-    });
-  }
-
   const handleScroll = () => {
-    checkSlide();
     checkScrollTop();
-    // debounce(checkSlide)
   };
 
   useEffect(() => {

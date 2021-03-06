@@ -21,6 +21,7 @@ module.exports = {
       headerLine: '#b4b4b4',
       teal:'#31A88C',
       tealLight:'#4ABFA3',
+      maroon: '#7B3EC8',
       headerLinksNotSelected: '#848484',
       footerBackgroundColor: '#F7F8FC',
       footerFontColor: '#707070'
@@ -28,6 +29,7 @@ module.exports = {
     background: {
       blue: '#1A63D9',
       teal:'#31A88C',
+      maroon: '#7B3EC8',
       black: '#000000',
       gray: '#cccccc',
       work1: '#26CFA7',

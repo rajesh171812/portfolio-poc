@@ -51,7 +51,7 @@ export default function Work() {
       <div className="grid grid-cols-6 gap-4 mt-12 mb-32 font-serif">
         <div className="col-span-1"></div>
         <div className="col-span-4 cursor-pointer justify-center">
-          <Link className="" href="/searchProject">
+          <Link className="" href="/vendorManagement">
             <div>
               <img
                 src="/Dashboard_VMO_600x600_1.svg"
