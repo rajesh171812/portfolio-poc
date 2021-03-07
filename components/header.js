@@ -36,14 +36,23 @@ export default function Header() {
     leftCross.classList.toggle("-rotate-45");
   };
   return (
-    <div className={"p-4 md:pt-16 md:pb-10 font-sans bg-gradient-to-t from-primary to-secondary " +  (currentRoute === "/ipitch" || currentRoute === "/businessEdge" || currentRoute === "/vendorManagement"
-        ? "hidden"
-        : "")}>
+    <div
+      className={
+        "p-4 md:pt-16 md:pb-10 font-sans bg-gradient-to-t from-primary to-secondary " +
+        (currentRoute === "/ipitch" ||
+        currentRoute === "/businessEdge" ||
+        currentRoute === "/vendorManagement"
+          ? "hidden"
+          : "")
+      }
+    >
       <div
         className={
           "top-15 left-5 bg-black hover:bg-blue-700 w-16 h-16 flex items-center justify-center text-white text-2xl rounded-full cursor-pointer z-50 " +
-          (currentRoute === "/ipitch" || currentRoute === "/businessEdge" || currentRoute === "/vendorManagement"
-              ? "absolute"
+          (currentRoute === "/ipitch" ||
+          currentRoute === "/businessEdge" ||
+          currentRoute === "/vendorManagement"
+            ? "absolute"
             : "hidden")
         }
       >
@@ -54,7 +63,9 @@ export default function Header() {
       <div
         className={
           "mt-4 flex md:hidden justify-between font-sans " +
-          (currentRoute === "/ipitch" || currentRoute === "/businessEdge" || currentRoute === "/vendorManagement"
+          (currentRoute === "/ipitch" ||
+          currentRoute === "/businessEdge" ||
+          currentRoute === "/vendorManagement"
             ? "hidden"
             : "")
         }
@@ -79,8 +90,10 @@ export default function Header() {
         onClick={toggleMobileMenu}
         id="floatingMenu"
         className={
-          "fixed left-0 -left-full transition md:transition-none transform md:transform-none -translate-y-full duration-500 ease-in-out  md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-transparent opacity-90 md:opacity-100 " +
-          (currentRoute === "/ipitch" || currentRoute === "/businessEdge" || currentRoute === "/vendorManagement"
+          "fixed left-0 -left-full transition md:transition-none transform md:transform-none -translate-y-full duration-500 ease-in-out  md:static flex flex-col md:flex-row h-screen w-screen md:h-auto md:w-auto items-start justify-center bg-black md:bg-opacity-0" +
+          (currentRoute === "/ipitch" ||
+          currentRoute === "/businessEdge" ||
+          currentRoute === "/vendorManagement"
             ? "hidden"
             : "")
         }
