@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div className="p-7 md:p-0 bg-footerBackgroundColor">
       {currentRoute === "/ipitch" ||
-      currentRoute === "/searchProject" ||
+      currentRoute === "/businessEdge" ||
       currentRoute === "/vendorManagement" ? (
         <div
           className={
@@ -37,13 +37,13 @@ export default function Footer() {
           <div className="my-16 flex flex-col ml-20">
             <div className="text-sm font-regular">SEE MORE OF MY WORK</div>
             <div className="cursor-pointer">
-              <Link href="/searchProject" className="mt-2 cursor-pointer">
+              <Link href="/businessEdge" className="mt-2 cursor-pointer">
                 <img
                   src="/Casestudy_Footer/Footer_3.svg"
                   alt="Business Edge"
                   className={
                     "object-center " +
-                    (currentRoute === "/searchProject" ? "hidden" : "")
+                    (currentRoute === "/businessEdge" ? "hidden" : "")
                   }
                 />
               </Link>

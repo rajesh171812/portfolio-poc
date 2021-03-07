@@ -24,7 +24,7 @@ export default function Work() {
         <div className="col-span-1"></div>
         <div className="col-span-4 flex flex-col lg:flex-row justify-center">
           <div className="mr-0 md:mr-12 cursor-pointer">
-            <Link href="/searchProject">
+            <Link href="/businessEdge">
               <div>
                   <img
                     src="/Dashboard_BE_600x600_1.svg"

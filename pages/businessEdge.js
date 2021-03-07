@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import ScrollToTop from "../components/scrollToTop";
 import RegularParagraph from "../components/regularParagraph";
 import TealHeading from "../components/tealHeading";
@@ -9,7 +9,7 @@ import BlackSubHeading from "../components/blackSubHeading";
 import Link from "next/link";
 import ProjectHeader from "../components/projectHeader";
 
-export default function SearchProject() {
+export default function BusinessEdge() {
   const [showScroll, setShowScroll] = useState(false);
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 800) {
@@ -18,6 +18,16 @@ export default function SearchProject() {
       setShowScroll(false);
     }
   };
+
+  const handleScroll = () => {
+    checkScrollTop();
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
   return (
     <div className="bg-white text-black">
       <div style={{ display: showScroll ? "flex" : "none" }}>
