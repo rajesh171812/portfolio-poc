@@ -277,6 +277,7 @@ export default function Ipitch() {
 
             <div className="grid grid-flow-col gap-10">
               <div>
+                <TealHeading2 color="blue" headingTitle="Prioritization Matrix"/>
                 <RegularParagraph content="After identifying the user pain-points, we went in for a discussion with business to prioritize the issues." />
                 <div className="mt-2">
                   <RegularParagraph content="Following this, I worked on my own UX prioritization by categorizing issues as easy and hard to fix" />
@@ -353,7 +354,7 @@ export default function Ipitch() {
               className=""
             />
             <div className="grid grid-flow-col gap-10 w-2/3 m-auto mt-12">
-              <div>
+              <div className="flex justify-content-center">
                 <img
                   className=""
                   src="/Casestudy_IPitch/Casestudy2_Solution_Reporting_Icon.svg"
@@ -392,9 +393,11 @@ export default function Ipitch() {
                     src="/Casestudy_IPitch/Casestudy2_Usabilitytesting_Usericon.svg"
                     alt=""
                   />
-                  <RegularParagraph content="- 9 people participated in the Usability Testing." />
-                  <RegularParagraph content="- 3 Sales Managers / 4 Sales Associates." />
-                  <RegularParagraph content="- Age 35 -55" />
+                  <div className="mt-4">
+                    <RegularParagraph content="- 9 people participated in the Usability Testing." />
+                    <RegularParagraph content="- 3 Sales Managers / 4 Sales Associates." />
+                    <RegularParagraph content="- Age 35 -55" />
+                  </div>
                 </div>
               </div>
               <div className="mt-12 grid grid-flow-row gap-4">
