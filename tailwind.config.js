@@ -24,7 +24,8 @@ module.exports = {
       maroon: '#7B3EC8',
       headerLinksNotSelected: '#848484',
       footerBackgroundColor: '#F7F8FC',
-      footerFontColor: '#707070'
+      footerFontColor: '#707070',
+      scrollColor: '#E9E9E9'
     },
     background: {
       blue: '#1A63D9',
@@ -35,6 +36,7 @@ module.exports = {
       work1: '#26CFA7',
       work2: '#0E5AFF',
       work3: '#672CC0',
+      scrollColor: '#E9E9E9'
     },
     gradientColorStops: {
       'primary': '#000',

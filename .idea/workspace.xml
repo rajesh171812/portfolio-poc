@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/scrollToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/scrollToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vendorManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vendorManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Impact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Casestudy_VMO/Casestudy3_Impact.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <workItem from="1614828751025" duration="4000" />
       <workItem from="1614828767263" duration="3000" />
       <workItem from="1614828783415" duration="9162000" />
-      <workItem from="1614916265515" duration="15389000" />
+      <workItem from="1614916265515" duration="17687000" />
     </task>
     <servers />
   </component>

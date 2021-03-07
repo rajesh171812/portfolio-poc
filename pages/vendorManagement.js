@@ -63,7 +63,11 @@ export default function VendorManagement() {
                 </div>
               </div>
               <div className="mt-10 ml-24 md:-mt-5">
-                <img src="/Casestudy_VMO/Casestudy3_Header_1.svg" alt="mac" className="" />
+                <img
+                  src="/Casestudy_VMO/Casestudy3_Header_1.svg"
+                  alt="mac"
+                  className=""
+                />
               </div>
             </div>
           </div>
@@ -99,9 +103,6 @@ export default function VendorManagement() {
         {/*Full size before after*/}
         <div className="my-36 py-16 grid grid-cols-6 gap-4 bg-maroon">
           <div className="col-span-6 m-auto">
-            <div className="text-6xl text-white pt-28 pb-24 font-bold text-center">
-              Impact and Results Achieved
-            </div>
             <img
               src="/Casestudy_VMO/Casestudy3_Impact.svg"
               alt="IPitch"
@@ -193,18 +194,20 @@ export default function VendorManagement() {
             <RegularParagraph content="For the launch of Vendor management we focussed on three main target audiences:" />
             <div className="mt-12">
               <div class="flex flex-col">
-                <div className="mb-20">
+                <div className="mb-24">
                   <img
                     className=""
                     src="/Casestudy_VMO/Casestudy3_Research_Persona_1.svg"
                     alt=""
                   />
                 </div>
-                <img
-                  className=""
-                  src="/Casestudy_VMO/Casestudy3_Research_Persona_2.svg"
-                  alt=""
-                />
+                <div className="mb-24">
+                  <img
+                    className=""
+                    src="/Casestudy_VMO/Casestudy3_Research_Persona_2.svg"
+                    alt=""
+                  />
+                </div>
                 <img
                   className=""
                   src="/Casestudy_VMO/Casestudy3_Research_Persona_3.svg"
@@ -230,6 +233,7 @@ export default function VendorManagement() {
         </div>
 
         {/*Design*/}
+        <TealBanner color="maroon" title="Design"></TealBanner>
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
@@ -239,19 +243,23 @@ export default function VendorManagement() {
             ></TealHeading2>
             <RegularParagraph content="I’ve sketched each interaction and added the elements and screens that were necessary to reach users goals & quickly see which ideas worked best. I’ve developed the sketches into invision to build an interactive prototype and tested with some." />
 
-            <BlackSubHeading headingTitle="Usability Test"></BlackSubHeading>
-            <div className="mt-12 mb-12">
-              <RegularParagraph content="-  Tests were conducted with 7 users across different roles " />
-              <RegularParagraph content="-  4 users for desktop & 3 users for mobile" />
-              <RegularParagraph content="-  5 to 6 tasks given to each user according to their roles & responsibilities" />
+            <div className="my-12">
+              <BlackSubHeading headingTitle="Usability Test"></BlackSubHeading>
+              <div className="mt-6">
+                <RegularParagraph content="-  Tests were conducted with 7 users across different roles " />
+                <RegularParagraph content="-  4 users for desktop & 3 users for mobile" />
+                <RegularParagraph content="-  5 to 6 tasks given to each user according to their roles & responsibilities" />
+              </div>
             </div>
 
-            <BlackSubHeading headingTitle="Findings"></BlackSubHeading>
-            <div className="mt-12 mb-12">
-              <RegularParagraph content="-  Instead of showing the data in the numbers, the user expects to view in data visualization." />
-              <RegularParagraph content="-  Easy access to find for project or associate information." />
-              <RegularParagraph content="-  Users asked for the option to view “ongoing” and “approved” request filters." />
-              <RegularParagraph content="-  Quickly share the visualization report to the management team." />
+            <div className="mb-12">
+              <BlackSubHeading headingTitle="Findings"></BlackSubHeading>
+              <div className="mt-6">
+                <RegularParagraph content="-  Instead of showing the data in the numbers, the user expects to view in data visualization." />
+                <RegularParagraph content="-  Easy access to find for project or associate information." />
+                <RegularParagraph content="-  Users asked for the option to view “ongoing” and “approved” request filters." />
+                <RegularParagraph content="-  Quickly share the visualization report to the management team." />
+              </div>
             </div>
 
             <img
@@ -261,13 +269,16 @@ export default function VendorManagement() {
             />
             <TealDivider color="maroon"></TealDivider>
 
-            <TealHeading2 color="maroon" headingTitle="High-fidelity wireframes"/>
-            <RegularParagraph content="I’ve turned my revised sketches into black and white interactive prototypes done through a sketch software. I’ve defined UI elements, patterns and visual hierarchy. Also, tested the prototype over the remote usability testing."/>
+            <TealHeading2
+              color="maroon"
+              headingTitle="High-fidelity wireframes"
+            />
+            <RegularParagraph content="I’ve turned my revised sketches into black and white interactive prototypes done through a sketch software. I’ve defined UI elements, patterns and visual hierarchy. Also, tested the prototype over the remote usability testing." />
             <img
               className="m-auto"
               src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_1.jpg"
               alt=""
-              />
+            />
           </div>
           <div className="col-span-1"></div>
         </div>
