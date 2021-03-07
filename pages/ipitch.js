@@ -53,11 +53,19 @@ export default function Ipitch() {
                 />
               </Link>
             </div>
-            <ProjectHeader
-              projectTitle="Ipitch"
-              projectDescription="An application which helps to increase productivity for sales team"
-              projectImageUrl="/Casestudy_IPitch/Casestudy2_Header_1.svg"
-            />
+            <div className="flex flex-col md:flex-row items-stretch">
+              <div className="pt-40">
+                <div className="mb-7 text-6xl font-sans font-bold text-white">
+                  Ipitch
+                </div>
+                <div className="md:w-3/4 text-2xl font-serif font-light">
+                  An application which helps to increase productivity for sales team
+                </div>
+              </div>
+              <div className="mt-10 md:-mb-10">
+                <img src="/Casestudy_IPitch/Casestudy2_Header_1.svg" alt="Business Edge" className="" />
+              </div>
+            </div>
           </div>
           <div className="col-span-1"></div>
         </div>

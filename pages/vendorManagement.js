@@ -53,11 +53,19 @@ export default function VendorManagement() {
                 />
               </Link>
             </div>
-            <ProjectHeader
-              projectTitle="Vendor Management"
-              projectDescription="Conversion of legacy process in to digital automated process"
-              projectImageUrl="/Casestudy_VMO/Casestudy3_Header_1.svg"
-            />
+            <div className="flex flex-col md:flex-row items-stretch">
+              <div className="pt-36">
+                <div className="mb-7 text-6xl font-sans font-bold text-white">
+                  Vendor Management
+                </div>
+                <div className="md:w-3/4 text-2xl font-serif font-light">
+                  Conversion of legacy process in to digital automated process
+                </div>
+              </div>
+              <div className="mt-10 ml-24 md:-mt-5">
+                <img src="/Casestudy_VMO/Casestudy3_Header_1.svg" alt="mac" className="" />
+              </div>
+            </div>
           </div>
           <div className="col-span-1"></div>
         </div>

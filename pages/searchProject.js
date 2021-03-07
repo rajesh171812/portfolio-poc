@@ -45,7 +45,7 @@ export default function SearchProject() {
             </div>
             <ProjectHeader
               projectTitle="Business Edge"
-              projectDescription="Ree-designed consultant application and increase in users using new
+              projectDescription="Re-designed consultant application and increase in users using new
                   the application"
               projectImageUrl="/Casestudy_BE/Casestudy1_Header_image.svg"
             />
