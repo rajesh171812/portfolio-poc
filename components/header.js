@@ -10,8 +10,6 @@ export default function Header() {
   });
 
   const toggleMobileMenu = () => {
-    console.log(router.route);
-    console.log("currentRoute", currentRoute);
     const floatingMenu = document.getElementById("floatingMenu");
     const leftCross = document.getElementById("left-cross");
     const rightCross = document.getElementById("right-cross");
@@ -62,7 +60,7 @@ export default function Header() {
       </div>
       <div
         className={
-          "mt-4 flex md:hidden justify-between font-sans " +
+          "mt-4 flex md:hidden justify-end font-sans " +
           (currentRoute === "/ipitch" ||
           currentRoute === "/businessEdge" ||
           currentRoute === "/vendorManagement"
@@ -70,7 +68,6 @@ export default function Header() {
             : "")
         }
       >
-        <div className="mx-4 text-xl text-white">Rajesh Revoor</div>
         <div className="nav-toggle-btn z-50" onClick={toggleMobileMenu}>
           <div id="hamburgerIcon" className="flex flex-col">
             <span className="hamburgerLinesToHide w-6 mb-1.5 border-t-2 border-white"></span>
