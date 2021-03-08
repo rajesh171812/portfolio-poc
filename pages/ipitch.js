@@ -62,7 +62,7 @@ export default function Ipitch() {
                   An application which helps to increase productivity for sales team
                 </div>
               </div>
-              <div className="mt-10 md:-mb-10">
+              <div className="mt-10 -mb-10">
                 <img src="/Casestudy_IPitch/Casestudy2_Header_1.svg" alt="Business Edge" className="" />
               </div>
             </div>
