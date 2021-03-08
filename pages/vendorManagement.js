@@ -8,9 +8,28 @@ import TealBanner from "../components/tealBanner";
 import TealHeading2 from "../components/tealHeading2";
 import BlackSubHeading from "../components/blackSubHeading";
 import TealDivider from "../components/tealDivider";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export default function VendorManagement() {
   const [showScroll, setShowScroll] = useState(false);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 800) {
       setShowScroll(true);
@@ -242,7 +261,6 @@ export default function VendorManagement() {
               headingTitle="Low-fidelity wireframes"
             ></TealHeading2>
             <RegularParagraph content="I’ve sketched each interaction and added the elements and screens that were necessary to reach users goals & quickly see which ideas worked best. I’ve developed the sketches into invision to build an interactive prototype and tested with some." />
-
             <div className="my-12">
               <BlackSubHeading headingTitle="Usability Test"></BlackSubHeading>
               <div className="mt-6">
@@ -251,7 +269,6 @@ export default function VendorManagement() {
                 <RegularParagraph content="-  5 to 6 tasks given to each user according to their roles & responsibilities" />
               </div>
             </div>
-
             <div className="mb-12">
               <BlackSubHeading headingTitle="Findings"></BlackSubHeading>
               <div className="mt-6">
@@ -261,24 +278,78 @@ export default function VendorManagement() {
                 <RegularParagraph content="-  Quickly share the visualization report to the management team." />
               </div>
             </div>
-
             <img
               className="m-auto"
               src="/Casestudy_VMO/Casestudy3_Design_Low_Wireframe.svg"
               alt=""
             />
             <TealDivider color="maroon"></TealDivider>
-
             <TealHeading2
               color="maroon"
               headingTitle="High-fidelity wireframes"
             />
             <RegularParagraph content="I’ve turned my revised sketches into black and white interactive prototypes done through a sketch software. I’ve defined UI elements, patterns and visual hierarchy. Also, tested the prototype over the remote usability testing." />
-            <img
-              className="m-auto"
-              src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_1.jpg"
-              alt=""
-            />
+            <Carousel
+              swipeable={false}
+              draggable={false}
+              showDots={true}
+              responsive={responsive}
+              ssr={true} // means to render carousel on server-side.
+              infinite={true}
+              autoPlay={true}
+              autoPlaySpeed={2000}
+              keyBoardControl={true}
+              customTransition="all .5"
+              transitionDuration={1000}
+              containerClass="carousel-container"
+              removeArrowOnDeviceType={["tablet", "mobile"]}
+              renderButtonGroupOutside={true}
+              dotListClass="custom-dot-list-style"
+              itemClass="carousel-item-padding-40-px"
+            >
+              <div>
+                <img
+                  className="m-auto"
+                  src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_1.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="m-auto"
+                  src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_2.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="m-auto"
+                  src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_3.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="m-auto"
+                  src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_4.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="m-auto"
+                  src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_5.jpg"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  className="m-auto"
+                  src="/Casestudy_VMO/Casestudy3_Design_High_Wireframe_6.jpg"
+                  alt=""
+                />
+              </div>
+            </Carousel>
           </div>
           <div className="col-span-1"></div>
         </div>
