@@ -73,7 +73,7 @@ export default function VendorManagement() {
               </Link>
             </div>
             <div className="flex flex-col md:flex-row items-stretch">
-              <div className="pt-36">
+              <div className="pt-20">
                 <div className="mb-7 text-6xl font-sans font-bold text-white">
                   Vendor Management
                 </div>
@@ -120,7 +120,7 @@ export default function VendorManagement() {
         </div>
 
         {/*Full size before after*/}
-        <div className="my-36 py-16 grid grid-cols-6 gap-4 bg-maroon">
+        <div className="mt-36 mb-10 pt-16 grid grid-cols-6 gap-4 bg-maroon">
           <div className="col-span-6 m-auto">
             <img
               src="/Casestudy_VMO/Casestudy3_Impact.svg"
@@ -130,7 +130,7 @@ export default function VendorManagement() {
           </div>
         </div>
 
-        <div className="mt-28 grid grid-cols-6 gap-4">
+        <div className="grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
             <TealHeading headingTitle="My Role" color="maroon" />
@@ -305,7 +305,7 @@ export default function VendorManagement() {
               removeArrowOnDeviceType={["tablet", "mobile"]}
               renderButtonGroupOutside={true}
               dotListClass="custom-dot-list-style"
-              itemClass="carousel-item-padding-40-px"
+              itemClass="pt-12 pb-16"
             >
               <div>
                 <img
