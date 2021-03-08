@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-    </list>
+    <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,12 +77,13 @@
     <state x="461" y="158" key="SettingsEditor/0.23.1920.1002@0.23.1920.1002" timestamp="1614459885161" />
     <state x="461" y="155" key="SettingsEditor/0.23.1920.982@0.23.1920.982" timestamp="1612063711693" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1611978682127" />
-    <state x="535" y="269" width="1385" height="496" key="find.popup" timestamp="1615094459040">
-      <screen x="0" y="23" width="1920" height="984" />
+    <state x="535" y="269" width="1385" height="495" key="find.popup" timestamp="1615173149611">
+      <screen x="0" y="23" width="1920" height="982" />
     </state>
     <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1001@0.23.1920.1001" timestamp="1614694814200" />
     <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614645557072" />
     <state x="661" y="268" width="598" height="490" key="find.popup/0.23.1920.980@0.23.1920.980" timestamp="1612020305391" />
+    <state x="535" y="269" width="1385" height="495" key="find.popup/0.23.1920.982@0.23.1920.982" timestamp="1615173149611" />
     <state x="535" y="269" width="1385" height="496" key="find.popup/0.23.1920.984@0.23.1920.984" timestamp="1615094459040" />
     <state x="330" y="427" width="1385" height="582" key="find.popup/0.23.1920.986@0.23.1920.986" timestamp="1615052902862" />
     <state x="533" y="270" width="1387" height="495" key="find.popup/0.23.1920.989@0.23.1920.989" timestamp="1614546197635" />
