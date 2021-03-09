@@ -26,14 +26,23 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Group_224" data-name="Group 224" transform="translate(-928 -18837)">
-    <g transform="matrix(1, 0, 0, 1, 928, 18837)" filter="url(#Rectangle_1668)">
-      <rect id="Rectangle_1668-2" data-name="Rectangle 1668" width="408" height="100" transform="translate(9 6)" fill="#fff"/>
-    </g>
-    <rect id="Rectangle_1672" data-name="Rectangle 1672" width="100" height="100" transform="translate(937 18843)" fill="url(#linear-gradient)"/>
-    <g id="Mask_Group_34" data-name="Mask Group 34" transform="translate(0 2367)" clip-path="url(#clip-path)">
-      <g transform="matrix(1, 0, 0, 1, 928, 16470)" filter="url(#smartmockups_kkotc6ht)">
-        <rect id="smartmockups_kkotc6ht-2" data-name="smartmockups_kkotc6ht" width="143" height="111" transform="translate(36 22)" fill="url(#pattern)"/>
+  <g id="Group_546" data-name="Group 546" transform="translate(-1630 -5410)">
+    <g id="Group_544" data-name="Group 544">
+      <g id="Group_224" data-name="Group 224" transform="translate(702 -13427)">
+        <g transform="matrix(1, 0, 0, 1, 928, 18837)" filter="url(#Rectangle_1668)">
+          <rect id="Rectangle_1668-2" data-name="Rectangle 1668" width="408" height="100" transform="translate(9 6)" fill="#fff"/>
+        </g>
+        <rect id="Rectangle_1672" data-name="Rectangle 1672" width="100" height="100" transform="translate(937 18843)" fill="url(#linear-gradient)"/>
+        <g id="Mask_Group_34" data-name="Mask Group 34" transform="translate(0 2367)" clip-path="url(#clip-path)">
+          <g transform="matrix(1, 0, 0, 1, 928, 16470)" filter="url(#smartmockups_kkotc6ht)">
+            <rect id="smartmockups_kkotc6ht-2" data-name="smartmockups_kkotc6ht" width="143" height="111" transform="translate(36 22)" fill="url(#pattern)"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_541" data-name="Group 541" transform="translate(3 129)">
+        <text id="Vendor_management" data-name="Vendor management" transform="translate(1750 5305)" font-size="20" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600"><tspan x="0" y="20">Vendor management</tspan></text>
+        <text id="Transformation_of_legacy_process_into_digital_process" data-name="Transformation of legacy process into 
+digital process" transform="translate(1750 5331)" fill="#554f4f" font-size="13" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="14">Transformation of legacy process into </tspan><tspan x="0" y="32">digital process</tspan></text>
       </g>
     </g>
   </g>

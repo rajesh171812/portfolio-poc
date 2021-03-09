@@ -20,11 +20,6 @@ export default function Home() {
         <meta name="description" content="Rajesh Revoor portfolio website" />
         <meta name="og:title" content="Rajesh Revoor" />
       </Head>
-      <footer>
-        <div className="fixed bottom-0 left-1/2 font-sans">
-          Rajesh Revoor designs<span>&#174;</span>
-        </div>
-      </footer>
     </div>
   );
 }

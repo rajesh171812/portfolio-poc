@@ -54,7 +54,7 @@ export default function BusinessEdge() {
               </Link>
             </div>
             <ProjectHeader
-              projectTitle="Business Edge"
+              projectTitle="Firm Consultant's application"
               projectDescription="Re-designed consultant application and increase in users using new
                   the application"
               projectImageUrl="/Casestudy_BE/Casestudy1_Header_image.svg"
