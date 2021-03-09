@@ -27,7 +27,7 @@ export default function Work() {
             <Link href="/businessEdge">
               <div>
                   <img
-                    src="/Dashboard_BE_600x600_1.svg"
+                    src="/Dashboard_BE_600x600.png"
                     alt="Business Edge"
                     className=""
                   />
@@ -38,7 +38,7 @@ export default function Work() {
             <Link href="/ipitch">
               <div>
                 <img
-                  src="/Dashboard_pitch_600x600_1.svg"
+                  src="/Dashboard_pitch_600x600.png"
                   alt="Pitch"
                   className=""
                 />
@@ -54,7 +54,7 @@ export default function Work() {
           <Link className="" href="/vendorManagement">
             <div>
               <img
-                src="/Dashboard_VMO_600x600_1.svg"
+                src="/Dashboard_VMO_600x600.png"
                 alt="Vendor Management"
                 className=""
               />
