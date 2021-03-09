@@ -78,7 +78,8 @@ export default function VendorManagement() {
                   Vendor Management
                 </div>
                 <div className="md:w-3/4 text-2xl font-serif font-light">
-                  Conversion of legacy process in to digital automated process
+                  Transformation of legacy process into
+                  digital process
                 </div>
               </div>
               <div className="mt-10 ml-24 md:-mt-5">

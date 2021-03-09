@@ -9,7 +9,7 @@ export default function About(props) {
         <div className="pb-12 border-b border-white">
           <div className="font-sans font-bold text-5xl">Rajesh Revoor</div>
           <div className="mt-5 mb-12 font-serif font-extralight text-3xl">
-            User Experience Designer
+            User Experience Designer   |   HFI-CUA™
           </div>
           <div className="font-serif leading-7 text-base text-white">
             <div>
