@@ -362,7 +362,7 @@ export default function VendorManagement() {
         <div className="mb-36">
           <img
             className="m-auto"
-            src="/Casestudy_VMO/Casestudy3_Learning.svg"
+            src="/Casestudy_VMO/Casestudy3_learnings.png"
             alt=""
           />
         </div>

@@ -56,7 +56,7 @@ export default function Ipitch() {
             <div className="flex flex-col md:flex-row items-stretch">
               <div className="pt-40">
                 <div className="mb-7 text-6xl font-sans font-bold text-white">
-                  Ipitch
+                  Pitch
                 </div>
                 <div className="md:w-3/4 text-2xl font-serif font-light">
                   An application which helps to increase productivity for sales team
@@ -261,7 +261,7 @@ export default function Ipitch() {
           <div className="col-span-4 text-lg">
             <TealHeading2
               color="blue"
-              headingTitle="Root causes Issues or problems."
+              headingTitle="Root causes Issues or problems"
             />
 
             <RegularParagraph content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
@@ -316,7 +316,7 @@ export default function Ipitch() {
           <div className="col-span-4 text-lg">
             <TealHeading2
               color="blue"
-              headingTitle="Accessing information in a single tap."
+              headingTitle="Accessing information in a single tap"
             ></TealHeading2>
             <img
               className=""
@@ -325,7 +325,7 @@ export default function Ipitch() {
               className=""
             />
             <TealDivider color="blue"></TealDivider>
-            <TealHeading2 color="blue" headingTitle="Appointment organizer." />
+            <TealHeading2 color="blue" headingTitle="Appointment organizer" />
             <img
               className=""
               src="/Casestudy_IPitch/Casestudy2_Solution_Appointment.svg"
@@ -335,7 +335,7 @@ export default function Ipitch() {
             <TealDivider color="blue"></TealDivider>
             <TealHeading2
               color="blue"
-              headingTitle="Central Repository of Marketing Collaterals and playing demo."
+              headingTitle="Central Repository of Marketing Collaterals and playing demo"
             />
             <RegularParagraph content="The collaterals were not available offline and accessing an updated version was a cumbersome process. Therefore, as part of the updated application, I built a central repository of marketing collaterals. Now the sales team can access to the latest collaterals at all times and accessing them was a breeze." />
             <img

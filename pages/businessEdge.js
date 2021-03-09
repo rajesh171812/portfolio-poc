@@ -55,8 +55,7 @@ export default function BusinessEdge() {
             </div>
             <ProjectHeader
               projectTitle="Firm Consultant's application"
-              projectDescription="Re-designed consultant application and increase in users using new
-                  the application"
+              projectDescription="Re-designed consultant application"
               projectImageUrl="/Casestudy_BE/Casestudy1_Header_image.svg"
             />
           </div>
@@ -66,9 +65,9 @@ export default function BusinessEdge() {
           <div className="col-span-1"></div>
           <div className="col-span-4 mt-24 text-6xl">
             <RegularParagraph content="A hundred year-old Retirement Financial Services company from New York, USA with a global presence, (name not disclosed due to confidentiality purpose and hereafter referred to as Retirement Services Institution (RSI)) approached us to provide a solution for a consultant application." />
-            <TealHeading headingTitle="Business Edge Overview" color="teal" />
+            <TealHeading headingTitle="Overview" color="teal" />
             <RegularParagraph
-              content="Business Edge is a fluid design application, which provides data
+              content="Firm Consultant's application is a fluid design, which provides data
               of all retirement client information to consultant firms. It
               provides consultants with an overview of information such as key
               performance indicators, reports, and data science techniques. The
@@ -78,7 +77,7 @@ export default function BusinessEdge() {
             <TealHeading headingTitle="Business Problem" color="teal" />
             <div className="font-serif leading-7 text-base text-black">
               <div>
-                - The clients felt that the Business Edge is not performing as
+                - The clients felt that the Firm Consultant's application is not performing as
                 expected in the consulting firms market.
               </div>
               <div>
@@ -203,7 +202,7 @@ export default function BusinessEdge() {
               ></TealHeading2>
               <div className="grid grid-flow-col gap-10">
                 <div>
-                  <RegularParagraph content="We started organising the user interviews to understand the users motivations, behaviour and their pain points in using the application. We were able to put together a user group consisting 10 members which included the firm managers and consultant associates from top consulting firms, to know more about their view and usage of business edge application. They brought us some screenshots where they were facing some issues with the current application and also some of the features samples used by the competitors in the market." />
+                  <RegularParagraph content="We started organising the user interviews to understand the users motivations, behaviour and their pain points in using the application. We were able to put together a user group consisting 10 members which included the firm managers and consultant associates from top consulting firms, to know more about their view and usage of Firm Consultant's application. They brought us some screenshots where they were facing some issues with the current application and also some of the features samples used by the competitors in the market." />
                   <div className="mt-2">
                     <RegularParagraph content="They brought us some screenshots where they were facing some issues with the current application and also some of the features samples used by the competitors in the market." />
                   </div>
@@ -293,7 +292,7 @@ export default function BusinessEdge() {
         <TealBanner
           color="teal"
           title="Solution"
-          subtitle="Here is a comparison of the old app and proposed design. We have highlighted the different features that enhanced the usability and user experience of Business edge."
+          subtitle="Here is a comparison of the old app and proposed design. We have highlighted the different features that enhanced the usability and user experience of Firm Consultant's application."
         />
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
