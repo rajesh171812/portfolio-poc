@@ -133,7 +133,7 @@ export default function Header() {
           </Link>
         </div>
         <div className="mx-12 my-4 md:my-0 text-3xl md:text-xl text-headerLinksNotSelected">
-          <a onClick={toggleMobileMenu} href="/resume.pdf" download>
+          <a onClick={toggleMobileMenu} href="/Resume.pdf" download>
             <div
               className={
                 "text-serif cursor-pointer uppercase" +

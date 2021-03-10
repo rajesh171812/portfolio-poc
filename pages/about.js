@@ -8,7 +8,7 @@ export default function About(props) {
       <div className=" col-span-4">
         <div className="pb-12 border-b border-white">
           <div className="font-sans font-bold text-5xl">Rajesh Revoor</div>
-          <div className="mt-5 mb-12 font-serif font-extralight text-3xl">
+          <div className="mt-3 mb-10 font-serif font-extralight text-2xl">
             User Experience Designer   |   HFI-CUA™
           </div>
           <div className="font-serif leading-7 text-base text-white">
@@ -22,7 +22,7 @@ export default function About(props) {
               objectives and the user’s needs to fullfill their most pertinent
               tasks at hand. I have handled UX projects on multiple industries
               like Banking and Financial Services, Retirement, Insurance, Retail
-              and Life Sciences
+              and Life Sciences.
             </div>
             <div className="my-5">
               Specialized in UX design with high proficiencies in User Research,

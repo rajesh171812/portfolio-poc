@@ -112,10 +112,10 @@ export default function VendorManagement() {
             <RegularParagraph content="Therefore, the bank wanted to streamline the entire consultant resource management process by creating a new team called Vendor Management Resources." />
 
             <TealHeading headingTitle="The Goal" color="maroon" />
-            <RegularParagraph content="Develop a single responsive application that needs to transform the manual process into a digital process." />
-            <RegularParagraph content="Reduce the workload of Project managers & vendors." />
-            <RegularParagraph content="Reduce the number of manual and unwanted steps in this process." />
-            <RegularParagraph content="Increase the internal resources productivity by automating the onboarding and Invoices process." />
+            <RegularParagraph content="-  Develop a single responsive application that needs to transform the manual process into a digital process." />
+            <RegularParagraph content="-  Reduce the workload of Project managers & vendors." />
+            <RegularParagraph content="-  Reduce the number of manual and unwanted steps in this process." />
+            <RegularParagraph content="-  Increase the internal resources productivity by automating the onboarding and Invoices process." />
           </div>
           <div className="col-span-1"></div>
         </div>
