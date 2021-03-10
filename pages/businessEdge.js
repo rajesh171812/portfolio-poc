@@ -443,7 +443,7 @@ export default function BusinessEdge() {
               <div className="pl-12 py-4">
                 <div className="font-sans font-bold text-6xl">100%</div>
                 <div className="font-serif text-xl">
-                  Of participants enjoyed this experience.
+                  Of participants enjoyed this experience
                 </div>
               </div>
             </div>

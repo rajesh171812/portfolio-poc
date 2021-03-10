@@ -13,13 +13,13 @@ export default function About(props) {
           </div>
           <div className="font-serif leading-7 text-base text-white">
             <div>
-              I’m a Certified Usability Analyst With over 8 years of experience
+              I’m a Certified Usability Analyst with over 8+ years of experience,
               being an advocate for the user experience design process that
-              resonates in creating compelling designs for desktop, web, mobile
-              , and other digital user interfaces. By synthesizing the needs and
+              resonates in creating compelling designs for desktop, tablet, mobile
+              and other digital user interfaces. By synthesizing the needs and
               goals of users, I offer stunning design deliverables and solutions
-              that accomplish. Satisfy both the business inline initial
-              objectives and the user’s needs to accomplish their most pertinent
+              that accomplish and satisfy both the business inline initial
+              objectives and the user’s needs to fullfill their most pertinent
               tasks at hand. I have handled UX projects on multiple industries
               like Banking and Financial Services, Retirement, Insurance, Retail
               and Life Sciences
@@ -32,7 +32,7 @@ export default function About(props) {
             </div>
             <div>
               The framework which I follow to solve a complex problem into
-              elegant solution Research > Analyze > Design > Test.
+              elegant solutioning through <span className="font-serif font-bold">Research > Analyze > Design > Test</span>.
             </div>
           </div>
         </div>

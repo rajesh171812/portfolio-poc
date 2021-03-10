@@ -16,7 +16,7 @@ export default function Work() {
 </div>
       <div className="flex font-serif justify-center mb-20 text-xl font-light">
         <span className="w-1/2 leading-7 text-center">
-          I’m Rajesh, a product designer who combines research, rapid
+          I’m a Certified User Experience designer who combines research, analysis, sketching, rapid
           prototyping, interaction and visual design to transform <span className="font-serif font-bold">complex
             problems into elegant solutions</span>.
         </span>

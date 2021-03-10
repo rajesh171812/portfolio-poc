@@ -225,46 +225,51 @@ export default function Ipitch() {
                 color="blue"
                 content="The salesman feels that there is no clarity on “Schedule for the day” and the internet connectivity is a great issue when the salesperson is on the field to download the updated product catalog."
               />
-              <TealDivider color="blue"></TealDivider>
 
-              <TealHeading2 color="blue" headingTitle="Personas"></TealHeading2>
-              <RegularParagraph
-                color="blue"
-                content="Based on the interviews, two main personals were identified:"
-              />
-              <div class="flex flex-col">
-                <div className="mb-20">
-                  <img
-                    className=""
-                    src="/Casestudy_IPitch/Casestudy2_Research_Persona_1.svg"
-                    alt=""
-                    className=""
-                  />
-                </div>
-
-                <img
-                  className=""
-                  src="/Casestudy_IPitch/Casestudy2_Research_Persona_2.svg"
-                  alt=""
-                  className=""
-                />
-              </div>
             </div>
           </div>
           <div className="col-span-1"></div>
         </div>
 
         {/*Ideation*/}
-        <TealBanner color="blue" title="Ideation"></TealBanner>
+        <TealBanner color="blue" title="Analysis"></TealBanner>
         <div className="mt-28 grid grid-cols-6 gap-4">
           <div className="col-span-1"></div>
           <div className="col-span-4 text-lg">
+
+
+          <TealHeading2 color="blue" headingTitle="Personas"></TealHeading2>
+                        <RegularParagraph
+                          color="blue"
+                          content="Based on the interviews, two main personals were identified:"
+                        />
+                        <div class="flex flex-col">
+                          <div className="mb-20">
+                            <img
+                              className=""
+                              src="/Casestudy_IPitch/Casestudy2_Research_Persona_1.svg"
+                              alt=""
+                              className=""
+                            />
+                          </div>
+
+                          <img
+                            className=""
+                            src="/Casestudy_IPitch/Casestudy2_Research_Persona_2.svg"
+                            alt=""
+                            className=""
+                          />
+                        </div>
+
+                        <TealDivider color="blue"></TealDivider>
+
+
             <TealHeading2
               color="blue"
-              headingTitle="Root causes Issues or problems"
+              headingTitle="Root cause analysis"
             />
 
-            <RegularParagraph content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." />
+
             <div className="mt-12">
               <img
                 className=""
@@ -396,7 +401,7 @@ export default function Ipitch() {
                   <div className="mt-4">
                     <RegularParagraph content="- 9 people participated in the Usability Testing." />
                     <RegularParagraph content="- 3 Sales Managers / 4 Sales Associates." />
-                    <RegularParagraph content="- Age 35 -55" />
+                    <RegularParagraph content="- Age 35 -55." />
                   </div>
                 </div>
               </div>
@@ -422,7 +427,7 @@ export default function Ipitch() {
                   <div>
                     <div className="font-sans font-bold text-6xl">95%</div>
                     <div className="font-serif text-xl">
-                      Users are willing to use this app.
+                      Users are willing to use this app
                     </div>
                   </div>
                 </div>
