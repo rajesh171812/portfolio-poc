@@ -73,7 +73,7 @@ export default function Ipitch() {
         <div className="grid grid-cols-6 gap-4 font-serif">
           <div className="col-span-1"></div>
           <div className="col-span-4 mt-24 text-6xl">
-            <RegularParagraph content="One of the top 100 pharma companies approached Cognizant, who’s a leading IT Software Development, to help them to solve the issues faced by their sales team. By building a digital solution that could provide a 360° view on their business and team members performance." />
+            <RegularParagraph content="One of the top 100 pharma companies approached to solve the issues faced by their sales team. By building a digital solution that could provide a 360° view on their business and team members performance." />
 
             <TealHeading headingTitle="Business Problem" color="blue" />
             <RegularParagraph content="- Losing the market share." />
