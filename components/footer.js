@@ -33,8 +33,9 @@ export default function Footer() {
               <Link href="/contact" className="mt-7 cursor-pointer">
                 <div className="mt-7">CONTACT</div>
               </Link>
-           <a className="mt-7 cursor-pointer" href="/Rajesh_Resume.pdf" download>
-             RESUME
+           <a className="flex flex-row mt-7 cursor-pointer" href="/Rajesh_Resume.pdf" download>
+
+             RESUME <img src="/Casestudy_Footer/Download_footer.png" className="h-4 w-4 ml-2 mt-1" />
               </a>
             </div>
             <div className="my-16 flex flex-col ml-20">

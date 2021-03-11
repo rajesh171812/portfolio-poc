@@ -140,7 +140,10 @@ export default function Header() {
                 (currentRoute === "/resume" ? "font-bold text-white" : "")
               }
             >
-              Resume
+              <div className="flex flex-row">
+
+              Resume <img src="/Download.png" className="h-4 w-4 ml-2 mt-1.5" />
+              </div>
             </div>
           </a>
         </div>
