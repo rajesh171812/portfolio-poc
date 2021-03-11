@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Casestudy_BE/Casestudy_profilepic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Casestudy_BE/Casestudy_profilepic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Casestudy_Footer/Footer_Profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Casestudy_Footer/Footer_Profile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Dashboard_profile_pic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Dashboard_profile_pic.svg" afterDir="false" />
-    </list>
+    <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +28,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/Casestudy_BE" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
+    <property name="settings.editor.selected.configurable" value="ide.date.format" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -89,45 +82,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="461" y="158" key="SettingsEditor" timestamp="1614459885161">
-      <screen x="0" y="23" width="1920" height="1002" />
-    </state>
-    <state x="461" y="158" key="SettingsEditor/0.23.1920.1002@0.23.1920.1002" timestamp="1614459885161" />
-    <state x="461" y="155" key="SettingsEditor/0.23.1920.982@0.23.1920.982" timestamp="1612063711693" />
-    <state x="461" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1611978682127" />
-    <state x="535" y="269" width="1385" height="495" key="find.popup" timestamp="1615173793010">
-      <screen x="0" y="23" width="1920" height="982" />
-    </state>
-    <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1001@0.23.1920.1001" timestamp="1614694814200" />
-    <state x="535" y="273" width="1385" height="505" key="find.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614645557072" />
-    <state x="661" y="268" width="598" height="490" key="find.popup/0.23.1920.980@0.23.1920.980" timestamp="1612020305391" />
-    <state x="535" y="269" width="1385" height="495" key="find.popup/0.23.1920.982@0.23.1920.982" timestamp="1615173793010" />
-    <state x="535" y="269" width="1385" height="496" key="find.popup/0.23.1920.984@0.23.1920.984" timestamp="1615094459040" />
-    <state x="330" y="427" width="1385" height="582" key="find.popup/0.23.1920.986@0.23.1920.986" timestamp="1615052902862" />
-    <state x="533" y="270" width="1387" height="495" key="find.popup/0.23.1920.989@0.23.1920.989" timestamp="1614546197635" />
-    <state x="553" y="270" width="1367" height="497" key="find.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318871266" />
-    <state x="535" y="271" width="1385" height="499" key="find.popup/0.23.1920.992@0.23.1920.992" timestamp="1614291044118" />
-    <state x="535" y="271" width="1385" height="500" key="find.popup/0.23.1920.994@0.23.1920.994" timestamp="1614267435420" />
-    <state x="535" y="271" width="1385" height="500" key="find.popup/0.23.1920.995@0.23.1920.995" timestamp="1614054866523" />
-    <state x="535" y="272" width="1385" height="502" key="find.popup/0.23.1920.997@0.23.1920.997" timestamp="1614454225063" />
-    <state x="625" y="240" width="670" height="673" key="search.everywhere.popup" timestamp="1615173802992">
-      <screen x="0" y="23" width="1920" height="982" />
-    </state>
-    <state x="625" y="244" width="670" height="685" key="search.everywhere.popup/0.23.1920.1002@0.23.1920.1002" timestamp="1614656037469" />
-    <state x="625" y="238" width="670" height="668" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1614833963285" />
-    <state x="625" y="240" width="670" height="673" key="search.everywhere.popup/0.23.1920.982@0.23.1920.982" timestamp="1615173802992" />
-    <state x="625" y="240" width="670" height="674" key="search.everywhere.popup/0.23.1920.984@0.23.1920.984" timestamp="1615086476494" />
-    <state x="625" y="240" width="670" height="675" key="search.everywhere.popup/0.23.1920.986@0.23.1920.986" timestamp="1615052246156" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1920.989@0.23.1920.989" timestamp="1614536716755" />
-    <state x="625" y="241" width="670" height="678" key="search.everywhere.popup/0.23.1920.991@0.23.1920.991" timestamp="1612318896701" />
-    <state x="625" y="242" width="670" height="680" key="search.everywhere.popup/0.23.1920.992@0.23.1920.992" timestamp="1613920229708" />
-    <state x="625" y="242" width="670" height="681" key="search.everywhere.popup/0.23.1920.994@0.23.1920.994" timestamp="1612742916640" />
-    <state x="625" y="243" width="670" height="683" key="search.everywhere.popup/0.23.1920.995@0.23.1920.995" timestamp="1614051625856" />
-    <state x="690" y="420" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612156396380">
-      <screen x="0" y="23" width="1920" height="977" />
-    </state>
-    <state x="690" y="420" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1920.977@0.23.1920.977" timestamp="1612156396380" />
   </component>
 </project>
