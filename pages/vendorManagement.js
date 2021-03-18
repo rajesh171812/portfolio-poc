@@ -66,7 +66,7 @@ export default function VendorManagement() {
             <div className="cursor-pointer">
               <Link href="/work">
                 <img
-                  src="/Casestudy_BE/Casestudy_profilepic.svg"
+                  src="/Casestudy_BE/Casestudy_profilepic.png"
                   alt="Business Edge"
                   className="object-center"
                 />
