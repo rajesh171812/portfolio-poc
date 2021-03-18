@@ -43,7 +43,7 @@ export default function Footer() {
               <div className="cursor-pointer">
                 <Link href="/businessEdge" className="mt-2 cursor-pointer">
                   <img
-                    src="/Casestudy_Footer/Footer_3.svg"
+                    src="/Casestudy_Footer/Footer_3.png"
                     alt="Business Edge"
                     className={
                       "object-center " +
@@ -55,7 +55,7 @@ export default function Footer() {
               <div className="cursor-pointer">
                 <Link href="/ipitch" className="mt-2 cursor-pointer">
                   <img
-                    src="/Casestudy_Footer/Footer_1.svg"
+                    src="/Casestudy_Footer/Footer_1.png"
                     alt="Pitch"
                     className={
                       "object-center " +
@@ -67,7 +67,7 @@ export default function Footer() {
               <div className="cursor-pointer">
                 <Link href="/vendorManagement">
                   <img
-                    src="/Casestudy_Footer/Footer_2.svg"
+                    src="/Casestudy_Footer/Footer_2.png"
                     alt="Vendor Management"
                     className={
                       "object-center " +
