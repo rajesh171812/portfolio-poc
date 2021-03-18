@@ -97,7 +97,7 @@ export default function Ipitch() {
         <div className="my-36 py-16 grid grid-cols-6 gap-4 bg-blue">
           <div className="col-span-6 m-auto">
             <img
-              src="/Casestudy_IPitch/Casestudy2_Impact.svg"
+              src="/Casestudy_IPitch/Casestudy2_Impact.jpg"
               alt="IPitch"
               className="object-center"
             />
