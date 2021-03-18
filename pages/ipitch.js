@@ -113,7 +113,7 @@ export default function Ipitch() {
             </div>
             <div className="mt-24">
               <img
-                src="/Casestudy_IPitch/Casestudy2_Design_Process.svg"
+                src="/Casestudy_IPitch/Casestudy2_Design_Process.jpg"
                 alt="process"
                 className="m-auto"
               />

@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="flex flex-col font-serif font-light text-base cursor-pointer">
               <Link href="/work">
               <img
-                src="/Casestudy_Footer/Footer_Profile.svg"
+                src="/Casestudy_Footer/Footer_Profile.png"
                 alt="Profile"
                 className="object-center cursor-pointer"
               />
