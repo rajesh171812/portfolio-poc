@@ -124,7 +124,7 @@ export default function VendorManagement() {
         <div className="mt-36 mb-10 pt-16 grid grid-cols-6 gap-4 bg-maroon">
           <div className="col-span-6 m-auto">
             <img
-              src="/Casestudy_VMO/Casestudy3_Impact.svg"
+              src="/Casestudy_VMO/Casestudy3_Impact.jpg"
               alt="IPitch"
               className="object-center"
             />
@@ -171,7 +171,7 @@ export default function VendorManagement() {
             <div className="mt-12">
               <img
                 className="mr-1"
-                src="/Casestudy_VMO/Casestudy3_Research_Meeting.svg"
+                src="/Casestudy_VMO/Casestudy3_Research_Meeting.jpg"
                 alt=""
                 className=""
               />
@@ -217,20 +217,20 @@ export default function VendorManagement() {
                 <div className="mb-24">
                   <img
                     className=""
-                    src="/Casestudy_VMO/Casestudy3_Research_Persona_1.svg"
+                    src="/Casestudy_VMO/Casestudy3_Research_Persona_1.jpg"
                     alt=""
                   />
                 </div>
                 <div className="mb-24">
                   <img
                     className=""
-                    src="/Casestudy_VMO/Casestudy3_Research_Persona_2.svg"
+                    src="/Casestudy_VMO/Casestudy3_Research_Persona_2.jpg"
                     alt=""
                   />
                 </div>
                 <img
                   className=""
-                  src="/Casestudy_VMO/Casestudy3_Research_Persona_3.svg"
+                  src="/Casestudy_VMO/Casestudy3_Research_Persona_3.jpg"
                   alt=""
                 />
               </div>
