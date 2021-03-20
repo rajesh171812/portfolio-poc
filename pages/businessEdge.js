@@ -47,7 +47,7 @@ export default function BusinessEdge() {
             <div className="cursor-pointer">
               <Link href="/work">
                 <img
-                  src="/Casestudy_BE/Casestudy_profilepic.png"
+                  src="/Casestudy_BE/Casestudy_back_arrow.svg"
                   alt="Business Edge"
                   className="object-center"
                 />
@@ -63,58 +63,43 @@ export default function BusinessEdge() {
         </div>
         <div className="grid grid-cols-6 gap-4 font-serif">
           <div className="col-span-1"></div>
-          <div className="col-span-4 mt-24 text-6xl">
+          <div className="col-span-4 mt-16 text-6xl">
             <RegularParagraph content="A hundred year-old Retirement Financial Services company from New York, USA with a global presence, (name not disclosed due to confidentiality purpose and hereafter referred to as Retirement Services Institution (RSI)) approached us to provide a solution for a consultant application." />
             <TealHeading headingTitle="Overview" color="teal" />
             <RegularParagraph
-              content="Firm Consultant's application is a fluid design, which provides data
-              of all retirement client information to consultant firms. It
-              provides consultants with an overview of information such as key
-              performance indicators, reports, and data science techniques. The
-              user can also derive business insights from this."
+              content="Firm Consultant's application is an online experience designed for retirement advisors and consultants. Who manages the retirement plans. This platform uses Artificial Intelligence (AI) and data analytics to give third-party consultants a highly customized look at clients trends.  In addition its a responsive application which works on Desktop / Tablet & Mobile.
+"
             />
 
             <TealHeading headingTitle="Business Problem" color="teal" />
             <div className="font-serif leading-7 text-base text-black">
               <div>
-                - The clients felt that the Firm Consultant's application is not performing as
-                expected in the consulting firms market.
+                -   Most of the consultants are not using this application in spite of providing most important  data and insights.
               </div>
               <div>
-                - Consultants were using the app infrequently and lost their
-                users in this space.
+                -   The client was not able to get any new plan enrollments through this application.
               </div>
               <div>
-                - The client was also unable to get any new plan enrollments
-                through this application.
+                -   Consultants logging in to the platform was decreasing month on month.
               </div>
               <div>
-                - The client wanted to revamp the existing application and
-                achieve three objectives:
+                -   Current application experience is not intitutie for the users.
               </div>
-              <div className="pl-14">
+              <div>
+                -   At Present Insights and recommendations are not providing personalized data to the users.
+              </div>
+
                 <div>
-                  - Recapture and increase their market share in the consultant
-                  space.
+                  - Regional sales managers (RSM) & Client serving managers (CSM) were receiving multiple calls from the firms instead of Customer Care.
                 </div>
                 <div>
-                  - Change the perception of the application among the
-                  consultants and increase the user-base by making the
-                  application easy-to-use
-                </div>
-                <div>
-                  - Enabling multi-channel experience as consultants were
-                  frequently on the move.
+                  - Upgrade the ADA standards
                 </div>
               </div>
-            </div>
 
             <TealHeading headingTitle="What’s my role?" color="teal" />
             <RegularParagraph
-              content="As the Lead UX Designer for this project, I owned the stakeholder meetings and intensely collaborated with the clients to solve their business problems.
-               I solely designed, presented the wireframes and concept models.
-                I owned delivery of the 360-degree product experience. Suggested several new features to extend the functionality of the application.
-                 In addition, I’ve worked closely with scrum teams to provide design deliverables to development teams who were following the Agile process."
+              content="As the Lead UX Designer of this project, I’ve owned the stakeholder meetings and intensely collaborated with the clients to solve their business problems. Delivered 360-degree product experience  by presenting wireframes, concept models and designs. Suggested several new features to extend the functionality of the application. In addition, worked closely with scrum teams to provide design deliverables to development teams who were following the Agile process."
             />
           </div>
           <div className="col-span-1"></div>

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="" />
+    <list default="true" id="0abdaf03-b83a-4777-b68c-f027b5d6547d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Casestudy_BE/Casestudy_back_arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/businessEdge.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/businessEdge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ipitch.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ipitch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/vendorManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vendorManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,19 +42,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/Casestudy_BE" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="ide.date.format" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Casestudy_BE" />
       <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/public/Casestudy_VMO" />
       <recent name="$PROJECT_DIR$/public/Casestudy_Footer" />
-      <recent name="$PROJECT_DIR$/public/Casestudy_BE" />
       <recent name="$PROJECT_DIR$/public/Casestudy_IPitch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,5 +102,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

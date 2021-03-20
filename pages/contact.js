@@ -17,9 +17,11 @@ export default function Contact(props) {
           />
         </div>
         <div className="flex flex-col md:flex-row justify-between">
-          <div className="my-2">
+          <div className="my-2 cursor-pointer">
             <span className="opacity-75">Reach me at </span>
-            <span className="font-bold"> rajeshrevoor.ux@gmail.com </span>
+            <Link a href="mailto:rajeshrevoor.ux@gmail.com?subject=Hello:)">
+            <span className= "font-bold">  rajeshrevoor.ux@gmail.com </span>
+            </Link>
           </div>
           <div className="my-2 flex items-center justify-center bg-white w-8 h-8 text-black text-md font-bold rounded-full cursor-pointer z-50">
             <Link href="https://www.linkedin.com/in/rajeshrevoor/">

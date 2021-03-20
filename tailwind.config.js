@@ -88,7 +88,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Source Sans Pro", ...defaultTheme.fontFamily.sans],
-      serif: ["Arial","Roboto", ...defaultTheme.fontFamily.serif],
+      serif: ["Roboto","Arial", ...defaultTheme.fontFamily.serif],
     },
     listStyleType: {
       disc: 'disc',

@@ -18,7 +18,7 @@ export default function Home() {
           rel="stylesheet"
         />
         <link
-                    rel="preload"
+                   rel="preload"
                     href="/fonts/Roboto-Light.ttf"
                     as="font"
                     crossOrigin=""
